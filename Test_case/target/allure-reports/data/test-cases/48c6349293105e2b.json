@@ -1,0 +1,196 @@
+{
+  "uid" : "48c6349293105e2b",
+  "name" : "test_personnel[上传文件前的校验]",
+  "fullName" : "test_demo.Test_info#test_personnel",
+  "historyId" : "5518e3c6205d065b919b6df7351fd707",
+  "time" : {
+    "start" : 1600413562124,
+    "stop" : 1600413562696,
+    "duration" : 572
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a2806b2f21a77a0c",
+      "name" : "请求",
+      "source" : "a2806b2f21a77a0c.txt",
+      "type" : "text/plain",
+      "size" : 668
+    }, {
+      "uid" : "d53bd41c778214ca",
+      "name" : "响应",
+      "source" : "d53bd41c778214ca.txt",
+      "type" : "text/plain",
+      "size" : 272
+    }, {
+      "uid" : "c02b1c7324420f26",
+      "name" : "log",
+      "source" : "c02b1c7324420f26.txt",
+      "type" : "text/plain",
+      "size" : 1371
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "ddd"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "41740-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "address",
+    "value" : "'/dnc/file/upload/check'"
+  }, {
+    "name" : "data",
+    "value" : "'{\"fileListName\":[\"XMZ_0.txt\"],\"deviceId\":\"7429\"}'"
+  }, {
+    "name" : "data1",
+    "value" : "''"
+  }, {
+    "name" : "ff",
+    "value" : "'post'"
+  }, {
+    "name" : "msg",
+    "value" : "'Success'"
+  }, {
+    "name" : "sql",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "23ea32a6569a69af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411875552,
+        "stop" : 1600411875965,
+        "duration" : 413
+      }
+    }, {
+      "uid" : "7c1cf309d4a21e35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411760268,
+        "stop" : 1600411760675,
+        "duration" : 407
+      }
+    }, {
+      "uid" : "92d8099016d58c1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411457896,
+        "stop" : 1600411458301,
+        "duration" : 405
+      }
+    }, {
+      "uid" : "9ae938801b328c9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411299732,
+        "stop" : 1600411300124,
+        "duration" : 392
+      }
+    }, {
+      "uid" : "1d168696c6fa7068",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411135861,
+        "stop" : 1600411136282,
+        "duration" : 421
+      }
+    }, {
+      "uid" : "d3983d3f88359bd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600410749517,
+        "stop" : 1600410749915,
+        "duration" : 398
+      }
+    }, {
+      "uid" : "58f914ae67c14576",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600410615077,
+        "stop" : 1600410615494,
+        "duration" : 417
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "ba4c5204f1dc2883",
+        "reportUrl" : "http://localhost:8080/job/Allure%20Report/45/allure/#testresult/ba4c5204f1dc2883",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600411875552,
+          "stop" : 1600411875965,
+          "duration" : 413
+        }
+      }, {
+        "uid" : "1107e9278055e8b1",
+        "reportUrl" : "http://localhost:8080/job/Allure%20Report/43/allure/#testresult/1107e9278055e8b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600411457896,
+          "stop" : 1600411458301,
+          "duration" : 405
+        }
+      }, {
+        "uid" : "4caadaba1de35c12",
+        "reportUrl" : "http://localhost:8080/job/Allure%20Report/40/allure/#testresult/4caadaba1de35c12",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600410749517,
+          "stop" : 1600410749915,
+          "duration" : 398
+        }
+      } ]
+    },
+    "tags" : [ "ddd" ]
+  },
+  "source" : "48c6349293105e2b.json",
+  "parameterValues" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"],\"deviceId\":\"7429\"}'", "''", "'post'", "'Success'", "''" ]
+}

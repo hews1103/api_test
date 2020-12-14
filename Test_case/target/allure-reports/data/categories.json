@@ -1,0 +1,172 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: './document/XMZ_0.txt'",
+      "children" : [ {
+        "name" : "test_scwj",
+        "uid" : "90faf57852df8915",
+        "parentUid" : "966bbb66d9904590f3c0c053c871c20f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1600413550815,
+          "stop" : 1600413550844,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "966bbb66d9904590f3c0c053c871c20f"
+    }, {
+      "name" : "IndexError: list index out of range",
+      "children" : [ {
+        "name" : "test_file_list",
+        "uid" : "75f75c11c004cfd7",
+        "parentUid" : "cbf21ee610ffd376e0ce643a364ade80",
+        "status" : "broken",
+        "time" : {
+          "start" : 1600413550961,
+          "stop" : 1600413551435,
+          "duration" : 474
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cbf21ee610ffd376e0ce643a364ade80"
+    }, {
+      "name" : "KeyError: 'data'",
+      "children" : [ {
+        "name" : "test_history_list",
+        "uid" : "b69d97804f9e537a",
+        "parentUid" : "88ef35aeec016ef5066919761f4f2226",
+        "status" : "broken",
+        "time" : {
+          "start" : 1600413551934,
+          "stop" : 1600413552390,
+          "duration" : 456
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "88ef35aeec016ef5066919761f4f2226"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError",
+      "children" : [ {
+        "name" : "test_download",
+        "uid" : "5259f4c97341c4d8",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600413551448,
+          "stop" : 1600413551911,
+          "duration" : 463
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_history_download",
+        "uid" : "2ca80b85b9a5d0c3",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600413552406,
+          "stop" : 1600413552861,
+          "duration" : 455
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_xgbz",
+        "uid" : "f83fc7958e80dfb6",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600413553314,
+          "stop" : 1600413553698,
+          "duration" : 384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_file_hg",
+        "uid" : "6993c881b41d3de6",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600413556324,
+          "stop" : 1600413556753,
+          "duration" : 429
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete_cache",
+        "uid" : "e6b5305b565356df",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600413556768,
+          "stop" : 1600413557234,
+          "duration" : 466
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete2_cache",
+        "uid" : "8fe502cb7b209b74",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600413559743,
+          "stop" : 1600413560251,
+          "duration" : 508
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_hszsc",
+        "uid" : "7d7768b25d655387",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600413560266,
+          "stop" : 1600413560789,
+          "duration" : 523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_personnel[修改备注]",
+        "uid" : "406fd2f02fab1cd2",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600413562715,
+          "stop" : 1600413563123,
+          "duration" : 408
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'/dnc/file/edit/remark'", "'{\"versionId\": 1111, \"remark\": \"自动化编辑备注\",\"type\":0}'", "''", "'put'", "'Success'", "''" ]
+      } ],
+      "uid" : "a0017ad855102fea08b8682d27fec4ca"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

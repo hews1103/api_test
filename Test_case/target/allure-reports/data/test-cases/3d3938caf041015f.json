@@ -1,0 +1,94 @@
+{
+  "uid" : "3d3938caf041015f",
+  "name" : "test_personnel[都为空]",
+  "fullName" : "test_DNC.Test_device_ml#test_personnel",
+  "historyId" : "afd8cf38dc9e522675dcbd8b836ccea9",
+  "time" : {
+    "start" : 1600411753697,
+    "stop" : 1600411754132,
+    "duration" : 435
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8b08f34d3984fa",
+      "name" : "请求",
+      "source" : "8b08f34d3984fa.txt",
+      "type" : "text/plain",
+      "size" : 583
+    }, {
+      "uid" : "48c2fd3ce70f9ece",
+      "name" : "响应",
+      "source" : "48c2fd3ce70f9ece.txt",
+      "type" : "text/plain",
+      "size" : 275
+    }, {
+      "uid" : "eb507b6b4ccc71b6",
+      "name" : "log",
+      "source" : "eb507b6b4ccc71b6.txt",
+      "type" : "text/plain",
+      "size" : 4421
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "人员名称搜索"
+  }, {
+    "name" : "feature",
+    "value" : "设备目录分发页、回传页接口"
+  }, {
+    "name" : "suite",
+    "value" : "test_DNC"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_device_ml"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "26024-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DNC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "''"
+  }, {
+    "name" : "msg",
+    "value" : "'deviceId不能为空'"
+  }, {
+    "name" : "name",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d3938caf041015f.json",
+  "parameterValues" : [ "''", "'deviceId不能为空'", "''" ]
+}

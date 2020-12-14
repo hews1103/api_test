@@ -1,0 +1,12 @@
+---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 26 Oct 2020 03:17:16 GMT
+Content-Type: application/json
+Content-Length: 45
+Connection: keep-alive
+X-Frame-Options: ALLOWALL
+Access-Control-Allow-Origin: *
+
+{"code":432,"message":"deviceId不能为空"}
+

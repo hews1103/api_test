@@ -1,0 +1,293 @@
+{
+  "uid" : "b8ec70900dbd04b1",
+  "name" : "test_login",
+  "fullName" : "test_demo.Test_info#test_login",
+  "historyId" : "bbb50eb72a489179baac15db89d35a6a",
+  "time" : {
+    "start" : 1604977306151,
+    "stop" : 1604977306766,
+    "duration" : 615
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a172c9bf1624ceb2",
+      "name" : "请求",
+      "source" : "a172c9bf1624ceb2.txt",
+      "type" : "text/plain",
+      "size" : 308
+    }, {
+      "uid" : "b809bfa7301e96b6",
+      "name" : "响应",
+      "source" : "b809bfa7301e96b6.txt",
+      "type" : "text/plain",
+      "size" : 61324
+    }, {
+      "uid" : "3024fdb5f20426ea",
+      "name" : "log",
+      "source" : "3024fdb5f20426ea.txt",
+      "type" : "text/plain",
+      "size" : 62063
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "回归测试"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "用户登录"
+  }, {
+    "name" : "tag",
+    "value" : "ddd"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "5072-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "正常登录",
+    "url" : "https://txqa.ziyun-cloud.com/factoryPortal/login",
+    "type" : "test_case"
+  }, {
+    "name" : "https://txqa.ziyun-cloud.com",
+    "url" : "https://txqa.ziyun-cloud.com",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "6f2f6996fd9a2e44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604480796952,
+        "stop" : 1604480797743,
+        "duration" : 791
+      }
+    }, {
+      "uid" : "4010825e17236c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604480284736,
+        "stop" : 1604480285585,
+        "duration" : 849
+      }
+    }, {
+      "uid" : "8694e707ddd9c036",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603682236419,
+        "stop" : 1603682237051,
+        "duration" : 632
+      }
+    }, {
+      "uid" : "ad713209e10873f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603681666309,
+        "stop" : 1603681666983,
+        "duration" : 674
+      }
+    }, {
+      "uid" : "ae6fea88e0fd6c18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603681575708,
+        "stop" : 1603681576315,
+        "duration" : 607
+      }
+    }, {
+      "uid" : "9d3bcbcfb982787e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603681537229,
+        "stop" : 1603681537941,
+        "duration" : 712
+      }
+    }, {
+      "uid" : "439641fd1e59432e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603681497613,
+        "stop" : 1603681498289,
+        "duration" : 676
+      }
+    }, {
+      "uid" : "d24303b0eb8aec62",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603681296553,
+        "stop" : 1603681297192,
+        "duration" : 639
+      }
+    }, {
+      "uid" : "796339308b36af35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603681042632,
+        "stop" : 1603681043527,
+        "duration" : 895
+      }
+    }, {
+      "uid" : "25735eb946d021a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680796712,
+        "stop" : 1603680797319,
+        "duration" : 607
+      }
+    }, {
+      "uid" : "f9d854935e8278c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680661644,
+        "stop" : 1603680662412,
+        "duration" : 768
+      }
+    }, {
+      "uid" : "dc3b14e5a230d05c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680600170,
+        "stop" : 1603680601112,
+        "duration" : 942
+      }
+    }, {
+      "uid" : "e9ada7773ba05c1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680554108,
+        "stop" : 1603680554898,
+        "duration" : 790
+      }
+    }, {
+      "uid" : "d2195c06a2d303bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680487744,
+        "stop" : 1603680488570,
+        "duration" : 826
+      }
+    }, {
+      "uid" : "3828dabbb6d0f8de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680389205,
+        "stop" : 1603680389929,
+        "duration" : 724
+      }
+    }, {
+      "uid" : "324129b0e40d8b34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680178495,
+        "stop" : 1603680179170,
+        "duration" : 675
+      }
+    }, {
+      "uid" : "1ec7f09161da3365",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680154974,
+        "stop" : 1603680155699,
+        "duration" : 725
+      }
+    }, {
+      "uid" : "f1928d094e35ff94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680020176,
+        "stop" : 1603680021123,
+        "duration" : 947
+      }
+    }, {
+      "uid" : "867e58183cc81a18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603679919468,
+        "stop" : 1603679920259,
+        "duration" : 791
+      }
+    }, {
+      "uid" : "fb04c1f2d433df23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603249521030,
+        "stop" : 1603249521747,
+        "duration" : 717
+      }
+    }, {
+      "uid" : "82899def062e1265",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603249421935,
+        "stop" : 1603249423291,
+        "duration" : 1356
+      }
+    }, {
+      "uid" : "ed5d26f57f598f80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602557894192,
+        "stop" : 1602557895541,
+        "duration" : 1349
+      }
+    }, {
+      "uid" : "aba4ae2c863c1323",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602555256112,
+        "stop" : 1602555257110,
+        "duration" : 998
+      }
+    }, {
+      "uid" : "a1d089124a66dcb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600756945888,
+        "stop" : 1600756946794,
+        "duration" : 906
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "ddd" ]
+  },
+  "source" : "b8ec70900dbd04b1.json",
+  "parameterValues" : [ ]
+}

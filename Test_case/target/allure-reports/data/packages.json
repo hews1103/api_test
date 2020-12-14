@@ -1,0 +1,351 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_DNC",
+    "children" : [ {
+      "name" : "test_login",
+      "uid" : "e3e5cb1450e7e5ea",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600413549699,
+        "stop" : 1600413550811,
+        "duration" : 1112
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_scwj",
+      "uid" : "90faf57852df8915",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "broken",
+      "time" : {
+        "start" : 1600413550815,
+        "stop" : 1600413550844,
+        "duration" : 29
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_file_list",
+      "uid" : "75f75c11c004cfd7",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "broken",
+      "time" : {
+        "start" : 1600413550961,
+        "stop" : 1600413551435,
+        "duration" : 474
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_download",
+      "uid" : "5259f4c97341c4d8",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "failed",
+      "time" : {
+        "start" : 1600413551448,
+        "stop" : 1600413551911,
+        "duration" : 463
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_history_list",
+      "uid" : "b69d97804f9e537a",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "broken",
+      "time" : {
+        "start" : 1600413551934,
+        "stop" : 1600413552390,
+        "duration" : 456
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_history_download",
+      "uid" : "2ca80b85b9a5d0c3",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "failed",
+      "time" : {
+        "start" : 1600413552406,
+        "stop" : 1600413552861,
+        "duration" : 455
+      },
+      "flaky" : true,
+      "newFailed" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_wjjy",
+      "uid" : "2fdd0dc5893d85cf",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600413552877,
+        "stop" : 1600413553307,
+        "duration" : 430
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_xgbz",
+      "uid" : "f83fc7958e80dfb6",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "failed",
+      "time" : {
+        "start" : 1600413553314,
+        "stop" : 1600413553698,
+        "duration" : 384
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_personnel[正常搜索]",
+      "uid" : "878c87bbef157caf",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600413553718,
+        "stop" : 1600413554159,
+        "duration" : 441
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'7429'", "'Success'", "'王富贵'" ]
+    }, {
+      "name" : "test_personnel[人员名称为空]",
+      "uid" : "eb91a8d1c866b2fa",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600413554167,
+        "stop" : 1600413554581,
+        "duration" : 414
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'7429'", "'Success'", "''" ]
+    }, {
+      "name" : "test_personnel[设备名称为空]",
+      "uid" : "803676feaab4eb63",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600413554592,
+        "stop" : 1600413554999,
+        "duration" : 407
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "''", "'deviceId不能为空'", "'王富贵'" ]
+    }, {
+      "name" : "test_personnel[都为空]",
+      "uid" : "4df91f2531d782c0",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600413555010,
+        "stop" : 1600413555429,
+        "duration" : 419
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "''", "'deviceId不能为空'", "''" ]
+    }, {
+      "name" : "test_personnel[人员名称模糊搜索]",
+      "uid" : "e273aea915b3f40d",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600413555440,
+        "stop" : 1600413555857,
+        "duration" : 417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'7429'", "'Success'", "'王'" ]
+    }, {
+      "name" : "test_personnel[人员名称不存在]",
+      "uid" : "ebfcc22bbbd99499",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600413555865,
+        "stop" : 1600413556314,
+        "duration" : 449
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'7429'", "'Success'", "'冯宝宝'" ]
+    }, {
+      "name" : "test_file_hg",
+      "uid" : "6993c881b41d3de6",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "failed",
+      "time" : {
+        "start" : 1600413556324,
+        "stop" : 1600413556753,
+        "duration" : 429
+      },
+      "flaky" : true,
+      "newFailed" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_delete_cache",
+      "uid" : "e6b5305b565356df",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "failed",
+      "time" : {
+        "start" : 1600413556768,
+        "stop" : 1600413557234,
+        "duration" : 466
+      },
+      "flaky" : true,
+      "newFailed" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_hszcxlb",
+      "uid" : "cb52d1e34f7516bd",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600413557251,
+        "stop" : 1600413558225,
+        "duration" : 974
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_hszlb",
+      "uid" : "7abd87844588aff9",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600413558229,
+        "stop" : 1600413559236,
+        "duration" : 1007
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_hszhy",
+      "uid" : "1ac9c0945747a9ac",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600413559243,
+        "stop" : 1600413559739,
+        "duration" : 496
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_delete2_cache",
+      "uid" : "8fe502cb7b209b74",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "failed",
+      "time" : {
+        "start" : 1600413559743,
+        "stop" : 1600413560251,
+        "duration" : 508
+      },
+      "flaky" : true,
+      "newFailed" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_hszsc",
+      "uid" : "7d7768b25d655387",
+      "parentUid" : "6260efb1d8160b311749cc84274d9115",
+      "status" : "failed",
+      "time" : {
+        "start" : 1600413560266,
+        "stop" : 1600413560789,
+        "duration" : 523
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6260efb1d8160b311749cc84274d9115"
+  }, {
+    "name" : "test_demo",
+    "children" : [ {
+      "name" : "test_login",
+      "uid" : "5f09a3e357d589cf",
+      "parentUid" : "a5a7d4bc94548dd8ccc66e197e09e1cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600413560803,
+        "stop" : 1600413561557,
+        "duration" : 754
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_personnel[人员名称搜索0]",
+      "uid" : "26af2cd929e120b3",
+      "parentUid" : "a5a7d4bc94548dd8ccc66e197e09e1cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600413561563,
+        "stop" : 1600413562109,
+        "duration" : 546
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "'Success'", "''" ]
+    }, {
+      "name" : "test_personnel[上传文件前的校验]",
+      "uid" : "48c6349293105e2b",
+      "parentUid" : "a5a7d4bc94548dd8ccc66e197e09e1cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600413562124,
+        "stop" : 1600413562696,
+        "duration" : 572
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"],\"deviceId\":\"7429\"}'", "''", "'post'", "'Success'", "''" ]
+    }, {
+      "name" : "test_personnel[修改备注]",
+      "uid" : "406fd2f02fab1cd2",
+      "parentUid" : "a5a7d4bc94548dd8ccc66e197e09e1cd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1600413562715,
+        "stop" : 1600413563123,
+        "duration" : 408
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'/dnc/file/edit/remark'", "'{\"versionId\": 1111, \"remark\": \"自动化编辑备注\",\"type\":0}'", "''", "'put'", "'Success'", "''" ]
+    }, {
+      "name" : "test_personnel[人员名称搜索1]",
+      "uid" : "391023f2796e36c0",
+      "parentUid" : "a5a7d4bc94548dd8ccc66e197e09e1cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600413563151,
+        "stop" : 1600413563641,
+        "duration" : 490
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "'deviceId'", "'get'", "'Success'", "'SELECT * FROM file order by update_time DESC LIMIT 1;'" ]
+    } ],
+    "uid" : "a5a7d4bc94548dd8ccc66e197e09e1cd"
+  } ]
+}

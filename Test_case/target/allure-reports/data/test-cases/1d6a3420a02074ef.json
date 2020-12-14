@@ -1,0 +1,89 @@
+{
+  "uid" : "1d6a3420a02074ef",
+  "name" : "test_history_download",
+  "fullName" : "test_DNC.Test_device_ml#test_history_download",
+  "historyId" : "551342a9e515e75d86f2971acfdd1c91",
+  "time" : {
+    "start" : 1600411290589,
+    "stop" : 1600411291026,
+    "duration" : 437
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <Test_ziyun.test_DNC.Test_device_ml object at 0x0000024681746E48>\n\n    @allure.story(\"历史版本文件下载\")\n    def test_history_download(self):\n        rp_resp = request.get_request(url=url + '/file/version',\n                                      params={'versionId': versionId},\n                                      headers=head)\n        assertions.assert_code(rp_resp.status_code, 200)\n    \n>       assertions.assert_in_text(rp_resp.text, '%')\n\ntest_DNC.py:145: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x000002468068C1D0>\nbody = '{\"code\":1000,\"message\":\"该文件不存在!\",\"subCode\":\"1000_1\"}'\nexpected_msg = '%'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\n..\\Common\\Assert.py:59: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <Test_ziyun.test_DNC.Test_device_ml object at 0x0000024681746E48>\n\n    @allure.story(\"历史版本文件下载\")\n    def test_history_download(self):\n        rp_resp = request.get_request(url=url + '/file/version',\n                                      params={'versionId': versionId},\n                                      headers=head)\n        assertions.assert_code(rp_resp.status_code, 200)\n    \n>       assertions.assert_in_text(rp_resp.text, '%')\n\ntest_DNC.py:145: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x000002468068C1D0>\nbody = '{\"code\":1000,\"message\":\"该文件不存在!\",\"subCode\":\"1000_1\"}'\nexpected_msg = '%'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\n..\\Common\\Assert.py:59: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a0c13b370b4c6bf6",
+      "name" : "请求",
+      "source" : "a0c13b370b4c6bf6.txt",
+      "type" : "text/plain",
+      "size" : 577
+    }, {
+      "uid" : "76edb6e541581c46",
+      "name" : "响应",
+      "source" : "76edb6e541581c46.txt",
+      "type" : "text/plain",
+      "size" : 294
+    }, {
+      "uid" : "176cae78ff3eb583",
+      "name" : "log",
+      "source" : "176cae78ff3eb583.txt",
+      "type" : "text/plain",
+      "size" : 7158
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "设备目录分发页、回传页接口"
+  }, {
+    "name" : "story",
+    "value" : "历史版本文件下载"
+  }, {
+    "name" : "suite",
+    "value" : "test_DNC"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_device_ml"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "45732-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DNC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d6a3420a02074ef.json",
+  "parameterValues" : [ ]
+}

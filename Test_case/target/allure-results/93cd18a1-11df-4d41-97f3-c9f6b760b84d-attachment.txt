@@ -1,0 +1,11 @@
+---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Fri, 18 Sep 2020 06:32:25 GMT
+Content-Type: application/json
+Content-Length: 1972
+Connection: keep-alive
+X-Frame-Options: ALLOWALL
+Access-Control-Allow-Origin: *
+
+{"code":200,"message":"Success","data":{"total":6,"list":[{"recycleId":"514","fileId":"847","fileName":"XImenzi_01.mpf","programNumber":"_N_00_002_025_6_MPF","deviceName":"DNC测试设备（勿动）","deleteTime":"2020-09-18 14:30:12","filmSize":"26514","assetNumber":"DNC001","deleteReason":"二次接口删除","version":"V1","deviceIsDeleted":1},{"recycleId":"500","fileId":"854","fileName":"XMZ_02 (1).spf","programNumber":"_N_5018_SPF_5","deviceName":"DNC测试设备（勿动）","deleteTime":"2020-09-18 10:34:14","filmSize":"26508","assetNumber":"DNC001","deleteReason":"二次接口删除","version":"V1","deviceIsDeleted":1},{"recycleId":"498","fileId":"853","fileName":"XMZ_02.spf","programNumber":"_N_5018_SPF","deviceName":"DNC测试设备（勿动）","deleteTime":"2020-09-18 10:25:48","filmSize":"26506","assetNumber":"DNC001","deleteReason":"二次接口删除","version":"V1","deviceIsDeleted":1},{"recycleId":"496","fileId":"855","fileName":"FLK_0.nc","programNumber":"0034","deviceName":"DNC测试设备（勿动）","deleteTime":"2020-09-18 10:16:26","filmSize":"2602","assetNumber":"DNC001","deleteReason":"二次接口删除","version":"V1","deviceIsDeleted":1},{"recycleId":"491","fileId":"849","fileName":"XMZ_03.txt","programNumber":"123.mpf","deviceName":"DNC测试设备（勿动）","deleteTime":"2020-09-11 15:46:05","filmSize":"57","assetNumber":"DNC001","deleteReason":"123","version":"V1","deviceIsDeleted":1},{"recycleId":"483","fileId":"852","fileName":"西门子.spf","programNumber":"_N_5018_SPF","deviceName":"DNC测试设备（勿动）","deleteTime":"2020-09-11 13:43:57","filmSize":"26506","assetNumber":"DNC001","deleteReason":"21","version":"V1","deviceIsDeleted":1}],"pageNum":1,"pageSize":20,"size":0,"startRow":0,"endRow":0,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}

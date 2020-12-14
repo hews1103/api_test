@@ -1,0 +1,252 @@
+{
+  "uid" : "9cd49e39370507d8",
+  "name" : "test_personnel[人员名称搜索0]",
+  "fullName" : "test_demo.Test_info#test_personnel",
+  "historyId" : "d9d0cb593190a52d3e9034bee423c487",
+  "time" : {
+    "start" : 1604977306769,
+    "stop" : 1604977307214,
+    "duration" : 445
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e7ee458884cb707e",
+      "name" : "请求",
+      "source" : "e7ee458884cb707e.txt",
+      "type" : "text/plain",
+      "size" : 614
+    }, {
+      "uid" : "ec7752aee72d0b2d",
+      "name" : "响应",
+      "source" : "ec7752aee72d0b2d.txt",
+      "type" : "text/plain",
+      "size" : 323
+    }, {
+      "uid" : "c217bc5d4f384265",
+      "name" : "log",
+      "source" : "c217bc5d4f384265.txt",
+      "type" : "text/plain",
+      "size" : 4642
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "回归测试"
+  }, {
+    "name" : "story",
+    "value" : "回归用例"
+  }, {
+    "name" : "tag",
+    "value" : "ddd"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "5072-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "address",
+    "value" : "'/dnc/file/blurry/user'"
+  }, {
+    "name" : "data",
+    "value" : "'name=王富贵&deviceId=7429'"
+  }, {
+    "name" : "excel_file",
+    "value" : "''"
+  }, {
+    "name" : "ff",
+    "value" : "'get'"
+  }, {
+    "name" : "key",
+    "value" : "''"
+  }, {
+    "name" : "msg",
+    "value" : "'Success'"
+  }, {
+    "name" : "sql_data",
+    "value" : "''"
+  } ],
+  "links" : [ {
+    "name" : "https://txqa.ziyun-cloud.com",
+    "url" : "https://txqa.ziyun-cloud.com",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ed75918a3967b437",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604480797747,
+        "stop" : 1604480798267,
+        "duration" : 520
+      }
+    }, {
+      "uid" : "698059f65b484332",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1604480285591,
+        "stop" : 1604480286044,
+        "duration" : 453
+      }
+    }, {
+      "uid" : "6ecc330328a053df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680797322,
+        "stop" : 1603680797742,
+        "duration" : 420
+      }
+    }, {
+      "uid" : "1d12e18aa3dba9d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680662418,
+        "stop" : 1603680662796,
+        "duration" : 378
+      }
+    }, {
+      "uid" : "b9092726df54fbf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680601118,
+        "stop" : 1603680601549,
+        "duration" : 431
+      }
+    }, {
+      "uid" : "ed5a89960648fcc6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680554903,
+        "stop" : 1603680555318,
+        "duration" : 415
+      }
+    }, {
+      "uid" : "51323688a6aa84b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680488573,
+        "stop" : 1603680488957,
+        "duration" : 384
+      }
+    }, {
+      "uid" : "84c2b8f483d43b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680389936,
+        "stop" : 1603680390319,
+        "duration" : 383
+      }
+    }, {
+      "uid" : "e90b33bbb09e1a14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680179174,
+        "stop" : 1603680179545,
+        "duration" : 371
+      }
+    }, {
+      "uid" : "d3916a3898effbd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680155703,
+        "stop" : 1603680156209,
+        "duration" : 506
+      }
+    }, {
+      "uid" : "83cf5ca90003f01f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680021127,
+        "stop" : 1603680021556,
+        "duration" : 429
+      }
+    }, {
+      "uid" : "3c367fb06327d4c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603679920263,
+        "stop" : 1603679920776,
+        "duration" : 513
+      }
+    }, {
+      "uid" : "fdfec041be442971",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603249521751,
+        "stop" : 1603249522132,
+        "duration" : 381
+      }
+    }, {
+      "uid" : "be15155278d02db7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603249423294,
+        "stop" : 1603249423894,
+        "duration" : 600
+      }
+    }, {
+      "uid" : "cc544cc16a312491",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602557895547,
+        "stop" : 1602557896634,
+        "duration" : 1087
+      }
+    }, {
+      "uid" : "616b8e6f6059226c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602555257117,
+        "stop" : 1602555259548,
+        "duration" : 2431
+      }
+    }, {
+      "uid" : "549a8b15f8e807f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600756946801,
+        "stop" : 1600756947315,
+        "duration" : 514
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "ddd" ]
+  },
+  "source" : "9cd49e39370507d8.json",
+  "parameterValues" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
+}

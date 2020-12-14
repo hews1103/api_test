@@ -1,0 +1,89 @@
+{
+  "uid" : "3877d425f231dd99",
+  "name" : "test_hszsc",
+  "fullName" : "test_DNC.Test_device_ml#test_hszsc",
+  "historyId" : "9f35b3b50f7d27a8b07532cc10902d04",
+  "time" : {
+    "start" : 1600411874077,
+    "stop" : 1600411874482,
+    "duration" : 405
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <Test_ziyun.test_DNC.Test_device_ml object at 0x000001A566C639E8>\n\n    @allure.story(\"回收站彻底删除\")\n    def test_hszsc(self):\n        rp_resp = request.post_request(url=url + '/recycle/delete',\n                                       json={\"recycleIds\": [recycleId], \"fileIds\": [fileIds]}, headers=head)\n        assertions.assert_code(rp_resp.status_code, 200)\n        rp_resp_json = rp_resp.json()\n>       assertions.assert_in_text(rp_resp_json['message'], '删除成功')\n\ntest_DNC.py:235: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x000001A565AD7780>\nbody = '列表内有文件已不在回收站', expected_msg = '删除成功'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\n..\\Common\\Assert.py:59: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <Test_ziyun.test_DNC.Test_device_ml object at 0x000001A566C639E8>\n\n    @allure.story(\"回收站彻底删除\")\n    def test_hszsc(self):\n        rp_resp = request.post_request(url=url + '/recycle/delete',\n                                       json={\"recycleIds\": [recycleId], \"fileIds\": [fileIds]}, headers=head)\n        assertions.assert_code(rp_resp.status_code, 200)\n        rp_resp_json = rp_resp.json()\n>       assertions.assert_in_text(rp_resp_json['message'], '删除成功')\n\ntest_DNC.py:235: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x000001A565AD7780>\nbody = '列表内有文件已不在回收站', expected_msg = '删除成功'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\n..\\Common\\Assert.py:59: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "229cd83c524a106d",
+      "name" : "请求",
+      "source" : "229cd83c524a106d.txt",
+      "type" : "text/plain",
+      "size" : 657
+    }, {
+      "uid" : "c720e94b70d9754f",
+      "name" : "响应",
+      "source" : "c720e94b70d9754f.txt",
+      "type" : "text/plain",
+      "size" : 309
+    }, {
+      "uid" : "c299866107f9e476",
+      "name" : "log",
+      "source" : "c299866107f9e476.txt",
+      "type" : "text/plain",
+      "size" : 4394
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "回收站彻底删除"
+  }, {
+    "name" : "feature",
+    "value" : "设备目录分发页、回传页接口"
+  }, {
+    "name" : "suite",
+    "value" : "test_DNC"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_device_ml"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "39828-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DNC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3877d425f231dd99.json",
+  "parameterValues" : [ ]
+}

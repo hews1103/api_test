@@ -1,0 +1,11 @@
+---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Fri, 18 Sep 2020 06:49:09 GMT
+Content-Type: application/json
+Content-Length: 178
+Connection: keep-alive
+X-Frame-Options: ALLOWALL
+Access-Control-Allow-Origin: *
+
+{"code":400,"message":"Parameter validation failed：[distinguish:区分字段 0-下载 1-预览;type:区分分发回传 0:分发 1:回传]","data":"Parameter validation failed"}

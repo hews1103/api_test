@@ -1,0 +1,57 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:959 Starting new HTTPS connection (1): txqa.ziyun-cloud.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:437 https://txqa.ziyun-cloud.com:443 "POST /dnc/file/upload/check HTTP/1.1" 200 117
+INFO     root:Log.py:65 [INFO 2020-10-21 11:03:44]----请求用时: 605.685 秒数
+INFO     root:Log.py:65 [INFO 2020-10-21 11:03:44]---------------请求-----------------
+https://txqa.ziyun-cloud.com/dnc/file/upload/check
+User-Agent: python-requests/2.23.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: 6JUc7IoTNqh2f2SztWdPD0Lqziur3vLk0pB3jFuti7RBKZXgeNu2lipoNHht40wBrS2K5xfhtMRBNF3KnaN7X5PVFxNrd0ZI3s546Jt4GX5Wx2EsOpy2pTb0w791qprNgvgM8HPdDE9TYmaI-E4k0gjLPfeq3q6abFdFDLUXIquNHbDg9bwu6nMlw5CY0IJkOmB11UmOdPI0QuK6xVRP66Muuz5cAffInjE35PxgmhqKmqPNWk-aeDLzVJGm9xUjV6zjR7WOzYBfhZsWtukVg2FFfspGcm-uMTFu4oqKkOosXdEKU4yFRVGwOPq70ZPpWMFf6tM_m4Mp-tsR4By-a1_XQPsBlvYcsLaT6ayoNas=
+Content-Length: 49
+Content-Type: application/json
+
+b'{"fileListName": ["XMZ_0.txt"], "deviceId": 7429}'
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 KOI8-R Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 MacCyrillic Russian confidence = 0.04774414948068262
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM866 Russian confidence = 0.0794607121380628
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM855 Russian confidence = 0.1473635025105892
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-7 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1253 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Bulgarian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 TIS-620 Thai confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-9 Turkish confidence = 0.15400064656579152
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+INFO     root:Log.py:65 [INFO 2020-10-21 11:03:44]---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Wed, 21 Oct 2020 03:03:42 GMT
+Content-Type: application/json
+Content-Length: 117
+Connection: keep-alive
+X-Frame-Options: ALLOWALL
+Access-Control-Allow-Origin: *
+
+{"code":1002,"message":"上传名称重复[XMZ_0.txt]，请在回收站删除或还原后再操作","subCode":"1002"}
+ERROR    root:Log.py:77 [ERROR 2020-10-21 11:03:44]响应正文不包含期望值, 期望值 是  Success

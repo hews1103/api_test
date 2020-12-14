@@ -1,0 +1,90 @@
+{
+  "uid" : "bf00f0568a3590be",
+  "name" : "test_login",
+  "fullName" : "test_DNC.Test_info#test_login",
+  "historyId" : "a678cbd871d623dd22be87805b89ad9e",
+  "time" : {
+    "start" : 1602557591733,
+    "stop" : 1602557592605,
+    "duration" : 872
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "989c87b057d861ee",
+      "name" : "请求",
+      "source" : "989c87b057d861ee.txt",
+      "type" : "text/plain",
+      "size" : 308
+    }, {
+      "uid" : "e6db9456eca5710",
+      "name" : "响应",
+      "source" : "e6db9456eca5710.txt",
+      "type" : "text/plain",
+      "size" : 61324
+    }, {
+      "uid" : "f382a92e272e95fb",
+      "name" : "log",
+      "source" : "f382a92e272e95fb.txt",
+      "type" : "text/plain",
+      "size" : 62064
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用户登录接口"
+  }, {
+    "name" : "feature",
+    "value" : "获取potal端登录用户信息"
+  }, {
+    "name" : "tag",
+    "value" : "ccc"
+  }, {
+    "name" : "suite",
+    "value" : "test_DNC"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "54016-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DNC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "ccc" ]
+  },
+  "source" : "bf00f0568a3590be.json",
+  "parameterValues" : [ ]
+}

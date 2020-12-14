@@ -1,0 +1,187 @@
+{
+  "uid" : "f83fc7958e80dfb6",
+  "name" : "test_xgbz",
+  "fullName" : "test_DNC.Test_device_ml#test_xgbz",
+  "historyId" : "55e5471adec3b2013cbb5fb06462e094",
+  "time" : {
+    "start" : 1600413553314,
+    "stop" : 1600413553698,
+    "duration" : 384
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <Test_ziyun.test_DNC.Test_device_ml object at 0x000001DA207E6208>\n\n    @allure.story(\"修改备注\")\n    def test_xgbz(self):\n        rp_resp = requests.put(url + '/file/edit/remark',\n                               json={'versionId': versionId, 'remark': \"自动化编辑备注\"}, headers={'token': token_data})\n        assertions.assert_code(rp_resp.status_code, 200)\n        rp_resp_json = rp_resp.json()\n>       assertions.assert_in_text(rp_resp_json['message'], 'Success')\n\ntest_DNC.py:161: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x000001DA1F5DA0F0>\nbody = 'Parameter validation failed：[类型为必填项 0:分发 1:回传]'\nexpected_msg = 'Success'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\n..\\Common\\Assert.py:59: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <Test_ziyun.test_DNC.Test_device_ml object at 0x000001DA207E6208>\n\n    @allure.story(\"修改备注\")\n    def test_xgbz(self):\n        rp_resp = requests.put(url + '/file/edit/remark',\n                               json={'versionId': versionId, 'remark': \"自动化编辑备注\"}, headers={'token': token_data})\n        assertions.assert_code(rp_resp.status_code, 200)\n        rp_resp_json = rp_resp.json()\n>       assertions.assert_in_text(rp_resp_json['message'], 'Success')\n\ntest_DNC.py:161: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x000001DA1F5DA0F0>\nbody = 'Parameter validation failed：[类型为必填项 0:分发 1:回传]'\nexpected_msg = 'Success'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\n..\\Common\\Assert.py:59: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "20b35db3f00a0f2d",
+      "name" : "log",
+      "source" : "20b35db3f00a0f2d.txt",
+      "type" : "text/plain",
+      "size" : 351
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "修改备注"
+  }, {
+    "name" : "feature",
+    "value" : "设备目录分发页、回传页接口"
+  }, {
+    "name" : "suite",
+    "value" : "test_DNC"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_device_ml"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "41740-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DNC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f945b073cb7b7374",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1600411866758,
+        "stop" : 1600411867117,
+        "duration" : 359
+      }
+    }, {
+      "uid" : "c850848087ed0fc8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1600411752031,
+        "stop" : 1600411752386,
+        "duration" : 355
+      }
+    }, {
+      "uid" : "137756350da528ba",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1600411449324,
+        "stop" : 1600411449717,
+        "duration" : 393
+      }
+    }, {
+      "uid" : "2e6f478a4e5ea89c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1600411291467,
+        "stop" : 1600411291898,
+        "duration" : 431
+      }
+    }, {
+      "uid" : "c75b0eba444f2a05",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1600411127416,
+        "stop" : 1600411127792,
+        "duration" : 376
+      }
+    }, {
+      "uid" : "b8b9948186440574",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1600410740951,
+        "stop" : 1600410741306,
+        "duration" : 355
+      }
+    }, {
+      "uid" : "b058f344bc856f83",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1600410606026,
+        "stop" : 1600410606386,
+        "duration" : 360
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "aed3ac6aae565f3",
+        "reportUrl" : "http://localhost:8080/job/Allure%20Report/45/allure/#testresult/aed3ac6aae565f3",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1600411866758,
+          "stop" : 1600411867117,
+          "duration" : 359
+        }
+      }, {
+        "uid" : "c61effb0485ee470",
+        "reportUrl" : "http://localhost:8080/job/Allure%20Report/43/allure/#testresult/c61effb0485ee470",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1600411449324,
+          "stop" : 1600411449717,
+          "duration" : 393
+        }
+      }, {
+        "uid" : "c2e9aa73268fae67",
+        "reportUrl" : "http://localhost:8080/job/Allure%20Report/40/allure/#testresult/c2e9aa73268fae67",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1600410740951,
+          "stop" : 1600410741306,
+          "duration" : 355
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f83fc7958e80dfb6.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,11 @@
+---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Wed, 21 Oct 2020 03:03:42 GMT
+Content-Type: application/json
+Content-Length: 117
+Connection: keep-alive
+X-Frame-Options: ALLOWALL
+Access-Control-Allow-Origin: *
+
+{"code":1002,"message":"上传名称重复[XMZ_0.txt]，请在回收站删除或还原后再操作","subCode":"1002"}

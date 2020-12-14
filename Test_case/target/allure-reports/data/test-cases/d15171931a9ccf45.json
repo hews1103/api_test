@@ -1,0 +1,100 @@
+{
+  "uid" : "d15171931a9ccf45",
+  "name" : "test_personnel[人员名称搜索1]",
+  "fullName" : "test_demo.Test_info#test_personnel",
+  "historyId" : "7cadc845eff2bd754c94007b49fc008e",
+  "time" : {
+    "start" : 1600411458747,
+    "stop" : 1600411459184,
+    "duration" : 437
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9825530e310f25a3",
+      "name" : "请求",
+      "source" : "9825530e310f25a3.txt",
+      "type" : "text/plain",
+      "size" : 614
+    }, {
+      "uid" : "a69e897c8a04dd81",
+      "name" : "响应",
+      "source" : "a69e897c8a04dd81.txt",
+      "type" : "text/plain",
+      "size" : 272
+    }, {
+      "uid" : "d34a11bf7e36c62c",
+      "name" : "log",
+      "source" : "d34a11bf7e36c62c.txt",
+      "type" : "text/plain",
+      "size" : 1362
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "ddd"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "42656-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "address",
+    "value" : "'/dnc/file/blurry/user'"
+  }, {
+    "name" : "data",
+    "value" : "'name=王富贵&'"
+  }, {
+    "name" : "data1",
+    "value" : "'deviceId'"
+  }, {
+    "name" : "ff",
+    "value" : "'get'"
+  }, {
+    "name" : "msg",
+    "value" : "'Success'"
+  }, {
+    "name" : "sql",
+    "value" : "'SELECT * FROM file order by update_time DESC LIMIT 1;'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "ddd" ]
+  },
+  "source" : "d15171931a9ccf45.json",
+  "parameterValues" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "'deviceId'", "'get'", "'Success'", "'SELECT * FROM file order by update_time DESC LIMIT 1;'" ]
+}

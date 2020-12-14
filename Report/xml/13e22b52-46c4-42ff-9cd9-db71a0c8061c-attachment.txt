@@ -1,0 +1,60 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:959 Starting new HTTPS connection (1): txqa.ziyun-cloud.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:437 https://txqa.ziyun-cloud.com:443 "GET /dnc/file/blurry/user?name=%E7%8E%8B%E5%AF%8C%E8%B4%B5&deviceId=7429 HTTP/1.1" 200 93
+INFO     root:Log.py:65 [INFO 2020-09-22 14:42:27]----请求用时: 507.115 秒数
+INFO     root:Log.py:65 [INFO 2020-09-22 14:42:27]---------------请求-----------------
+https://txqa.ziyun-cloud.com/dnc/file/blurry/user?name=%E7%8E%8B%E5%AF%8C%E8%B4%B5&deviceId=7429
+User-Agent: python-requests/2.23.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: 6JUc7IoTNqh2f2SztWdPD0Lqziur3vLk0pB3jFuti7RBKZXgeNu2lipoNHht40wBl-gg5ctAVB-vEFJbJhIqZ_lxuYNN5Ob9QgfJFbz5ucTxhh-MdKY0t40V8BUnC7ArejD-HDIUHiv2S9FHpNSKKvnZJfC4jWcseWOri2gUwxDEgNSaWDG_skOA0EDj5ynYORET_oFX7S_zD4MvUM2H4IXtxF5Z6anWLoBLjnNS1j7i-y_gohaQ3O5euqeoCZFvxT9a7cGlkBXEBbTL6dLk3AQs7fBEdOcMkqhHR3STVkWSrlck5VAjEfF7xdKVjOIsMs2GrdN1bq-CVZxcef3GEximVSa0maqJ0KNl59vkmI0=
+
+None
+DEBUG    chardet.charsetprober:eucjpprober.py:62 EUC-JP Japanese prober hit error at byte 54
+DEBUG    chardet.charsetprober:mbcharsetprober.py:66 GB2312 Chinese prober hit error at byte 62
+DEBUG    chardet.charsetprober:mbcharsetprober.py:66 EUC-KR Korean prober hit error at byte 54
+DEBUG    chardet.charsetprober:mbcharsetprober.py:66 CP949 Korean prober hit error at byte 54
+DEBUG    chardet.charsetprober:mbcharsetprober.py:66 Big5 Chinese prober hit error at byte 55
+DEBUG    chardet.charsetprober:mbcharsetprober.py:66 EUC-TW Taiwan prober hit error at byte 54
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.87625
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 EUC-JP not active
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 GB2312 not active
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 EUC-KR not active
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 CP949 not active
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 Big5 not active
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 EUC-TW not active
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 KOI8-R Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 MacCyrillic Russian confidence = 0.17065993856924852
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM866 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM855 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-7 Greek confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1253 Greek confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Bulgarian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 TIS-620 Thai confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-9 Turkish confidence = 0.5099420448182159
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.87625
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 EUC-JP not active
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 GB2312 not active
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 EUC-KR not active
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 CP949 not active
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 Big5 not active
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 EUC-TW not active
+INFO     root:Log.py:65 [INFO 2020-09-22 14:42:27]---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Tue, 22 Sep 2020 06:42:18 GMT
+Content-Type: application/json
+Content-Length: 93
+Connection: keep-alive
+X-Frame-Options: ALLOWALL
+Access-Control-Allow-Origin: *
+
+{"code":200,"message":"Success","data":[{"userName":"王富贵","creatBy":"ZY000374215941"}]}

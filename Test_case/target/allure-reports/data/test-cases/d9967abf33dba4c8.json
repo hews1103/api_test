@@ -1,0 +1,82 @@
+{
+  "uid" : "d9967abf33dba4c8",
+  "name" : "test_login",
+  "fullName" : "test_demo.Test_info#test_login",
+  "historyId" : "bbb50eb72a489179baac15db89d35a6a",
+  "time" : {
+    "start" : 1600411456802,
+    "stop" : 1600411457423,
+    "duration" : 621
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2e5347aed9591954",
+      "name" : "请求",
+      "source" : "2e5347aed9591954.txt",
+      "type" : "text/plain",
+      "size" : 308
+    }, {
+      "uid" : "def7f9bb5a46f3d1",
+      "name" : "响应",
+      "source" : "def7f9bb5a46f3d1.txt",
+      "type" : "text/plain",
+      "size" : 60745
+    }, {
+      "uid" : "abb30b8f9018437b",
+      "name" : "log",
+      "source" : "abb30b8f9018437b.txt",
+      "type" : "text/plain",
+      "size" : 61485
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "ddd"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "42656-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "ddd" ]
+  },
+  "source" : "d9967abf33dba4c8.json",
+  "parameterValues" : [ ]
+}

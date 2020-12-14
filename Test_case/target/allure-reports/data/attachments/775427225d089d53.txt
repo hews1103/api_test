@@ -1,0 +1,11 @@
+---------------请求-----------------
+https://txqa.ziyun-cloud.com/dnc/recycle/delete
+User-Agent: python-requests/2.23.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: 6JUc7IoTNqh2f2SztWdPD0Lqziur3vLk0pB3jFuti7RBKZXgeNu2lipoNHht40wBNLcS_NygdjkwWoZoFRRt07E3rgww9QXsNJL_3-NVSsiebJNBrmVQLBl5FzY1Mf0ZEoWAsJbQb1R3To5qbEU6qjaBRB482UkdEIdnBBYfP6CirdciaRjuKPwCQP3-HyvJBzetH7WJsL2xkzSeL-KT2g08O2loQ6y2MKOrmDUumlxNk7v6AsWH3GL9ytozMJxK4wVgFjqwQvxhiiUShAx9TyzJlKtFXTLCvg18D11SfffPCJ0F4KKwzPyHmtxumNPOpTgdhBfb_PXUs-jwObiNbK1qianSvDu7bp41ztSyr9U=
+Content-Length: 43
+Content-Type: application/json
+
+b'{"recycleIds": ["520"], "fileIds": ["847"]}'

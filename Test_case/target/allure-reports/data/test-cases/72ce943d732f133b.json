@@ -1,0 +1,94 @@
+{
+  "uid" : "72ce943d732f133b",
+  "name" : "test_personnel[人员名称为空]",
+  "fullName" : "test_DNC.Test_device_ml#test_personnel",
+  "historyId" : "342c7700b177e719985966da3007089b",
+  "time" : {
+    "start" : 1600411450158,
+    "stop" : 1600411450552,
+    "duration" : 394
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "329f95bf981da98f",
+      "name" : "请求",
+      "source" : "329f95bf981da98f.txt",
+      "type" : "text/plain",
+      "size" : 587
+    }, {
+      "uid" : "e52c099f8295c396",
+      "name" : "响应",
+      "source" : "e52c099f8295c396.txt",
+      "type" : "text/plain",
+      "size" : 323
+    }, {
+      "uid" : "7478273bc1f8a062",
+      "name" : "log",
+      "source" : "7478273bc1f8a062.txt",
+      "type" : "text/plain",
+      "size" : 4590
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "设备目录分发页、回传页接口"
+  }, {
+    "name" : "story",
+    "value" : "人员名称搜索"
+  }, {
+    "name" : "suite",
+    "value" : "test_DNC"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_device_ml"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "42656-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DNC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "'7429'"
+  }, {
+    "name" : "msg",
+    "value" : "'Success'"
+  }, {
+    "name" : "name",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "72ce943d732f133b.json",
+  "parameterValues" : [ "'7429'", "'Success'", "''" ]
+}

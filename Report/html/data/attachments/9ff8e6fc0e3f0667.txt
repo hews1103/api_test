@@ -1,0 +1,11 @@
+---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Wed, 21 Oct 2020 03:05:20 GMT
+Content-Type: application/json
+Content-Length: 53
+Connection: keep-alive
+X-Frame-Options: ALLOWALL
+Access-Control-Allow-Origin: *
+
+{"code":200,"message":"Success","data":["XMZ_0.txt"]}

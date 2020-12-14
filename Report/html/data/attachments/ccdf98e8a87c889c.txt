@@ -1,0 +1,57 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:959 Starting new HTTPS connection (1): txqa.ziyun-cloud.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:437 https://txqa.ziyun-cloud.com:443 "POST /dnc/file/upload HTTP/1.1" 200 63
+INFO     root:Log.py:65 [INFO 2020-10-26 10:40:23]----请求用时: 442.05 秒数
+INFO     root:Log.py:65 [INFO 2020-10-26 10:40:23]---------------请求-----------------
+https://txqa.ziyun-cloud.com/dnc/file/upload
+User-Agent: python-requests/2.23.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=ab0d182c38eddaa56ff7923e2a2edfca
+token: 6JUc7IoTNqh2f2SztWdPD0Lqziur3vLk0pB3jFuti7RBKZXgeNu2lipoNHht40wBhW0k-Du5O6G-zfZZOE_6QJV4cvZYsyc1WlzOs5yqwppeMGoy7Xhvg7ZyE7p4u97dS9puGp3opiA7yFR6nE5p4j_8juG-QyQZCJjVK76qJYTV7z5qGDLeY7zEy1iJkgqgh-50j21jCA9qeiS-dpjuksCXJegb9mr_oYdICZOUpbYzr6e7bXpvG2FAdZdcN4S206tkf8qC7sgVyxVpbqm414OWuo2LjUCMlWpzuok5atNhx0vke1VYuvCs9dICNXAWA0MlBFoRA8uAhPOP-XS_2-CWQEr0Wh0mqB_mk2LJmH0=
+Content-Length: 412
+
+b'--ab0d182c38eddaa56ff7923e2a2edfca\r\nContent-Disposition: form-data; name="file"; filename="XMZ_0.txt"\r\nContent-Type: text/plain\r\n\r\n%\n  (1255tbg)\n  (155ff)\n456.mpf\n  (1223)\nG02\n\r\n--ab0d182c38eddaa56ff7923e2a2edfca\r\nContent-Disposition: form-data; name="deviceId"\r\n\r\n74429\r\n--ab0d182c38eddaa56ff7923e2a2edfca\r\nContent-Disposition: form-data; name="remark"\r\n\r\n\xe8\x87\xaa\xe5\x8a\xa8\xe5\x8c\x96\xe5\xa4\x87\xe6\xb3\xa8\r\n--ab0d182c38eddaa56ff7923e2a2edfca--\r\n'
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.9690625
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 KOI8-R Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 MacCyrillic Russian confidence = 0.15359394471232365
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM866 Russian confidence = 0.17748633611201844
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM855 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-7 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1253 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Bulgarian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 TIS-620 Thai confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-9 Turkish confidence = 0.33729372380703426
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.9690625
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+INFO     root:Log.py:65 [INFO 2020-10-26 10:40:23]---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 26 Oct 2020 02:40:22 GMT
+Content-Type: application/json
+Content-Length: 63
+Connection: keep-alive
+X-Frame-Options: ALLOWALL
+Access-Control-Allow-Origin: *
+
+{"code":10001,"message":"设备不存在!","subCode":"10001_1"}
+ERROR    root:Log.py:77 [ERROR 2020-10-26 10:40:23]响应正文不包含期望值, 期望值 是  Success

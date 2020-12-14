@@ -1,0 +1,99 @@
+{
+  "uid" : "867e58183cc81a18",
+  "name" : "test_login",
+  "fullName" : "test_demo.Test_info#test_login",
+  "historyId" : "bbb50eb72a489179baac15db89d35a6a",
+  "time" : {
+    "start" : 1603679919468,
+    "stop" : 1603679920259,
+    "duration" : 791
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f1d8d1392a63cef3",
+      "name" : "请求",
+      "source" : "f1d8d1392a63cef3.txt",
+      "type" : "text/plain",
+      "size" : 308
+    }, {
+      "uid" : "8c01a4deefc5cfc7",
+      "name" : "响应",
+      "source" : "8c01a4deefc5cfc7.txt",
+      "type" : "text/plain",
+      "size" : 61324
+    }, {
+      "uid" : "f7094cfc7455e9b",
+      "name" : "log",
+      "source" : "f7094cfc7455e9b.txt",
+      "type" : "text/plain",
+      "size" : 62064
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "用户登录"
+  }, {
+    "name" : "feature",
+    "value" : "回归测试"
+  }, {
+    "name" : "tag",
+    "value" : "ddd"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "35836-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "正常登录",
+    "url" : "https://txqa.ziyun-cloud.com/factoryPortal/login",
+    "type" : "test_case"
+  }, {
+    "name" : "https://txqa.ziyun-cloud.com",
+    "url" : "https://txqa.ziyun-cloud.com",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "ddd" ]
+  },
+  "source" : "867e58183cc81a18.json",
+  "parameterValues" : [ ]
+}

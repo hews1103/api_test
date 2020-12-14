@@ -1,0 +1,11 @@
+---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Fri, 18 Sep 2020 06:32:18 GMT
+Content-Type: application/json
+Content-Length: 319
+Connection: keep-alive
+X-Frame-Options: ALLOWALL
+Access-Control-Allow-Origin: *
+
+{"code":200,"message":"Success","data":{"total":0,"list":[],"pageNum":1,"pageSize":10,"size":0,"startRow":0,"endRow":0,"pages":0,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[],"navigateFirstPage":0,"navigateLastPage":0}}

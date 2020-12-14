@@ -1,0 +1,255 @@
+{
+  "uid" : "afb044cb75a33ccc",
+  "name" : "test_personnel[上传文件]",
+  "fullName" : "test_demo.Test_info#test_personnel",
+  "historyId" : "86f47e88b801a26005df6aa3e8a825a3",
+  "time" : {
+    "start" : 1604977308532,
+    "stop" : 1604977309378,
+    "duration" : 846
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f6e5abc85fe99f12",
+      "name" : "请求",
+      "source" : "f6e5abc85fe99f12.txt",
+      "type" : "text/plain",
+      "size" : 1153
+    }, {
+      "uid" : "cdfe81eed31234d9",
+      "name" : "响应",
+      "source" : "cdfe81eed31234d9.txt",
+      "type" : "text/plain",
+      "size" : 284
+    }, {
+      "uid" : "2b5904726908539a",
+      "name" : "log",
+      "source" : "2b5904726908539a.txt",
+      "type" : "text/plain",
+      "size" : 5029
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "回归测试"
+  }, {
+    "name" : "story",
+    "value" : "回归用例"
+  }, {
+    "name" : "tag",
+    "value" : "ddd"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "5072-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "address",
+    "value" : "'/dnc/file/upload'"
+  }, {
+    "name" : "data",
+    "value" : "'deviceId:7429,remark:自动化备注,type:0'"
+  }, {
+    "name" : "excel_file",
+    "value" : "'./document/XMZ_0.txt'"
+  }, {
+    "name" : "ff",
+    "value" : "'post'"
+  }, {
+    "name" : "key",
+    "value" : "''"
+  }, {
+    "name" : "msg",
+    "value" : "'Success'"
+  }, {
+    "name" : "sql_data",
+    "value" : "''"
+  } ],
+  "links" : [ {
+    "name" : "https://txqa.ziyun-cloud.com",
+    "url" : "https://txqa.ziyun-cloud.com",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "97a4bbf23f69f2e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604480800744,
+        "stop" : 1604480802402,
+        "duration" : 1658
+      }
+    }, {
+      "uid" : "1a7495d34856d8e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1604480288499,
+        "stop" : 1604480289867,
+        "duration" : 1368
+      }
+    }, {
+      "uid" : "d515dff714f6deeb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680799093,
+        "stop" : 1603680800583,
+        "duration" : 1490
+      }
+    }, {
+      "uid" : "2d70fb574781e55c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680664067,
+        "stop" : 1603680665141,
+        "duration" : 1074
+      }
+    }, {
+      "uid" : "283046648d4c30b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680603181,
+        "stop" : 1603680604385,
+        "duration" : 1204
+      }
+    }, {
+      "uid" : "ae597bed3c69d906",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680556737,
+        "stop" : 1603680559038,
+        "duration" : 2301
+      }
+    }, {
+      "uid" : "8c14ad739197299",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680490313,
+        "stop" : 1603680492238,
+        "duration" : 1925
+      }
+    }, {
+      "uid" : "514c401fcb43b1f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680391718,
+        "stop" : 1603680392832,
+        "duration" : 1114
+      }
+    }, {
+      "uid" : "e65d535ba09c52b3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1603680180945,
+        "stop" : 1603680182119,
+        "duration" : 1174
+      }
+    }, {
+      "uid" : "325d3266e3443758",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603680159464,
+        "stop" : 1603680160720,
+        "duration" : 1256
+      }
+    }, {
+      "uid" : "782a1d39fce8fda",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1603680022920,
+        "stop" : 1603680023867,
+        "duration" : 947
+      }
+    }, {
+      "uid" : "f2d7bfb4a816f18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603679923066,
+        "stop" : 1603679924206,
+        "duration" : 1140
+      }
+    }, {
+      "uid" : "20a41bffed7878bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603249524260,
+        "stop" : 1603249525682,
+        "duration" : 1422
+      }
+    }, {
+      "uid" : "1282dd69a0d38aec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603249426190,
+        "stop" : 1603249427454,
+        "duration" : 1264
+      }
+    }, {
+      "uid" : "69d1ebee3ac51702",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602557904825,
+        "stop" : 1602557906379,
+        "duration" : 1554
+      }
+    }, {
+      "uid" : "a794bdada8af4dae",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1602555262775,
+        "stop" : 1602555265168,
+        "duration" : 2393
+      }
+    }, {
+      "uid" : "ed82e896e20f9277",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600756948875,
+        "stop" : 1600756950211,
+        "duration" : 1336
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "ddd" ]
+  },
+  "source" : "afb044cb75a33ccc.json",
+  "parameterValues" : [ "'/dnc/file/upload'", "'deviceId:7429,remark:自动化备注,type:0'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
+}

@@ -1,0 +1,61 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:959 Starting new HTTPS connection (1): txqa.ziyun-cloud.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:437 https://txqa.ziyun-cloud.com:443 "GET /dnc/file/blurry/user HTTP/1.1" 200 45
+INFO     root:Log.py:65 [INFO 2020-10-26 11:17:17]----请求用时: 0.361402 秒
+INFO     root:Log.py:65 [INFO 2020-10-26 11:17:17]---------------请求-----------------
+https://txqa.ziyun-cloud.com/dnc/file/blurry/user
+User-Agent: python-requests/2.23.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: 6JUc7IoTNqh2f2SztWdPD0Lqziur3vLk0pB3jFuti7RBKZXgeNu2lipoNHht40wB4dxQmbpJI6DLOW4IXbYy_QUKAu_uhtIn-eAoNNVlSuAT3wOCQXFC1Hz1HLWZR_qFqOmJtmrZiK1uesIP0NfUlwj7zopBfKb2QuL7YuMMNqALayc5HY8F7BtJdhzvYSFvPcSOUrY1UOoRJ5rwcFU0tJfFGoNzRahXDcoP3ulLk7W7TjWPoBdifVedu3ss0iLWCAUs0QguLw76E2woxtIWma1Sr3ZzHhfcZOpXYaLwjX6uMVIwrITm93Kd-J34DWh6P8ibyYOO_huKoGr_oGSCKAPWSHoyLPdhLHigP2XYiRQ=
+
+None
+DEBUG    chardet.charsetprober:eucjpprober.py:62 EUC-JP Japanese prober hit error at byte 33
+DEBUG    chardet.charsetprober:mbcharsetprober.py:66 EUC-KR Korean prober hit error at byte 33
+DEBUG    chardet.charsetprober:mbcharsetprober.py:66 Big5 Chinese prober hit error at byte 33
+DEBUG    chardet.charsetprober:mbcharsetprober.py:66 EUC-TW Taiwan prober hit error at byte 33
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.938125
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 EUC-JP not active
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 EUC-KR not active
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 Big5 not active
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 EUC-TW not active
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 KOI8-R Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 MacCyrillic Russian confidence = 0.15359394471232365
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM866 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM855 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-7 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1253 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Bulgarian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 TIS-620 Thai confidence = 0.07710454543632074
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-9 Turkish confidence = 0.33245797149438866
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.938125
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 EUC-JP not active
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 EUC-KR not active
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 Big5 not active
+DEBUG    chardet.charsetprober:charsetgroupprober.py:97 EUC-TW not active
+INFO     root:Log.py:65 [INFO 2020-10-26 11:17:17]---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 26 Oct 2020 03:17:16 GMT
+Content-Type: application/json
+Content-Length: 45
+Connection: keep-alive
+X-Frame-Options: ALLOWALL
+Access-Control-Allow-Origin: *
+
+{"code":432,"message":"deviceId不能为空"}
+
+
+ERROR    root:Log.py:77 [[7;31mERROR[1;31;40m 2020-10-26 11:17:17]响应正文不包含期望值, 期望值 是  Success

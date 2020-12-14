@@ -1,0 +1,94 @@
+{
+  "uid" : "e65616b53d5dd268",
+  "name" : "test_personnel[都为空]",
+  "fullName" : "test_DNC.Test_device_ml#test_personnel",
+  "historyId" : "afd8cf38dc9e522675dcbd8b836ccea9",
+  "time" : {
+    "start" : 1600411450982,
+    "stop" : 1600411451389,
+    "duration" : 407
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "874cec54063ec42c",
+      "name" : "请求",
+      "source" : "874cec54063ec42c.txt",
+      "type" : "text/plain",
+      "size" : 583
+    }, {
+      "uid" : "525c18def9fba1a",
+      "name" : "响应",
+      "source" : "525c18def9fba1a.txt",
+      "type" : "text/plain",
+      "size" : 275
+    }, {
+      "uid" : "d07c88f232066e8a",
+      "name" : "log",
+      "source" : "d07c88f232066e8a.txt",
+      "type" : "text/plain",
+      "size" : 4421
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "设备目录分发页、回传页接口"
+  }, {
+    "name" : "story",
+    "value" : "人员名称搜索"
+  }, {
+    "name" : "suite",
+    "value" : "test_DNC"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_device_ml"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "42656-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DNC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "''"
+  }, {
+    "name" : "msg",
+    "value" : "'deviceId不能为空'"
+  }, {
+    "name" : "name",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e65616b53d5dd268.json",
+  "parameterValues" : [ "''", "'deviceId不能为空'", "''" ]
+}

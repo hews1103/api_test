@@ -1,0 +1,181 @@
+{
+  "uid" : "8fe502cb7b209b74",
+  "name" : "test_delete2_cache",
+  "fullName" : "test_DNC.Test_device_ml#test_delete2_cache",
+  "historyId" : "4695cf4640d6b62fead14547b029aba4",
+  "time" : {
+    "start" : 1600413559743,
+    "stop" : 1600413560251,
+    "duration" : 508
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <Test_ziyun.test_DNC.Test_device_ml object at 0x000001DA206CE438>\n\n    @allure.story(\"文件再次删除到回收站\")\n    def test_delete2_cache(self):\n        rp_resp = requests.put(url + '/file/delete',\n                               json={'reason': '二次接口删除', 'fileId': fileId}, headers={'token': token_data})\n        assertions.assert_code(rp_resp.status_code, 200)\n        rp_resp_json = rp_resp.json()\n>       assertions.assert_in_text(rp_resp_json['message'], 'Success')\n\ntest_DNC.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x000001DA1F5DA0F0>\nbody = 'Internal server error', expected_msg = 'Success'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\n..\\Common\\Assert.py:59: AssertionError",
+  "flaky" : true,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <Test_ziyun.test_DNC.Test_device_ml object at 0x000001DA206CE438>\n\n    @allure.story(\"文件再次删除到回收站\")\n    def test_delete2_cache(self):\n        rp_resp = requests.put(url + '/file/delete',\n                               json={'reason': '二次接口删除', 'fileId': fileId}, headers={'token': token_data})\n        assertions.assert_code(rp_resp.status_code, 200)\n        rp_resp_json = rp_resp.json()\n>       assertions.assert_in_text(rp_resp_json['message'], 'Success')\n\ntest_DNC.py:227: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x000001DA1F5DA0F0>\nbody = 'Internal server error', expected_msg = 'Success'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\n..\\Common\\Assert.py:59: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "246bc1e60a9e2b33",
+      "name" : "log",
+      "source" : "246bc1e60a9e2b33.txt",
+      "type" : "text/plain",
+      "size" : 345
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "设备目录分发页、回传页接口"
+  }, {
+    "name" : "story",
+    "value" : "文件再次删除到回收站"
+  }, {
+    "name" : "suite",
+    "value" : "test_DNC"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_device_ml"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "41740-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DNC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "36676e6316a19eb3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411873621,
+        "stop" : 1600411874073,
+        "duration" : 452
+      }
+    }, {
+      "uid" : "49030a38354176cd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1600411758245,
+        "stop" : 1600411758651,
+        "duration" : 406
+      }
+    }, {
+      "uid" : "4144ab2e6b6676d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411455875,
+        "stop" : 1600411456351,
+        "duration" : 476
+      }
+    }, {
+      "uid" : "e4f5f01a72c6ac84",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1600411297822,
+        "stop" : 1600411298250,
+        "duration" : 428
+      }
+    }, {
+      "uid" : "7de83366da7a28c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411133919,
+        "stop" : 1600411134386,
+        "duration" : 467
+      }
+    }, {
+      "uid" : "d77173e1b825cd55",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1600410747590,
+        "stop" : 1600410747994,
+        "duration" : 404
+      }
+    }, {
+      "uid" : "c8f664da003e7c71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600410612973,
+        "stop" : 1600410613553,
+        "duration" : 580
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "691f156231f9d2e",
+        "reportUrl" : "http://localhost:8080/job/Allure%20Report/45/allure/#testresult/691f156231f9d2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600411873621,
+          "stop" : 1600411874073,
+          "duration" : 452
+        }
+      }, {
+        "uid" : "503dfc3cb0b32254",
+        "reportUrl" : "http://localhost:8080/job/Allure%20Report/43/allure/#testresult/503dfc3cb0b32254",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600411455875,
+          "stop" : 1600411456351,
+          "duration" : 476
+        }
+      }, {
+        "uid" : "d09da672b66c8e97",
+        "reportUrl" : "http://localhost:8080/job/Allure%20Report/40/allure/#testresult/d09da672b66c8e97",
+        "status" : "failed",
+        "statusDetails" : "AssertionError",
+        "time" : {
+          "start" : 1600410747590,
+          "stop" : 1600410747994,
+          "duration" : 404
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8fe502cb7b209b74.json",
+  "parameterValues" : [ ]
+}

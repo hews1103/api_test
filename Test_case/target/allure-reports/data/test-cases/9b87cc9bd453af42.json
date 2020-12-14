@@ -1,0 +1,85 @@
+{
+  "uid" : "9b87cc9bd453af42",
+  "name" : "test_hszhy",
+  "fullName" : "test_DNC.Test_device_ml#test_hszhy",
+  "historyId" : "7d0fe6046432c70deb79265170fa1885",
+  "time" : {
+    "start" : 1600410612343,
+    "stop" : 1600410612969,
+    "duration" : 626
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e0df52d30ccaf065",
+      "name" : "请求",
+      "source" : "e0df52d30ccaf065.txt",
+      "type" : "text/plain",
+      "size" : 580
+    }, {
+      "uid" : "94937751fb8e893b",
+      "name" : "响应",
+      "source" : "94937751fb8e893b.txt",
+      "type" : "text/plain",
+      "size" : 267
+    }, {
+      "uid" : "67c77a47c0adebf4",
+      "name" : "log",
+      "source" : "67c77a47c0adebf4.txt",
+      "type" : "text/plain",
+      "size" : 4443
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "设备目录分发页、回传页接口"
+  }, {
+    "name" : "story",
+    "value" : "回收站还原"
+  }, {
+    "name" : "suite",
+    "value" : "test_DNC"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_device_ml"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "41352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DNC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b87cc9bd453af42.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,113 @@
+{
+  "uid" : "2d70fb574781e55c",
+  "name" : "test_personnel[上传文件]",
+  "fullName" : "test_demo.Test_info#test_personnel",
+  "historyId" : "86f47e88b801a26005df6aa3e8a825a3",
+  "time" : {
+    "start" : 1603680664067,
+    "stop" : 1603680665141,
+    "duration" : 1074
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "150e781438280025",
+      "name" : "请求",
+      "source" : "150e781438280025.txt",
+      "type" : "text/plain",
+      "size" : 1148
+    }, {
+      "uid" : "e41ef4567f49ec8d",
+      "name" : "响应",
+      "source" : "e41ef4567f49ec8d.txt",
+      "type" : "text/plain",
+      "size" : 284
+    }, {
+      "uid" : "1c1edb99cd0299f3",
+      "name" : "log",
+      "source" : "1c1edb99cd0299f3.txt",
+      "type" : "text/plain",
+      "size" : 5024
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "回归用例"
+  }, {
+    "name" : "feature",
+    "value" : "回归测试"
+  }, {
+    "name" : "tag",
+    "value" : "ddd"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "36096-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "address",
+    "value" : "'/dnc/file/upload'"
+  }, {
+    "name" : "data",
+    "value" : "'deviceId:7429,remark:自动化备注'"
+  }, {
+    "name" : "excel_file",
+    "value" : "'./document/XMZ_0.txt'"
+  }, {
+    "name" : "ff",
+    "value" : "'post'"
+  }, {
+    "name" : "key",
+    "value" : "''"
+  }, {
+    "name" : "msg",
+    "value" : "'Success'"
+  }, {
+    "name" : "sql_data",
+    "value" : "''"
+  } ],
+  "links" : [ {
+    "name" : "https://txqa.ziyun-cloud.com",
+    "url" : "https://txqa.ziyun-cloud.com",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "ddd" ]
+  },
+  "source" : "2d70fb574781e55c.json",
+  "parameterValues" : [ "'/dnc/file/upload'", "'deviceId:7429,remark:自动化备注'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
+}

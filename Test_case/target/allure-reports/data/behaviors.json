@@ -1,0 +1,415 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "获取potal端登录用户信息",
+    "children" : [ {
+      "name" : "登录接口",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "e3e5cb1450e7e5ea",
+        "parentUid" : "829fef529ab2c8de4d3ba0fb613b8033",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600413549699,
+          "stop" : 1600413550811,
+          "duration" : 1112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "829fef529ab2c8de4d3ba0fb613b8033"
+    } ],
+    "uid" : "80c5fe3413fb5950646ac1a6e9c24dd8"
+  }, {
+    "name" : "设备目录分发页、回传页接口",
+    "children" : [ {
+      "name" : "上传文件",
+      "children" : [ {
+        "name" : "test_scwj",
+        "uid" : "90faf57852df8915",
+        "parentUid" : "915347dc8798e8aae9d1259584418f5c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1600413550815,
+          "stop" : 1600413550844,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "915347dc8798e8aae9d1259584418f5c"
+    }, {
+      "name" : "文件列表",
+      "children" : [ {
+        "name" : "test_file_list",
+        "uid" : "75f75c11c004cfd7",
+        "parentUid" : "2b52c06b90e7d3fee04225225d434ce1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1600413550961,
+          "stop" : 1600413551435,
+          "duration" : 474
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2b52c06b90e7d3fee04225225d434ce1"
+    }, {
+      "name" : "下载文件/预览文件内容",
+      "children" : [ {
+        "name" : "test_download",
+        "uid" : "5259f4c97341c4d8",
+        "parentUid" : "f217ae174477e853b7c87783e602bbc8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600413551448,
+          "stop" : 1600413551911,
+          "duration" : 463
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f217ae174477e853b7c87783e602bbc8"
+    }, {
+      "name" : "查询历史信息",
+      "children" : [ {
+        "name" : "test_history_list",
+        "uid" : "b69d97804f9e537a",
+        "parentUid" : "44192aa1d4353286a119629ac7faba01",
+        "status" : "broken",
+        "time" : {
+          "start" : 1600413551934,
+          "stop" : 1600413552390,
+          "duration" : 456
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44192aa1d4353286a119629ac7faba01"
+    }, {
+      "name" : "历史版本文件下载",
+      "children" : [ {
+        "name" : "test_history_download",
+        "uid" : "2ca80b85b9a5d0c3",
+        "parentUid" : "79e90b68504ab66631da20920acf0a24",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600413552406,
+          "stop" : 1600413552861,
+          "duration" : 455
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79e90b68504ab66631da20920acf0a24"
+    }, {
+      "name" : "上传文件前的校验",
+      "children" : [ {
+        "name" : "test_wjjy",
+        "uid" : "2fdd0dc5893d85cf",
+        "parentUid" : "6bf5bee333a7e94e2e7223b091653547",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600413552877,
+          "stop" : 1600413553307,
+          "duration" : 430
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6bf5bee333a7e94e2e7223b091653547"
+    }, {
+      "name" : "修改备注",
+      "children" : [ {
+        "name" : "test_xgbz",
+        "uid" : "f83fc7958e80dfb6",
+        "parentUid" : "6c2d8b90eb57413bfda7376a1cc6e637",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600413553314,
+          "stop" : 1600413553698,
+          "duration" : 384
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6c2d8b90eb57413bfda7376a1cc6e637"
+    }, {
+      "name" : "人员名称搜索",
+      "children" : [ {
+        "name" : "test_personnel[正常搜索]",
+        "uid" : "878c87bbef157caf",
+        "parentUid" : "f86b487797d460a11f31cb2f01eaf524",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600413553718,
+          "stop" : 1600413554159,
+          "duration" : 441
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'7429'", "'Success'", "'王富贵'" ]
+      }, {
+        "name" : "test_personnel[人员名称为空]",
+        "uid" : "eb91a8d1c866b2fa",
+        "parentUid" : "f86b487797d460a11f31cb2f01eaf524",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600413554167,
+          "stop" : 1600413554581,
+          "duration" : 414
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'7429'", "'Success'", "''" ]
+      }, {
+        "name" : "test_personnel[设备名称为空]",
+        "uid" : "803676feaab4eb63",
+        "parentUid" : "f86b487797d460a11f31cb2f01eaf524",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600413554592,
+          "stop" : 1600413554999,
+          "duration" : 407
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'deviceId不能为空'", "'王富贵'" ]
+      }, {
+        "name" : "test_personnel[都为空]",
+        "uid" : "4df91f2531d782c0",
+        "parentUid" : "f86b487797d460a11f31cb2f01eaf524",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600413555010,
+          "stop" : 1600413555429,
+          "duration" : 419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'deviceId不能为空'", "''" ]
+      }, {
+        "name" : "test_personnel[人员名称模糊搜索]",
+        "uid" : "e273aea915b3f40d",
+        "parentUid" : "f86b487797d460a11f31cb2f01eaf524",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600413555440,
+          "stop" : 1600413555857,
+          "duration" : 417
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'7429'", "'Success'", "'王'" ]
+      }, {
+        "name" : "test_personnel[人员名称不存在]",
+        "uid" : "ebfcc22bbbd99499",
+        "parentUid" : "f86b487797d460a11f31cb2f01eaf524",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600413555865,
+          "stop" : 1600413556314,
+          "duration" : 449
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'7429'", "'Success'", "'冯宝宝'" ]
+      } ],
+      "uid" : "f86b487797d460a11f31cb2f01eaf524"
+    }, {
+      "name" : "文件回滚",
+      "children" : [ {
+        "name" : "test_file_hg",
+        "uid" : "6993c881b41d3de6",
+        "parentUid" : "d8e7f6ffe24f9d5aa00a639a0b1a6f36",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600413556324,
+          "stop" : 1600413556753,
+          "duration" : 429
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d8e7f6ffe24f9d5aa00a639a0b1a6f36"
+    }, {
+      "name" : "文件删除到回收站",
+      "children" : [ {
+        "name" : "test_delete_cache",
+        "uid" : "e6b5305b565356df",
+        "parentUid" : "21074a537727f2030b810be725e2db7e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600413556768,
+          "stop" : 1600413557234,
+          "duration" : 466
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "21074a537727f2030b810be725e2db7e"
+    }, {
+      "name" : "回收站查询列表",
+      "children" : [ {
+        "name" : "test_hszcxlb",
+        "uid" : "cb52d1e34f7516bd",
+        "parentUid" : "94d1875b69314a85b69c181e7152e0ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600413557251,
+          "stop" : 1600413558225,
+          "duration" : 974
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "94d1875b69314a85b69c181e7152e0ff"
+    }, {
+      "name" : "回收站列表",
+      "children" : [ {
+        "name" : "test_hszlb",
+        "uid" : "7abd87844588aff9",
+        "parentUid" : "42575deacd508ec47b0fca565e00eac6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600413558229,
+          "stop" : 1600413559236,
+          "duration" : 1007
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "42575deacd508ec47b0fca565e00eac6"
+    }, {
+      "name" : "回收站还原",
+      "children" : [ {
+        "name" : "test_hszhy",
+        "uid" : "1ac9c0945747a9ac",
+        "parentUid" : "28e83a3a38e5bbcc00f39609da8b6dc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600413559243,
+          "stop" : 1600413559739,
+          "duration" : 496
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "28e83a3a38e5bbcc00f39609da8b6dc2"
+    }, {
+      "name" : "文件再次删除到回收站",
+      "children" : [ {
+        "name" : "test_delete2_cache",
+        "uid" : "8fe502cb7b209b74",
+        "parentUid" : "988bfb974d93c28e58857d7526a1be7e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600413559743,
+          "stop" : 1600413560251,
+          "duration" : 508
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "988bfb974d93c28e58857d7526a1be7e"
+    }, {
+      "name" : "回收站彻底删除",
+      "children" : [ {
+        "name" : "test_hszsc",
+        "uid" : "7d7768b25d655387",
+        "parentUid" : "ddc84c3a22a7c71c3086a915da5825ce",
+        "status" : "failed",
+        "time" : {
+          "start" : 1600413560266,
+          "stop" : 1600413560789,
+          "duration" : 523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ddc84c3a22a7c71c3086a915da5825ce"
+    } ],
+    "uid" : "54d4f3894569c2dc1989e79d2d04956f"
+  }, {
+    "name" : "test_login",
+    "uid" : "5f09a3e357d589cf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1600413560803,
+      "stop" : 1600413561557,
+      "duration" : 754
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_personnel[人员名称搜索0]",
+    "uid" : "26af2cd929e120b3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1600413561563,
+      "stop" : 1600413562109,
+      "duration" : 546
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "'Success'", "''" ]
+  }, {
+    "name" : "test_personnel[上传文件前的校验]",
+    "uid" : "48c6349293105e2b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1600413562124,
+      "stop" : 1600413562696,
+      "duration" : 572
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"],\"deviceId\":\"7429\"}'", "''", "'post'", "'Success'", "''" ]
+  }, {
+    "name" : "test_personnel[修改备注]",
+    "uid" : "406fd2f02fab1cd2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1600413562715,
+      "stop" : 1600413563123,
+      "duration" : 408
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'/dnc/file/edit/remark'", "'{\"versionId\": 1111, \"remark\": \"自动化编辑备注\",\"type\":0}'", "''", "'put'", "'Success'", "''" ]
+  }, {
+    "name" : "test_personnel[人员名称搜索1]",
+    "uid" : "391023f2796e36c0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1600413563151,
+      "stop" : 1600413563641,
+      "duration" : 490
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "'deviceId'", "'get'", "'Success'", "'SELECT * FROM file order by update_time DESC LIMIT 1;'" ]
+  } ]
+}

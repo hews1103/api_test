@@ -1,0 +1,92 @@
+{
+  "uid" : "bfb01aecf492417e",
+  "name" : "test_personnel[修改备注]",
+  "fullName" : "test_demo.Test_info#test_personnel",
+  "historyId" : "b3873dd178219e2c534c31f6d2f95255",
+  "time" : {
+    "start" : 1600411136298,
+    "stop" : 1600411136728,
+    "duration" : 430
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <Test_ziyun.test_demo.Test_info object at 0x000001C7EABA0198>, ff = 'put'\naddress = '/dnc/file/edit/remark'\ndata = '{\"versionId\": 1111, \"remark\": \"自动化编辑备注\",\"type\":0}', data1 = ''\nmsg = 'Success', sql = ''\n\n    @pytest.mark.parametrize('ff,address,data,data1,msg,sql', excel_list, ids=ids_list)\n    def test_personnel(self, ff, address, data,data1, msg, sql):\n        if sql is None or sql == '':\n            print('sql is none')\n            if ff == 'get':\n                rp_resp = request.get_request(url=url + address,\n                                              params=data, headers=head)\n                assertions.assert_code(rp_resp.status_code, 200)\n                rp_resp_json = rp_resp.json()\n                assertions.assert_in_text(rp_resp_json['message'], msg)\n            elif ff == 'post':\n    \n                rp_resp = request.post_request(url=url + address,\n                                               json=json.loads(data), headers=head)\n                assertions.assert_code(rp_resp.status_code, 200)\n                rp_resp_json = rp_resp.json()\n                assertions.assert_in_text(rp_resp_json['message'], msg)\n            elif ff == 'put':\n                rp_resp = requests.put(url + address,\n                                       json=json.loads(data), headers=head)\n                assertions.assert_code(rp_resp.status_code, 200)\n                rp_resp_json = rp_resp.json()\n>               assertions.assert_in_text(rp_resp_json['message'], msg)\n\ntest_demo.py:65: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x000001C7EAB73828>\nbody = 'Internal server error', expected_msg = 'Success'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\n..\\Common\\Assert.py:59: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <Test_ziyun.test_demo.Test_info object at 0x000001C7EABA0198>, ff = 'put'\naddress = '/dnc/file/edit/remark'\ndata = '{\"versionId\": 1111, \"remark\": \"自动化编辑备注\",\"type\":0}', data1 = ''\nmsg = 'Success', sql = ''\n\n    @pytest.mark.parametrize('ff,address,data,data1,msg,sql', excel_list, ids=ids_list)\n    def test_personnel(self, ff, address, data,data1, msg, sql):\n        if sql is None or sql == '':\n            print('sql is none')\n            if ff == 'get':\n                rp_resp = request.get_request(url=url + address,\n                                              params=data, headers=head)\n                assertions.assert_code(rp_resp.status_code, 200)\n                rp_resp_json = rp_resp.json()\n                assertions.assert_in_text(rp_resp_json['message'], msg)\n            elif ff == 'post':\n    \n                rp_resp = request.post_request(url=url + address,\n                                               json=json.loads(data), headers=head)\n                assertions.assert_code(rp_resp.status_code, 200)\n                rp_resp_json = rp_resp.json()\n                assertions.assert_in_text(rp_resp_json['message'], msg)\n            elif ff == 'put':\n                rp_resp = requests.put(url + address,\n                                       json=json.loads(data), headers=head)\n                assertions.assert_code(rp_resp.status_code, 200)\n                rp_resp_json = rp_resp.json()\n>               assertions.assert_in_text(rp_resp_json['message'], msg)\n\ntest_demo.py:65: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x000001C7EAB73828>\nbody = 'Internal server error', expected_msg = 'Success'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\n..\\Common\\Assert.py:59: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "72b13d053683ae86",
+      "name" : "log",
+      "source" : "72b13d053683ae86.txt",
+      "type" : "text/plain",
+      "size" : 350
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "ddd"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "43096-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "address",
+    "value" : "'/dnc/file/edit/remark'"
+  }, {
+    "name" : "data",
+    "value" : "'{\"versionId\": 1111, \"remark\": \"自动化编辑备注\",\"type\":0}'"
+  }, {
+    "name" : "data1",
+    "value" : "''"
+  }, {
+    "name" : "ff",
+    "value" : "'put'"
+  }, {
+    "name" : "msg",
+    "value" : "'Success'"
+  }, {
+    "name" : "sql",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "ddd" ]
+  },
+  "source" : "bfb01aecf492417e.json",
+  "parameterValues" : [ "'/dnc/file/edit/remark'", "'{\"versionId\": 1111, \"remark\": \"自动化编辑备注\",\"type\":0}'", "''", "'put'", "'Success'", "''" ]
+}

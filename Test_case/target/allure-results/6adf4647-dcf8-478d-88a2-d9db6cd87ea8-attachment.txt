@@ -1,0 +1,25 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:959 Starting new HTTPS connection (1): txqa.ziyun-cloud.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:437 https://txqa.ziyun-cloud.com:443 "POST /dnc/file/upload/check HTTP/1.1" 200 42
+INFO     root:Log.py:65 [INFO 2020-09-18 14:49:12]----请求用时: 392.515 秒数
+INFO     root:Log.py:65 [INFO 2020-09-18 14:49:12]---------------请求-----------------
+https://txqa.ziyun-cloud.com/dnc/file/upload/check
+User-Agent: python-requests/2.23.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: 6JUc7IoTNqh2f2SztWdPD0Lqziur3vLk0pB3jFuti7RBKZXgeNu2lipoNHht40wBVthsYaNzdM5C9D_S4Wm-_a6r69N8ZtB9mRkup-Cug4Qg6QFsqN2yht-oXyL-K0IUgY5wzRo0cO1tNOCn_J0_ooNBaeM8UZdfmWf_q4rpJ4nePWGn5JITm0geQw1xy3DtF15o3BjCWjfxtuzmQGzz9QLQO-kY90Ykl5fQnxXB0D46uiFLyOqOvDJSpGsFFuqXc4ZDNHBXCpeKtpD84pLAAMeCN_HOlnMicj8fvX66edC8Ssn12stKpODlwJvIC316vBJYlYkmKM80OlFGnVpVxP_AW3pIW56NCsLWPja8OM0=
+Content-Length: 70
+Content-Type: application/json
+
+b'{"fileListName": ["\\u4e3a\\u7a7a\\u6587\\u4ef6.txt"], "deviceId": "7429"}'
+INFO     root:Log.py:65 [INFO 2020-09-18 14:49:12]---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Fri, 18 Sep 2020 06:49:10 GMT
+Content-Type: application/json
+Content-Length: 42
+Connection: keep-alive
+X-Frame-Options: ALLOWALL
+Access-Control-Allow-Origin: *
+
+{"code":200,"message":"Success","data":[]}

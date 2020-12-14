@@ -1,0 +1,89 @@
+{
+  "uid" : "8b9a0d915b1449c8",
+  "name" : "test_download",
+  "fullName" : "test_DNC.Test_device_ml#test_download",
+  "historyId" : "ca7f7d20ee7c168c14d9f7f0b8e369c4",
+  "time" : {
+    "start" : 1600411125606,
+    "stop" : 1600411126010,
+    "duration" : 404
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <Test_ziyun.test_DNC.Test_device_ml object at 0x000001C7EAB30F60>\n\n    @allure.story(\"下载文件/预览文件内容\")\n    def test_download(self):\n        rp_resp = request.get_request(url=url + '/file',\n                                      params={'fileId': fileId},\n                                      headers=head)\n        assertions.assert_code(rp_resp.status_code, 200)\n    \n>       assertions.assert_in_text(rp_resp.text, '%')\n\ntest_DNC.py:125: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x000001C7E9A18908>\nbody = '{\"code\":400,\"message\":\"Parameter validation failed：[distinguish:区分字段 0-下载 1-预览;type:区分分发回传 0:分发 1:回传]\",\"data\":\"Parameter validation failed\"}'\nexpected_msg = '%'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\n..\\Common\\Assert.py:59: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <Test_ziyun.test_DNC.Test_device_ml object at 0x000001C7EAB30F60>\n\n    @allure.story(\"下载文件/预览文件内容\")\n    def test_download(self):\n        rp_resp = request.get_request(url=url + '/file',\n                                      params={'fileId': fileId},\n                                      headers=head)\n        assertions.assert_code(rp_resp.status_code, 200)\n    \n>       assertions.assert_in_text(rp_resp.text, '%')\n\ntest_DNC.py:125: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x000001C7E9A18908>\nbody = '{\"code\":400,\"message\":\"Parameter validation failed：[distinguish:区分字段 0-下载 1-预览;type:区分分发回传 0:分发 1:回传]\",\"data\":\"Parameter validation failed\"}'\nexpected_msg = '%'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\n..\\Common\\Assert.py:59: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "210e0d4e3ca0a3eb",
+      "name" : "请求",
+      "source" : "210e0d4e3ca0a3eb.txt",
+      "type" : "text/plain",
+      "size" : 566
+    }, {
+      "uid" : "2e944b4a061763ec",
+      "name" : "响应",
+      "source" : "2e944b4a061763ec.txt",
+      "type" : "text/plain",
+      "size" : 409
+    }, {
+      "uid" : "2e47bbf7a5e07974",
+      "name" : "log",
+      "source" : "2e47bbf7a5e07974.txt",
+      "type" : "text/plain",
+      "size" : 7250
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "设备目录分发页、回传页接口"
+  }, {
+    "name" : "story",
+    "value" : "下载文件/预览文件内容"
+  }, {
+    "name" : "suite",
+    "value" : "test_DNC"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_device_ml"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "43096-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DNC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b9a0d915b1449c8.json",
+  "parameterValues" : [ ]
+}

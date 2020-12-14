@@ -1,0 +1,11 @@
+---------------请求-----------------
+https://txqa.ziyun-cloud.com/dnc/recycle/page/list
+User-Agent: python-requests/2.23.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: 6JUc7IoTNqh2f2SztWdPD0Lqziur3vLk0pB3jFuti7RBKZXgeNu2lipoNHht40wBZOQduHCgfnFJqj3ov5GKiqCfMuoTBYm7LISzeMm0XiWKX-rDK8UlejmHAUYto5aX4dsaAj-c3Iii824pJFXu1AgWSr-Gs75b5SiD3C6IQtBu2gqOjLxa2Zik_Vd3nWcQWzjJ9dSCTeUUkK67HNku4oZqMN7LvEAXA5jpBJ5uw0KiZo9yqS5vIHcRKjOoP3g36UTBLn-S5CrK-tkSItERTolcta89Hefeg0X3DQ8XpIUUk889SK1zL9gVcg2l9wIvKHi4aFkv3bZJLqNv0YwB4tKas2VK83muSpkg7YvVWJM=
+Content-Length: 41
+Content-Type: application/json
+
+b'{"pageNum": 1, "pageSize": 20, "type": 0}'

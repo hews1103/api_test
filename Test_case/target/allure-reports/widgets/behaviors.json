@@ -1,0 +1,26 @@
+{
+  "total" : 7,
+  "items" : [ {
+    "uid" : "54d4f3894569c2dc1989e79d2d04956f",
+    "name" : "设备目录分发页、回传页接口",
+    "statistic" : {
+      "failed" : 7,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 15
+    }
+  }, {
+    "uid" : "80c5fe3413fb5950646ac1a6e9c24dd8",
+    "name" : "获取potal端登录用户信息",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

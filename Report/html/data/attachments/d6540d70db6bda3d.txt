@@ -1,0 +1,11 @@
+---------------请求-----------------
+https://txqa.ziyun-cloud.com/dnc/file/upload/check
+User-Agent: python-requests/2.23.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: 6JUc7IoTNqh2f2SztWdPD0Lqziur3vLk0pB3jFuti7RBKZXgeNu2lipoNHht40wBhnt7JHERtdaO8prM45Wme2chkrCl_husSMqCe1ZCyl_dNWDEY6fBVv3rHmgBKkRqJiOPZJ7GSTpjUA-MBJaadAy4QZVr76LvaRcm8VLmYsl0_GHL7DEP8Rm38EjwzrSmmapGo8fZzgnRwsq1tb0Db45HkJCrsEOHAyxzNogR5ftqKknBIuYJ79NESeyEAsQWBtBJLvsTa44FObXZvgaGzO5mfUeWjgbRTOnyj3QNKPwj6vG-6NCDmZ0Vhj4SqLdPrJ7Hmgw2OS0tkZJBkdf7rqX53PdtzwDQVkWiGjBip7Q=
+Content-Length: 49
+Content-Type: application/json
+
+b'{"fileListName": ["XMZ_0.txt"], "deviceId": 7429}'

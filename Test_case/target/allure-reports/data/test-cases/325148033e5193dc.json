@@ -1,0 +1,100 @@
+{
+  "uid" : "325148033e5193dc",
+  "name" : "test_personnel[人员名称搜索0]",
+  "fullName" : "test_demo.Test_info#test_personnel",
+  "historyId" : "d9d0cb593190a52d3e9034bee423c487",
+  "time" : {
+    "start" : 1600411457428,
+    "stop" : 1600411457880,
+    "duration" : 452
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2759e676332959d5",
+      "name" : "请求",
+      "source" : "2759e676332959d5.txt",
+      "type" : "text/plain",
+      "size" : 614
+    }, {
+      "uid" : "6ecf3e0819dd0637",
+      "name" : "响应",
+      "source" : "6ecf3e0819dd0637.txt",
+      "type" : "text/plain",
+      "size" : 272
+    }, {
+      "uid" : "f153e15f7e166169",
+      "name" : "log",
+      "source" : "f153e15f7e166169.txt",
+      "type" : "text/plain",
+      "size" : 1362
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "ddd"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "42656-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "address",
+    "value" : "'/dnc/file/blurry/user'"
+  }, {
+    "name" : "data",
+    "value" : "'name=王富贵&deviceId=7429'"
+  }, {
+    "name" : "data1",
+    "value" : "''"
+  }, {
+    "name" : "ff",
+    "value" : "'get'"
+  }, {
+    "name" : "msg",
+    "value" : "'Success'"
+  }, {
+    "name" : "sql",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "ddd" ]
+  },
+  "source" : "325148033e5193dc.json",
+  "parameterValues" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "'Success'", "''" ]
+}

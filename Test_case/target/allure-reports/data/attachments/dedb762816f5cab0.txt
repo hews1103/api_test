@@ -1,0 +1,11 @@
+---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Fri, 18 Sep 2020 06:44:07 GMT
+Content-Type: application/json
+Content-Length: 224
+Connection: keep-alive
+X-Frame-Options: ALLOWALL
+Access-Control-Allow-Origin: *
+
+{"code":200,"message":"Success","data":[{"versionId":1097,"version":"V1","size":26514,"createBy":"王富贵","deviceId":7429,"createTime":"2020-09-11 11:29:51","remark":"","programNumber":"_N_00_002_025_6_MPF","isNew":"1"}]}

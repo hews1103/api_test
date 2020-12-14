@@ -1,0 +1,77 @@
+{
+  "uid" : "43e45ba8c07c88d4",
+  "name" : "test_delete_cache",
+  "fullName" : "test_DNC.Test_device_ml#test_delete_cache",
+  "historyId" : "e391da405e1e1104c6fb5b8016d2a07f",
+  "time" : {
+    "start" : 1600411755404,
+    "stop" : 1600411755806,
+    "duration" : 402
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError",
+  "statusTrace" : "self = <Test_ziyun.test_DNC.Test_device_ml object at 0x00000199792E6320>\n\n    @allure.story(\"文件删除到回收站\")\n    def test_delete_cache(self):\n        rp_resp = requests.put(url + '/file/delete',\n                               json={'reason': '自动化删除', 'fileId': fileId}, headers={'token': token_data})\n        assertions.assert_code(rp_resp.status_code, 200)\n        rp_resp_json = rp_resp.json()\n>       assertions.assert_in_text(rp_resp_json['message'], 'Success')\n\ntest_DNC.py:189: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x00000199782894E0>\nbody = 'Internal server error', expected_msg = 'Success'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\n..\\Common\\Assert.py:59: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError",
+    "statusTrace" : "self = <Test_ziyun.test_DNC.Test_device_ml object at 0x00000199792E6320>\n\n    @allure.story(\"文件删除到回收站\")\n    def test_delete_cache(self):\n        rp_resp = requests.put(url + '/file/delete',\n                               json={'reason': '自动化删除', 'fileId': fileId}, headers={'token': token_data})\n        assertions.assert_code(rp_resp.status_code, 200)\n        rp_resp_json = rp_resp.json()\n>       assertions.assert_in_text(rp_resp_json['message'], 'Success')\n\ntest_DNC.py:189: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Common.Assert.Assertions object at 0x00000199782894E0>\nbody = 'Internal server error', expected_msg = 'Success'\n\n    def assert_in_text(self, body, expected_msg):\n        \"\"\"\n        验证response body中是否包含预期字符串\n        :param body:\n        :param expected_msg:\n        :return:\n        \"\"\"\n        try:\n            text = json.dumps(body, ensure_ascii=False)\n            # print(text)\n>           assert expected_msg in text\nE           AssertionError\n\n..\\Common\\Assert.py:59: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "803e7e8942d51afc",
+      "name" : "log",
+      "source" : "803e7e8942d51afc.txt",
+      "type" : "text/plain",
+      "size" : 345
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "文件删除到回收站"
+  }, {
+    "name" : "feature",
+    "value" : "设备目录分发页、回传页接口"
+  }, {
+    "name" : "suite",
+    "value" : "test_DNC"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_device_ml"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "26024-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DNC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "43e45ba8c07c88d4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,59 @@
+{
+  "uid" : "60dd7c2cc403e56",
+  "name" : "test_scwj",
+  "fullName" : "test_DNC.Test_device_ml#test_scwj",
+  "historyId" : "42fc4b1a67371277e1aff81152858cf0",
+  "time" : {
+    "start" : 1600411446890,
+    "stop" : 1600411446925,
+    "duration" : 35
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: './document/XMZ_0.txt'",
+  "statusTrace" : "self = <Test_ziyun.test_DNC.Test_device_ml object at 0x000001FBE2BB7D68>\n\n    @allure.story(\"上传文件\")\n    def test_scwj(self):\n        select_data = DataBase.mysql_select(db='ziyun-iot', sql='SELECT * FROM `t_device` where device_id =\"7429\";',\n                                            attribute='cnc_brand')\n        a = 0\n        while a < 2:\n            if select_data == 'Fanuc':\n                with open('./document/FLK_0.nc', mode=\"r\", encoding=\"utf-8\")as f:\n                    file = {\"file\": ('FLK_0.nc', f.read()), \"deviceId\": deviceId, \"remark\": \"自动化备注\"}\n                    encode_data = encode_multipart_formdata(file)\n                    file_data = encode_data[0]\n                    headers_from_data = {\"Content-Type\": encode_data[1],\n                                         \"token\": token_data}\n    \n                rp_resp = request.post_request(url=url + '/file/upload',\n                                               data=file_data, headers=headers_from_data)\n                assertions.assert_code(rp_resp.status_code, 200)\n                login_resp_json = rp_resp.json()\n                assertions.assert_in_text(login_resp_json['message'], 'Success')\n                a +=1\n            elif select_data == 'Siemens':\n>               with open('./document/XMZ_0.txt', mode=\"r\", encoding=\"utf-8\")as f:\nE               FileNotFoundError: [Errno 2] No such file or directory: './document/XMZ_0.txt'\n\ntest_DNC.py:79: FileNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "设备目录分发页、回传页接口"
+  }, {
+    "name" : "story",
+    "value" : "上传文件"
+  }, {
+    "name" : "suite",
+    "value" : "test_DNC"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_device_ml"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "42656-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DNC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "60dd7c2cc403e56.json",
+  "parameterValues" : [ ]
+}

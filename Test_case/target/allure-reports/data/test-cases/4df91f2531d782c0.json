@@ -1,0 +1,190 @@
+{
+  "uid" : "4df91f2531d782c0",
+  "name" : "test_personnel[都为空]",
+  "fullName" : "test_DNC.Test_device_ml#test_personnel",
+  "historyId" : "afd8cf38dc9e522675dcbd8b836ccea9",
+  "time" : {
+    "start" : 1600413555010,
+    "stop" : 1600413555429,
+    "duration" : 419
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "68712e7b3ce6b473",
+      "name" : "请求",
+      "source" : "68712e7b3ce6b473.txt",
+      "type" : "text/plain",
+      "size" : 583
+    }, {
+      "uid" : "bb8c362b2aa6720d",
+      "name" : "响应",
+      "source" : "bb8c362b2aa6720d.txt",
+      "type" : "text/plain",
+      "size" : 275
+    }, {
+      "uid" : "e51b403e5a364687",
+      "name" : "log",
+      "source" : "e51b403e5a364687.txt",
+      "type" : "text/plain",
+      "size" : 4421
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "设备目录分发页、回传页接口"
+  }, {
+    "name" : "story",
+    "value" : "人员名称搜索"
+  }, {
+    "name" : "suite",
+    "value" : "test_DNC"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_device_ml"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "41740-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DNC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "''"
+  }, {
+    "name" : "msg",
+    "value" : "'deviceId不能为空'"
+  }, {
+    "name" : "name",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9ad20a321875b92a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411868413,
+        "stop" : 1600411868860,
+        "duration" : 447
+      }
+    }, {
+      "uid" : "3d3938caf041015f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411753697,
+        "stop" : 1600411754132,
+        "duration" : 435
+      }
+    }, {
+      "uid" : "e65616b53d5dd268",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411450982,
+        "stop" : 1600411451389,
+        "duration" : 407
+      }
+    }, {
+      "uid" : "7094d612327065a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411293199,
+        "stop" : 1600411293606,
+        "duration" : 407
+      }
+    }, {
+      "uid" : "21fe60e7ff34febb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411129139,
+        "stop" : 1600411129545,
+        "duration" : 406
+      }
+    }, {
+      "uid" : "1bf66c608703584",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600410742576,
+        "stop" : 1600410743000,
+        "duration" : 424
+      }
+    }, {
+      "uid" : "6bf817976d7f2f3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600410607662,
+        "stop" : 1600410608059,
+        "duration" : 397
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "ee9750ef4811b",
+        "reportUrl" : "http://localhost:8080/job/Allure%20Report/45/allure/#testresult/ee9750ef4811b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600411868413,
+          "stop" : 1600411868860,
+          "duration" : 447
+        }
+      }, {
+        "uid" : "5f424bc7b75c7127",
+        "reportUrl" : "http://localhost:8080/job/Allure%20Report/43/allure/#testresult/5f424bc7b75c7127",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600411450982,
+          "stop" : 1600411451389,
+          "duration" : 407
+        }
+      }, {
+        "uid" : "df3a6c213ce65287",
+        "reportUrl" : "http://localhost:8080/job/Allure%20Report/40/allure/#testresult/df3a6c213ce65287",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600410742576,
+          "stop" : 1600410743000,
+          "duration" : 424
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4df91f2531d782c0.json",
+  "parameterValues" : [ "''", "'deviceId不能为空'", "''" ]
+}

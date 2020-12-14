@@ -1,0 +1,89 @@
+{
+  "uid" : "22ea1faa2883f946",
+  "name" : "test_history_list",
+  "fullName" : "test_DNC.Test_device_ml#test_history_list",
+  "historyId" : "0f56d0c2162c7502aae48abcefaebadc",
+  "time" : {
+    "start" : 1600411750732,
+    "stop" : 1600411751167,
+    "duration" : 435
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'data'",
+  "statusTrace" : "self = <Test_ziyun.test_DNC.Test_device_ml object at 0x00000199792DDBE0>\n\n    @allure.story(\"查询历史信息\")\n    def test_history_list(self):\n        rp_resp = request.get_request(url=url + '/file/list/history',\n                                      params={'fileId': fileId, 'type': 0}, headers=head)\n        assertions.assert_code(rp_resp.status_code, 200)\n        rp_resp_json = rp_resp.json()\n>       rp_versionid = rp_resp_json['data'][0]['versionId']\nE       KeyError: 'data'\n\ntest_DNC.py:133: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'data'",
+    "statusTrace" : "self = <Test_ziyun.test_DNC.Test_device_ml object at 0x00000199792DDBE0>\n\n    @allure.story(\"查询历史信息\")\n    def test_history_list(self):\n        rp_resp = request.get_request(url=url + '/file/list/history',\n                                      params={'fileId': fileId, 'type': 0}, headers=head)\n        assertions.assert_code(rp_resp.status_code, 200)\n        rp_resp_json = rp_resp.json()\n>       rp_versionid = rp_resp_json['data'][0]['versionId']\nE       KeyError: 'data'\n\ntest_DNC.py:133: KeyError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c8c55b4d23599842",
+      "name" : "请求",
+      "source" : "c8c55b4d23599842.txt",
+      "type" : "text/plain",
+      "size" : 586
+    }, {
+      "uid" : "3c48734173f797a1",
+      "name" : "响应",
+      "source" : "3c48734173f797a1.txt",
+      "type" : "text/plain",
+      "size" : 276
+    }, {
+      "uid" : "ee408739e23b5eb7",
+      "name" : "log",
+      "source" : "ee408739e23b5eb7.txt",
+      "type" : "text/plain",
+      "size" : 1310
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "设备目录分发页、回传页接口"
+  }, {
+    "name" : "story",
+    "value" : "查询历史信息"
+  }, {
+    "name" : "suite",
+    "value" : "test_DNC"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_device_ml"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "26024-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DNC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22ea1faa2883f946.json",
+  "parameterValues" : [ ]
+}

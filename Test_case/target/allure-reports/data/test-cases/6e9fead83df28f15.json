@@ -1,0 +1,88 @@
+{
+  "uid" : "6e9fead83df28f15",
+  "name" : "test_login",
+  "fullName" : "test_DNC.Test_info#test_login",
+  "historyId" : "a678cbd871d623dd22be87805b89ad9e",
+  "time" : {
+    "start" : 1600410738089,
+    "stop" : 1600410738754,
+    "duration" : 665
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "967b03e2bdc716ca",
+      "name" : "请求",
+      "source" : "967b03e2bdc716ca.txt",
+      "type" : "text/plain",
+      "size" : 308
+    }, {
+      "uid" : "31716f6c8dc0102b",
+      "name" : "响应",
+      "source" : "31716f6c8dc0102b.txt",
+      "type" : "text/plain",
+      "size" : 60745
+    }, {
+      "uid" : "fddc50bed3791d62",
+      "name" : "log",
+      "source" : "fddc50bed3791d62.txt",
+      "type" : "text/plain",
+      "size" : 61485
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "获取potal端登录用户信息"
+  }, {
+    "name" : "story",
+    "value" : "登录接口"
+  }, {
+    "name" : "tag",
+    "value" : "ccc"
+  }, {
+    "name" : "suite",
+    "value" : "test_DNC"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "26524-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DNC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "ccc" ]
+  },
+  "source" : "6e9fead83df28f15.json",
+  "parameterValues" : [ ]
+}

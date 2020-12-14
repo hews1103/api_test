@@ -1,0 +1,151 @@
+[ {
+  "uid" : "48e6c60443d63580",
+  "name" : "test_with_story_2",
+  "time" : {
+    "start" : 1600679220981,
+    "stop" : 1600679220981,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9cd49e39370507d8",
+  "name" : "test_personnel[人员名称搜索0]",
+  "time" : {
+    "start" : 1604977306769,
+    "stop" : 1604977307214,
+    "duration" : 445
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a6e1f2f28613e13a",
+  "name" : "test_scwj",
+  "time" : {
+    "start" : 1602557592610,
+    "stop" : 1602557595138,
+    "duration" : 2528
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8ec70900dbd04b1",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1604977306151,
+    "stop" : 1604977306766,
+    "duration" : 615
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "fe804bbdea789560",
+  "name" : "test_personnel[上传文件前的校验]",
+  "time" : {
+    "start" : 1604977307223,
+    "stop" : 1604977307618,
+    "duration" : 395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "383da4f05f282bac",
+  "name" : "test_personnel[人员名称搜索]",
+  "time" : {
+    "start" : 1603682237054,
+    "stop" : 1603682237424,
+    "duration" : 370
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a9d2b6bbadb4e21",
+  "name" : "test_with_story_1",
+  "time" : {
+    "start" : 1600679220979,
+    "stop" : 1600679220979,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90608531f95f2a81",
+  "name" : "test_without_any_annotations_that_wont_be_executed",
+  "time" : {
+    "start" : 1600679220974,
+    "stop" : 1600679220974,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e494b59c0f707cd5",
+  "name" : "test_with_epic_1",
+  "time" : {
+    "start" : 1600679220976,
+    "stop" : 1600679220976,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afb044cb75a33ccc",
+  "name" : "test_personnel[上传文件]",
+  "time" : {
+    "start" : 1604977308532,
+    "stop" : 1604977309378,
+    "duration" : 846
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bcec6fe12d852078",
+  "name" : "test_personnel[人员名称搜索1]",
+  "time" : {
+    "start" : 1604977308139,
+    "stop" : 1604977308524,
+    "duration" : 385
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4661ad8559fb1f7b",
+  "name" : "test_with_story_2_and_feature_2",
+  "time" : {
+    "start" : 1600679220983,
+    "stop" : 1600679220983,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf00f0568a3590be",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1602557591733,
+    "stop" : 1602557592605,
+    "duration" : 872
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f92d0c6e038fdb46",
+  "name" : "test_personnel[修改备注]",
+  "time" : {
+    "start" : 1604977307626,
+    "stop" : 1604977308131,
+    "duration" : 505
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7568447507be86c4",
+  "name" : "test",
+  "time" : {
+    "start" : 1600678872484,
+    "stop" : 1600678872484,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

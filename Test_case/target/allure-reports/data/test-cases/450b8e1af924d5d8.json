@@ -1,0 +1,89 @@
+{
+  "uid" : "450b8e1af924d5d8",
+  "name" : "test_file_list",
+  "fullName" : "test_DNC.Test_device_ml#test_file_list",
+  "historyId" : "98afc6813fcaa5a721a69c10a4aba75e",
+  "time" : {
+    "start" : 1600411749941,
+    "stop" : 1600411750345,
+    "duration" : 404
+  },
+  "status" : "broken",
+  "statusMessage" : "IndexError: list index out of range",
+  "statusTrace" : "self = <Test_ziyun.test_DNC.Test_device_ml object at 0x00000199793D7048>\n\n    @allure.story(\"文件列表\")\n    def test_file_list(self):\n        rp_resp = request.get_request(url=url + '/file/list',\n                                      params={'pageSize': 10, 'pageNum': 1, 'type': 0, 'deviceId': deviceId},\n                                      headers=head)\n        assertions.assert_code(rp_resp.status_code, 200)\n        rp_resp_json = rp_resp.json()\n>       rp_fileid = str(rp_resp_json['data']['list'][0]['fileId'])\nE       IndexError: list index out of range\n\ntest_DNC.py:113: IndexError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "IndexError: list index out of range",
+    "statusTrace" : "self = <Test_ziyun.test_DNC.Test_device_ml object at 0x00000199793D7048>\n\n    @allure.story(\"文件列表\")\n    def test_file_list(self):\n        rp_resp = request.get_request(url=url + '/file/list',\n                                      params={'pageSize': 10, 'pageNum': 1, 'type': 0, 'deviceId': deviceId},\n                                      headers=head)\n        assertions.assert_code(rp_resp.status_code, 200)\n        rp_resp_json = rp_resp.json()\n>       rp_fileid = str(rp_resp_json['data']['list'][0]['fileId'])\nE       IndexError: list index out of range\n\ntest_DNC.py:113: IndexError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "83d2ee9ea9e87c2e",
+      "name" : "请求",
+      "source" : "83d2ee9ea9e87c2e.txt",
+      "type" : "text/plain",
+      "size" : 603
+    }, {
+      "uid" : "39e3146b3e4c207",
+      "name" : "响应",
+      "source" : "39e3146b3e4c207.txt",
+      "type" : "text/plain",
+      "size" : 550
+    }, {
+      "uid" : "6b52911f83e936ec",
+      "name" : "log",
+      "source" : "6b52911f83e936ec.txt",
+      "type" : "text/plain",
+      "size" : 1619
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "文件列表"
+  }, {
+    "name" : "feature",
+    "value" : "设备目录分发页、回传页接口"
+  }, {
+    "name" : "suite",
+    "value" : "test_DNC"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_device_ml"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "26024-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DNC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "450b8e1af924d5d8.json",
+  "parameterValues" : [ ]
+}

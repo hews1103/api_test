@@ -1,0 +1,101 @@
+{
+  "uid" : "60b0614f9e3483ca",
+  "name" : "test_personnel[修改备注]",
+  "fullName" : "test_demo.Test_info#test_personnel",
+  "historyId" : "b3873dd178219e2c534c31f6d2f95255",
+  "time" : {
+    "start" : 1603249522665,
+    "stop" : 1603249523375,
+    "duration" : 710
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "993dc2c6e3a5db7f",
+      "name" : "log",
+      "source" : "993dc2c6e3a5db7f.txt",
+      "type" : "text/plain",
+      "size" : 244
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "回归用例"
+  }, {
+    "name" : "feature",
+    "value" : "回归测试"
+  }, {
+    "name" : "tag",
+    "value" : "ddd"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "18304-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "address",
+    "value" : "'/dnc/file/edit/remark'"
+  }, {
+    "name" : "data",
+    "value" : "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'"
+  }, {
+    "name" : "excel_file",
+    "value" : "''"
+  }, {
+    "name" : "ff",
+    "value" : "'put'"
+  }, {
+    "name" : "key",
+    "value" : "'versionId'"
+  }, {
+    "name" : "msg",
+    "value" : "'Success'"
+  }, {
+    "name" : "sql_data",
+    "value" : "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'"
+  } ],
+  "links" : [ {
+    "name" : "https://txqa.ziyun-cloud.com",
+    "url" : "https://txqa.ziyun-cloud.com",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "ddd" ]
+  },
+  "source" : "60b0614f9e3483ca.json",
+  "parameterValues" : [ "'/dnc/file/edit/remark'", "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
+}

@@ -1,0 +1,181 @@
+{
+  "uid" : "cb52d1e34f7516bd",
+  "name" : "test_hszcxlb",
+  "fullName" : "test_DNC.Test_device_ml#test_hszcxlb",
+  "historyId" : "f684c7973b531a4dd100332c7f4cbffc",
+  "time" : {
+    "start" : 1600413557251,
+    "stop" : 1600413558225,
+    "duration" : 974
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b78a2540fc6d2fd",
+      "name" : "请求",
+      "source" : "b78a2540fc6d2fd.txt",
+      "type" : "text/plain",
+      "size" : 659
+    }, {
+      "uid" : "df7b31c2da689b4d",
+      "name" : "响应",
+      "source" : "df7b31c2da689b4d.txt",
+      "type" : "text/plain",
+      "size" : 2204
+    }, {
+      "uid" : "cf29a6d692ce326a",
+      "name" : "log",
+      "source" : "cf29a6d692ce326a.txt",
+      "type" : "text/plain",
+      "size" : 6156
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "回收站查询列表"
+  }, {
+    "name" : "feature",
+    "value" : "设备目录分发页、回传页接口"
+  }, {
+    "name" : "suite",
+    "value" : "test_DNC"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_device_ml"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "41740-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DNC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f4037d37ddce1dff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411870712,
+        "stop" : 1600411871702,
+        "duration" : 990
+      }
+    }, {
+      "uid" : "e1f94e79cee5065e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411755821,
+        "stop" : 1600411756802,
+        "duration" : 981
+      }
+    }, {
+      "uid" : "b9d9692293bf9c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411453375,
+        "stop" : 1600411454314,
+        "duration" : 939
+      }
+    }, {
+      "uid" : "d3ecdb942e77bc75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411295406,
+        "stop" : 1600411296362,
+        "duration" : 956
+      }
+    }, {
+      "uid" : "e9adda5d16fbe6a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411131539,
+        "stop" : 1600411132464,
+        "duration" : 925
+      }
+    }, {
+      "uid" : "4115f84e02c4905a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600410745103,
+        "stop" : 1600410746135,
+        "duration" : 1032
+      }
+    }, {
+      "uid" : "eff652b85f89a280",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600410610256,
+        "stop" : 1600410611313,
+        "duration" : 1057
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "518eb87dc68db8c1",
+        "reportUrl" : "http://localhost:8080/job/Allure%20Report/45/allure/#testresult/518eb87dc68db8c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600411870712,
+          "stop" : 1600411871702,
+          "duration" : 990
+        }
+      }, {
+        "uid" : "85b1ccd6589ff3bb",
+        "reportUrl" : "http://localhost:8080/job/Allure%20Report/43/allure/#testresult/85b1ccd6589ff3bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600411453375,
+          "stop" : 1600411454314,
+          "duration" : 939
+        }
+      }, {
+        "uid" : "bc22c9a97ed575e6",
+        "reportUrl" : "http://localhost:8080/job/Allure%20Report/40/allure/#testresult/bc22c9a97ed575e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600410745103,
+          "stop" : 1600410746135,
+          "duration" : 1032
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "cb52d1e34f7516bd.json",
+  "parameterValues" : [ ]
+}

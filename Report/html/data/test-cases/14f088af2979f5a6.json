@@ -1,0 +1,113 @@
+{
+  "uid" : "14f088af2979f5a6",
+  "name" : "test_personnel[人员名称搜索1]",
+  "fullName" : "test_demo.Test_info#test_personnel",
+  "historyId" : "7cadc845eff2bd754c94007b49fc008e",
+  "time" : {
+    "start" : 1603680180486,
+    "stop" : 1603680180931,
+    "duration" : 445
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "58f47b99e9191df4",
+      "name" : "请求",
+      "source" : "58f47b99e9191df4.txt",
+      "type" : "text/plain",
+      "size" : 614
+    }, {
+      "uid" : "1f6b309e1df65561",
+      "name" : "响应",
+      "source" : "1f6b309e1df65561.txt",
+      "type" : "text/plain",
+      "size" : 323
+    }, {
+      "uid" : "67e68008c88a2e8d",
+      "name" : "log",
+      "source" : "67e68008c88a2e8d.txt",
+      "type" : "text/plain",
+      "size" : 4641
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "回归用例"
+  }, {
+    "name" : "feature",
+    "value" : "回归测试"
+  }, {
+    "name" : "tag",
+    "value" : "ddd"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_info"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "36612-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "address",
+    "value" : "'/dnc/file/blurry/user'"
+  }, {
+    "name" : "data",
+    "value" : "'name=王富贵&'"
+  }, {
+    "name" : "excel_file",
+    "value" : "''"
+  }, {
+    "name" : "ff",
+    "value" : "'get'"
+  }, {
+    "name" : "key",
+    "value" : "'deviceId'"
+  }, {
+    "name" : "msg",
+    "value" : "'Success'"
+  }, {
+    "name" : "sql_data",
+    "value" : "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'"
+  } ],
+  "links" : [ {
+    "name" : "https://txqa.ziyun-cloud.com",
+    "url" : "https://txqa.ziyun-cloud.com",
+    "type" : "issue"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "ddd" ]
+  },
+  "source" : "14f088af2979f5a6.json",
+  "parameterValues" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
+}

@@ -1,0 +1,11 @@
+---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Fri, 18 Sep 2020 06:51:03 GMT
+Content-Type: application/json
+Content-Length: 515
+Connection: keep-alive
+X-Frame-Options: ALLOWALL
+Access-Control-Allow-Origin: *
+
+{"code":200,"message":"Success","data":{"total":1,"list":[{"fileId":847,"fileName":"XImenzi_01.mpf","programNumber":"_N_00_002_025_6_MPF","version":"V1","size":"26514","createBy":"王富贵","creatTime":"2020-09-11 11:29:51","remark":"","deviceId":7429}],"pageNum":1,"pageSize":10,"size":1,"startRow":1,"endRow":1,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}

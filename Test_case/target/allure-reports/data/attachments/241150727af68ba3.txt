@@ -1,0 +1,23 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:959 Starting new HTTPS connection (1): txqa.ziyun-cloud.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:437 https://txqa.ziyun-cloud.com:443 "GET /dnc/file/blurry/user?name=%E7%8E%8B%E5%AF%8C%E8%B4%B5&deviceId=7429 HTTP/1.1" 200 42
+INFO     root:Log.py:65 [INFO 2020-09-18 14:51:16]----请求用时: 401.652 秒数
+INFO     root:Log.py:65 [INFO 2020-09-18 14:51:16]---------------请求-----------------
+https://txqa.ziyun-cloud.com/dnc/file/blurry/user?name=%E7%8E%8B%E5%AF%8C%E8%B4%B5&deviceId=7429
+User-Agent: python-requests/2.23.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: 6JUc7IoTNqh2f2SztWdPD0Lqziur3vLk0pB3jFuti7RBKZXgeNu2lipoNHht40wBcbR2suaLZHB8UNdqHSVQOY6IhQlRJZd_ECncKUr9BufaRch9Q1xvx5QL-y-kH2KKRIMZX0x5CRwDKc_Kag9Igk84tHbSeLm3uraNsjijCrWSVI5ojsVzfYC9b-vUm1G488OCJPjbbGQTNKujKcQ2R7Qt5AXNgatCE-KCNk0Wx-wkEoniDE0_uaook1hB7EgoGxJIw4P-X1IPnuke_0EtFyg12dq7NNkCm47orgzl3ZZ5LoCOp581I6IPwfGY1UeKyGkbjtdpXicSEHNJukAps7fQGZvjeZ8WUWh2CDXGUHs=
+
+None
+INFO     root:Log.py:65 [INFO 2020-09-18 14:51:16]---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Fri, 18 Sep 2020 06:51:15 GMT
+Content-Type: application/json
+Content-Length: 42
+Connection: keep-alive
+X-Frame-Options: ALLOWALL
+Access-Control-Allow-Origin: *
+
+{"code":200,"message":"Success","data":[]}

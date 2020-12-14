@@ -1,0 +1,56 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:959 Starting new HTTPS connection (1): txqa.ziyun-cloud.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:437 https://txqa.ziyun-cloud.com:443 "POST /dnc/recycle/page/list HTTP/1.1" 200 1972
+INFO     root:Log.py:65 [INFO 2020-09-18 15:19:19]----请求用时: 990.171 秒数
+INFO     root:Log.py:65 [INFO 2020-09-18 15:19:19]---------------请求-----------------
+https://txqa.ziyun-cloud.com/dnc/recycle/page/list
+User-Agent: python-requests/2.23.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+token: 6JUc7IoTNqh2f2SztWdPD0Lqziur3vLk0pB3jFuti7RBKZXgeNu2lipoNHht40wBNLcS_NygdjkwWoZoFRRt07E3rgww9QXsNJL_3-NVSsiebJNBrmVQLBl5FzY1Mf0ZEoWAsJbQb1R3To5qbEU6qjaBRB482UkdEIdnBBYfP6CirdciaRjuKPwCQP3-HyvJBzetH7WJsL2xkzSeL-KT2g08O2loQ6y2MKOrmDUumlxNk7v6AsWH3GL9ytozMJxK4wVgFjqwQvxhiiUShAx9TyzJlKtFXTLCvg18D11SfffPCJ0F4KKwzPyHmtxumNPOpTgdhBfb_PXUs-jwObiNbK1qianSvDu7bp41ztSyr9U=
+Content-Length: 41
+Content-Type: application/json
+
+b'{"pageNum": 1, "pageSize": 20, "type": 0}'
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 KOI8-R Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 MacCyrillic Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM866 Russian confidence = 0.1278779032146118
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM855 Russian confidence = 0.053375124820011874
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-7 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1253 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Bulgarian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 TIS-620 Thai confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-9 Turkish confidence = 0.36867947646816046
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+INFO     root:Log.py:65 [INFO 2020-09-18 15:19:19]---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Fri, 18 Sep 2020 07:19:17 GMT
+Content-Type: application/json
+Content-Length: 1972
+Connection: keep-alive
+X-Frame-Options: ALLOWALL
+Access-Control-Allow-Origin: *
+
+{"code":200,"message":"Success","data":{"total":6,"list":[{"recycleId":"520","fileId":"847","fileName":"XImenzi_01.mpf","programNumber":"_N_00_002_025_6_MPF","deviceName":"DNC测试设备（勿动）","deleteTime":"2020-09-18 14:51:12","filmSize":"26514","assetNumber":"DNC001","deleteReason":"二次接口删除","version":"V1","deviceIsDeleted":1},{"recycleId":"500","fileId":"854","fileName":"XMZ_02 (1).spf","programNumber":"_N_5018_SPF_5","deviceName":"DNC测试设备（勿动）","deleteTime":"2020-09-18 10:34:14","filmSize":"26508","assetNumber":"DNC001","deleteReason":"二次接口删除","version":"V1","deviceIsDeleted":1},{"recycleId":"498","fileId":"853","fileName":"XMZ_02.spf","programNumber":"_N_5018_SPF","deviceName":"DNC测试设备（勿动）","deleteTime":"2020-09-18 10:25:48","filmSize":"26506","assetNumber":"DNC001","deleteReason":"二次接口删除","version":"V1","deviceIsDeleted":1},{"recycleId":"496","fileId":"855","fileName":"FLK_0.nc","programNumber":"0034","deviceName":"DNC测试设备（勿动）","deleteTime":"2020-09-18 10:16:26","filmSize":"2602","assetNumber":"DNC001","deleteReason":"二次接口删除","version":"V1","deviceIsDeleted":1},{"recycleId":"491","fileId":"849","fileName":"XMZ_03.txt","programNumber":"123.mpf","deviceName":"DNC测试设备（勿动）","deleteTime":"2020-09-11 15:46:05","filmSize":"57","assetNumber":"DNC001","deleteReason":"123","version":"V1","deviceIsDeleted":1},{"recycleId":"483","fileId":"852","fileName":"西门子.spf","programNumber":"_N_5018_SPF","deviceName":"DNC测试设备（勿动）","deleteTime":"2020-09-11 13:43:57","filmSize":"26506","assetNumber":"DNC001","deleteReason":"21","version":"V1","deviceIsDeleted":1}],"pageNum":1,"pageSize":20,"size":0,"startRow":0,"endRow":0,"pages":1,"prePage":0,"nextPage":0,"isFirstPage":true,"isLastPage":true,"hasPreviousPage":false,"hasNextPage":false,"navigatePages":8,"navigatepageNums":[1],"navigateFirstPage":1,"navigateLastPage":1}}

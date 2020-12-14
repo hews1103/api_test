@@ -1,0 +1,11 @@
+---------------请求-----------------
+https://txqa.ziyun-cloud.com/dnc/file/upload
+User-Agent: python-requests/2.23.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Type: multipart/form-data; boundary=afa54c147bb334e7e6d6ffd4b768243f
+token: 6JUc7IoTNqh2f2SztWdPD0Lqziur3vLk0pB3jFuti7RBKZXgeNu2lipoNHht40wBrS2K5xfhtMRBNF3KnaN7X5PVFxNrd0ZI3s546Jt4GX5Wx2EsOpy2pTb0w791qprNgvgM8HPdDE9TYmaI-E4k0gjLPfeq3q6abFdFDLUXIquNHbDg9bwu6nMlw5CY0IJkOmB11UmOdPI0QuK6xVRP66Muuz5cAffInjE35PxgmhqKmqPNWk-aeDLzVJGm9xUjV6zjR7WOzYBfhZsWtukVg2FFfspGcm-uMTFu4oqKkOosXdEKU4yFRVGwOPq70ZPpWMFf6tM_m4Mp-tsR4By-a1_XQPsBlvYcsLaT6ayoNas=
+Content-Length: 411
+
+b'--afa54c147bb334e7e6d6ffd4b768243f\r\nContent-Disposition: form-data; name="file"; filename="XMZ_0.txt"\r\nContent-Type: text/plain\r\n\r\n%\n  (1255tbg)\n  (155ff)\n456.mpf\n  (1223)\nG02\n\r\n--afa54c147bb334e7e6d6ffd4b768243f\r\nContent-Disposition: form-data; name="deviceId"\r\n\r\n7429\r\n--afa54c147bb334e7e6d6ffd4b768243f\r\nContent-Disposition: form-data; name="remark"\r\n\r\n\xe8\x87\xaa\xe5\x8a\xa8\xe5\x8c\x96\xe5\xa4\x87\xe6\xb3\xa8\r\n--afa54c147bb334e7e6d6ffd4b768243f--\r\n'

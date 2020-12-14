@@ -1,0 +1,193 @@
+{
+  "uid" : "b69d97804f9e537a",
+  "name" : "test_history_list",
+  "fullName" : "test_DNC.Test_device_ml#test_history_list",
+  "historyId" : "0f56d0c2162c7502aae48abcefaebadc",
+  "time" : {
+    "start" : 1600413551934,
+    "stop" : 1600413552390,
+    "duration" : 456
+  },
+  "status" : "broken",
+  "statusMessage" : "KeyError: 'data'",
+  "statusTrace" : "self = <Test_ziyun.test_DNC.Test_device_ml object at 0x000001DA207D1710>\n\n    @allure.story(\"查询历史信息\")\n    def test_history_list(self):\n        rp_resp = request.get_request(url=url + '/file/list/history',\n                                      params={'fileId': fileId, 'type': 0}, headers=head)\n        assertions.assert_code(rp_resp.status_code, 200)\n        rp_resp_json = rp_resp.json()\n>       rp_versionid = rp_resp_json['data'][0]['versionId']\nE       KeyError: 'data'\n\ntest_DNC.py:133: KeyError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "KeyError: 'data'",
+    "statusTrace" : "self = <Test_ziyun.test_DNC.Test_device_ml object at 0x000001DA207D1710>\n\n    @allure.story(\"查询历史信息\")\n    def test_history_list(self):\n        rp_resp = request.get_request(url=url + '/file/list/history',\n                                      params={'fileId': fileId, 'type': 0}, headers=head)\n        assertions.assert_code(rp_resp.status_code, 200)\n        rp_resp_json = rp_resp.json()\n>       rp_versionid = rp_resp_json['data'][0]['versionId']\nE       KeyError: 'data'\n\ntest_DNC.py:133: KeyError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c27fb266dfcc49f6",
+      "name" : "请求",
+      "source" : "c27fb266dfcc49f6.txt",
+      "type" : "text/plain",
+      "size" : 586
+    }, {
+      "uid" : "c5b6b315c70bacda",
+      "name" : "响应",
+      "source" : "c5b6b315c70bacda.txt",
+      "type" : "text/plain",
+      "size" : 276
+    }, {
+      "uid" : "8998a2d2ba601314",
+      "name" : "log",
+      "source" : "8998a2d2ba601314.txt",
+      "type" : "text/plain",
+      "size" : 1310
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "查询历史信息"
+  }, {
+    "name" : "feature",
+    "value" : "设备目录分发页、回传页接口"
+  }, {
+    "name" : "suite",
+    "value" : "test_DNC"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_device_ml"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "41740-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DNC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4f2202470e91e786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411865301,
+        "stop" : 1600411865736,
+        "duration" : 435
+      }
+    }, {
+      "uid" : "22ea1faa2883f946",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'data'",
+      "time" : {
+        "start" : 1600411750732,
+        "stop" : 1600411751167,
+        "duration" : 435
+      }
+    }, {
+      "uid" : "7a097ee56c65b5be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411447903,
+        "stop" : 1600411448330,
+        "duration" : 427
+      }
+    }, {
+      "uid" : "acf56bfdf1b8d865",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'data'",
+      "time" : {
+        "start" : 1600411290142,
+        "stop" : 1600411290569,
+        "duration" : 427
+      }
+    }, {
+      "uid" : "4f8a2fd1a912d306",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600411126028,
+        "stop" : 1600411126433,
+        "duration" : 405
+      }
+    }, {
+      "uid" : "123e9848e5c2252c",
+      "status" : "broken",
+      "statusDetails" : "KeyError: 'data'",
+      "time" : {
+        "start" : 1600410739725,
+        "stop" : 1600410740117,
+        "duration" : 392
+      }
+    }, {
+      "uid" : "464c8b84e986d39d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600410604588,
+        "stop" : 1600410604999,
+        "duration" : 411
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "748fbaa8a8a0719",
+        "reportUrl" : "http://localhost:8080/job/Allure%20Report/45/allure/#testresult/748fbaa8a8a0719",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600411865301,
+          "stop" : 1600411865736,
+          "duration" : 435
+        }
+      }, {
+        "uid" : "93b6c789006672d8",
+        "reportUrl" : "http://localhost:8080/job/Allure%20Report/43/allure/#testresult/93b6c789006672d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600411447903,
+          "stop" : 1600411448330,
+          "duration" : 427
+        }
+      }, {
+        "uid" : "58aca126bcfc71f3",
+        "reportUrl" : "http://localhost:8080/job/Allure%20Report/40/allure/#testresult/58aca126bcfc71f3",
+        "status" : "broken",
+        "statusDetails" : "KeyError: 'data'",
+        "time" : {
+          "start" : 1600410739725,
+          "stop" : 1600410740117,
+          "duration" : 392
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b69d97804f9e537a.json",
+  "parameterValues" : [ ]
+}

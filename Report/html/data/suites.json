@@ -1,0 +1,228 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_linshi",
+    "children" : [ {
+      "name" : "Test_001",
+      "children" : [ {
+        "name" : "test",
+        "uid" : "7568447507be86c4",
+        "parentUid" : "19f83abd9aa547c50c0fa0019b45d9a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600678872484,
+          "stop" : 1600678872484,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "19f83abd9aa547c50c0fa0019b45d9a7"
+    }, {
+      "name" : "test_without_any_annotations_that_wont_be_executed",
+      "uid" : "90608531f95f2a81",
+      "parentUid" : "de46fad25c45e3aed0cdcb876f3386f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600679220974,
+        "stop" : 1600679220974,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_with_epic_1",
+      "uid" : "e494b59c0f707cd5",
+      "parentUid" : "de46fad25c45e3aed0cdcb876f3386f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600679220976,
+        "stop" : 1600679220976,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_with_story_1",
+      "uid" : "8a9d2b6bbadb4e21",
+      "parentUid" : "de46fad25c45e3aed0cdcb876f3386f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600679220979,
+        "stop" : 1600679220979,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_with_story_2",
+      "uid" : "48e6c60443d63580",
+      "parentUid" : "de46fad25c45e3aed0cdcb876f3386f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600679220981,
+        "stop" : 1600679220981,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_with_story_2_and_feature_2",
+      "uid" : "4661ad8559fb1f7b",
+      "parentUid" : "de46fad25c45e3aed0cdcb876f3386f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1600679220983,
+        "stop" : 1600679220983,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "de46fad25c45e3aed0cdcb876f3386f5"
+  }, {
+    "name" : "test_DNC",
+    "children" : [ {
+      "name" : "Test_info",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "bf00f0568a3590be",
+        "parentUid" : "22e371a4030b616fc7399ecc0bb4988a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602557591733,
+          "stop" : 1602557592605,
+          "duration" : 872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "22e371a4030b616fc7399ecc0bb4988a"
+    }, {
+      "name" : "Test_device_ml",
+      "children" : [ {
+        "name" : "test_scwj",
+        "uid" : "a6e1f2f28613e13a",
+        "parentUid" : "6a12ffd63ea458cf574deb93f258c0db",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602557592610,
+          "stop" : 1602557595138,
+          "duration" : 2528
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6a12ffd63ea458cf574deb93f258c0db"
+    } ],
+    "uid" : "295204e9ea0218477e4a30df0150fa11"
+  }, {
+    "name" : "test_demo",
+    "children" : [ {
+      "name" : "Test_info",
+      "children" : [ {
+        "name" : "test_personnel[人员名称搜索]",
+        "uid" : "383da4f05f282bac",
+        "parentUid" : "e68582053a4a883351b9cd281e931649",
+        "status" : "failed",
+        "time" : {
+          "start" : 1603682237054,
+          "stop" : 1603682237424,
+          "duration" : 370
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'/dnc/file/blurry/user'", "''", "''", "'get'", "''", "'Success'", "''" ]
+      }, {
+        "name" : "test_login",
+        "uid" : "b8ec70900dbd04b1",
+        "parentUid" : "e68582053a4a883351b9cd281e931649",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604977306151,
+          "stop" : 1604977306766,
+          "duration" : 615
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_personnel[人员名称搜索0]",
+        "uid" : "9cd49e39370507d8",
+        "parentUid" : "e68582053a4a883351b9cd281e931649",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604977306769,
+          "stop" : 1604977307214,
+          "duration" : 445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
+      }, {
+        "name" : "test_personnel[上传文件前的校验]",
+        "uid" : "fe804bbdea789560",
+        "parentUid" : "e68582053a4a883351b9cd281e931649",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604977307223,
+          "stop" : 1604977307618,
+          "duration" : 395
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"]}'", "''", "'post'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
+      }, {
+        "name" : "test_personnel[修改备注]",
+        "uid" : "f92d0c6e038fdb46",
+        "parentUid" : "e68582053a4a883351b9cd281e931649",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604977307626,
+          "stop" : 1604977308131,
+          "duration" : 505
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'/dnc/file/edit/remark'", "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
+      }, {
+        "name" : "test_personnel[人员名称搜索1]",
+        "uid" : "bcec6fe12d852078",
+        "parentUid" : "e68582053a4a883351b9cd281e931649",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604977308139,
+          "stop" : 1604977308524,
+          "duration" : 385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
+      }, {
+        "name" : "test_personnel[上传文件]",
+        "uid" : "afb044cb75a33ccc",
+        "parentUid" : "e68582053a4a883351b9cd281e931649",
+        "status" : "passed",
+        "time" : {
+          "start" : 1604977308532,
+          "stop" : 1604977309378,
+          "duration" : 846
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'/dnc/file/upload'", "'deviceId:7429,remark:自动化备注,type:0'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
+      } ],
+      "uid" : "e68582053a4a883351b9cd281e931649"
+    } ],
+    "uid" : "e11bc6392381ef1d825bd019b9e8cfa7"
+  } ]
+}

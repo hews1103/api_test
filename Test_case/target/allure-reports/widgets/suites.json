@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "295204e9ea0218477e4a30df0150fa11",
+    "name" : "test_DNC",
+    "statistic" : {
+      "failed" : 7,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 11,
+      "unknown" : 0,
+      "total" : 21
+    }
+  }, {
+    "uid" : "e11bc6392381ef1d825bd019b9e8cfa7",
+    "name" : "test_demo",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 5
+    }
+  } ]
+}

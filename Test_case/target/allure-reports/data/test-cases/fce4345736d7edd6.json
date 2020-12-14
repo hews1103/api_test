@@ -1,0 +1,94 @@
+{
+  "uid" : "fce4345736d7edd6",
+  "name" : "test_personnel[设备名称为空]",
+  "fullName" : "test_DNC.Test_device_ml#test_personnel",
+  "historyId" : "96da4e7ef3b15f0f689b5ca60eff2e89",
+  "time" : {
+    "start" : 1600411128711,
+    "stop" : 1600411129132,
+    "duration" : 421
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c777bcc64209b231",
+      "name" : "请求",
+      "source" : "c777bcc64209b231.txt",
+      "type" : "text/plain",
+      "size" : 610
+    }, {
+      "uid" : "e7684c05e816d8f3",
+      "name" : "响应",
+      "source" : "e7684c05e816d8f3.txt",
+      "type" : "text/plain",
+      "size" : 275
+    }, {
+      "uid" : "7d8e04d3421fbb20",
+      "name" : "log",
+      "source" : "7d8e04d3421fbb20.txt",
+      "type" : "text/plain",
+      "size" : 4475
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "人员名称搜索"
+  }, {
+    "name" : "feature",
+    "value" : "设备目录分发页、回传页接口"
+  }, {
+    "name" : "suite",
+    "value" : "test_DNC"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_device_ml"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-FIOLAUQ"
+  }, {
+    "name" : "thread",
+    "value" : "43096-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_DNC"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "device",
+    "value" : "''"
+  }, {
+    "name" : "msg",
+    "value" : "'deviceId不能为空'"
+  }, {
+    "name" : "name",
+    "value" : "'王富贵'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fce4345736d7edd6.json",
+  "parameterValues" : [ "''", "'deviceId不能为空'", "'王富贵'" ]
+}

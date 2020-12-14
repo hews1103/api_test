@@ -1,0 +1,11 @@
+---------------响应----------------
+200
+Server: nginx/1.16.1
+Date: Mon, 26 Oct 2020 02:48:09 GMT
+Content-Type: application/json
+Content-Length: 93
+Connection: keep-alive
+X-Frame-Options: ALLOWALL
+Access-Control-Allow-Origin: *
+
+{"code":200,"message":"Success","data":[{"userName":"王富贵","creatBy":"ZY000374215941"}]}
