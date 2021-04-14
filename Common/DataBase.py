@@ -1,7 +1,7 @@
 import pymysql.cursors
 import sys
 
-def mysql_select(db, sql, attribute):
+def mysql_select_attr(db, sql, attribute):
     '''
     通过sql中的某个字段取值
     :param db:
@@ -33,7 +33,7 @@ def mysql_select(db, sql, attribute):
         print("ERROR!!!\n执行sql失败，将自动关闭数据库连接。\t错误信息为：{}".format(e))
         sys.exit()
 
-def mysql_select_hg(db, sql):
+def mysql_select(db, sql):
     '''
     在sql中标明字段取值
     :param db:

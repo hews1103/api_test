@@ -411,3 +411,17 @@
 #     else:
 #         print(s)
 
+# from Common import DataBase
+# a = DataBase.mysql_select('ziyun-iot',
+#                       'SELECT * FROM `t_org_route` WHERE org_hierarchy_code = "5f8a593372024fc2b7aa900918b18f3a";')
+#
+# print(a['route_port'])
+
+
+# while True:
+#     a=int(input("请输入"))
+#
+#     print('percent:{:.2%}'.format(a/855))
+
+
+print(len('65432111111111111111'))

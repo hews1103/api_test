@@ -1,85 +1,19 @@
 {
-  "total" : 9,
+  "total" : 2,
   "items" : [ {
-    "uid" : "81ee15f4b74eb74ec2baf771a02ea883",
-    "name" : "回归测试",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "ff1333fbd22765785c5d7eb2a301371e",
-    "name" : "linshi_01",
+    "uid" : "821114cfe6c562f9f9d5f592b96e2609",
+    "name" : "Tmore接口-iots",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 1
+      "total" : 15
     }
   }, {
-    "uid" : "a207e64c185abe3ce96dc983bc7d055a",
-    "name" : "epic_1",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "26534e8388c3fa9e4b02ed0970520072",
-    "name" : "story_1",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "6a9ccce4b70bf8cb3fe1d22166f165fa",
-    "name" : "story_2",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "3c41166215608b95997e5bff069ffd15",
-    "name" : "feature_2",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "80c5fe3413fb5950646ac1a6e9c24dd8",
-    "name" : "获取potal端登录用户信息",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "54d4f3894569c2dc1989e79d2d04956f",
-    "name" : "设备目录分发页、回传页接口",
+    "uid" : "e604559b912efe07226e738e962a5635",
+    "name" : "获取token",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

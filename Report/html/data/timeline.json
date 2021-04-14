@@ -4,1876 +4,1928 @@
   "children" : [ {
     "name" : "DESKTOP-FIOLAUQ",
     "children" : [ {
-      "name" : "35836-MainThread",
+      "name" : "32524-MainThread",
       "children" : [ {
-        "name" : "test_personnel[人员名称搜索0]",
-        "uid" : "3c367fb06327d4c6",
-        "parentUid" : "17f3218841ea8c724673146dc522371f",
+        "name" : "test_del_ly[路由id不存在]",
+        "uid" : "92c6052a0b618f4c",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
         "status" : "passed",
         "time" : {
-          "start" : 1603679920263,
-          "stop" : 1603679920776,
-          "duration" : 513
+          "start" : 1617096988495,
+          "stop" : 1617096988533,
+          "duration" : 38
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
+        "parameters" : [ "999.0", "'删除失败【企业路由数据不存在】'" ]
       }, {
-        "name" : "test_personnel[人员名称搜索1]",
-        "uid" : "10a524326b659f18",
-        "parentUid" : "17f3218841ea8c724673146dc522371f",
+        "name" : "test_cslj[数据库类型为空]",
+        "uid" : "d9fb131caf0d71a0",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
         "status" : "passed",
         "time" : {
-          "start" : 1603679922606,
-          "stop" : 1603679923056,
-          "duration" : 450
+          "start" : 1617096894690,
+          "stop" : 1617096894700,
+          "duration" : 10
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'routeTarget必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "''", "'test02'", "''" ]
       }, {
-        "name" : "test_personnel[修改备注]",
-        "uid" : "f0240b76f9d8a7e7",
-        "parentUid" : "17f3218841ea8c724673146dc522371f",
+        "name" : "test_bjly[库名为空]",
+        "uid" : "76cd4029a4e673a7",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
         "status" : "passed",
         "time" : {
-          "start" : 1603679921211,
-          "stop" : 1603679922597,
-          "duration" : 1386
+          "start" : 1617096987924,
+          "stop" : 1617096988015,
+          "duration" : 91
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/edit/remark'", "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
+        "parameters" : [ "''", "'5f8a593372024fc2b7aa900918b18f3a'", "'库名{databaseName}必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
       }, {
-        "name" : "test_login",
-        "uid" : "867e58183cc81a18",
-        "parentUid" : "17f3218841ea8c724673146dc522371f",
+        "name" : "test_xjly[正常]",
+        "uid" : "8f9ecbee90b03dee",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
         "status" : "passed",
         "time" : {
-          "start" : 1603679919468,
-          "stop" : 1603679920259,
-          "duration" : 791
+          "start" : 1617096955892,
+          "stop" : 1617096955970,
+          "duration" : 78
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ ]
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
       }, {
-        "name" : "test_personnel[上传文件前的校验]",
-        "uid" : "7cf48ba15476ad42",
-        "parentUid" : "17f3218841ea8c724673146dc522371f",
+        "name" : "test_ckly[路由id格式错误]",
+        "uid" : "c32c1541dc049a37",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
         "status" : "passed",
         "time" : {
-          "start" : 1603679920784,
-          "stop" : 1603679921203,
-          "duration" : 419
+          "start" : 1617096988155,
+          "stop" : 1617096988172,
+          "duration" : 17
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"]}'", "''", "'post'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
+        "parameters" : [ "'参数类型错误！'", "-99.0" ]
       }, {
-        "name" : "test_personnel[上传文件]",
-        "uid" : "f2d7bfb4a816f18",
-        "parentUid" : "17f3218841ea8c724673146dc522371f",
+        "name" : "test_bjly[端口号错误]",
+        "uid" : "3be09bb7cb937248",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
         "status" : "passed",
         "time" : {
-          "start" : 1603679923066,
-          "stop" : 1603679924206,
-          "duration" : 1140
+          "start" : 1617096956647,
+          "stop" : 1617096986840,
+          "duration" : 30193
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload'", "'deviceId:7429,remark:自动化备注'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
-      } ],
-      "uid" : "17f3218841ea8c724673146dc522371f"
-    }, {
-      "name" : "44176-MainThread",
-      "children" : [ {
-        "name" : "test_personnel[上传文件]",
-        "uid" : "1a7495d34856d8e",
-        "parentUid" : "ad113ba03fd786fb5e86013fc625efb1",
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'不需用户认证的测试连接失败！'", "''", "'192.168.0.175'", "999.0", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_cslj[带用户名和密码，错误的端口]",
+        "uid" : "487d5158b1ed9d02",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
         "status" : "failed",
         "time" : {
-          "start" : 1604480288499,
-          "stop" : 1604480289867,
-          "duration" : 1368
+          "start" : 1617096894859,
+          "stop" : 1617096925421,
+          "duration" : 30562
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload'", "'deviceId:7429,remark:自动化备注'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
+        "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'用户认证的测试连接失败,请检查账号、密码、数据库！'", "'XnkBvofJqApVNNox96st6nwHjupZu4lJc/aACN/OKT38bwvW2mAHWdCYTX9hHLJiVOjYng=='", "'192.168.0.175'", "99999.0", "'mongo'", "'test'", "'pass'" ]
       }, {
-        "name" : "test_personnel[上传文件前的校验]",
-        "uid" : "f364149cc4520427",
-        "parentUid" : "ad113ba03fd786fb5e86013fc625efb1",
+        "name" : "test_del_ly1",
+        "uid" : "4ac92ca6246ae2fb",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
         "status" : "passed",
         "time" : {
-          "start" : 1604480286108,
-          "stop" : 1604480286690,
-          "duration" : 582
+          "start" : 1617096988291,
+          "stop" : 1617096988424,
+          "duration" : 133
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"]}'", "''", "'post'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
+        "parameters" : [ ]
       }, {
-        "name" : "test_personnel[修改备注]",
-        "uid" : "d3c8e56bcc981a38",
-        "parentUid" : "ad113ba03fd786fb5e86013fc625efb1",
+        "name" : "test_cxly[正常]",
+        "uid" : "ec3fa970fa7f7eb1",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
         "status" : "passed",
         "time" : {
-          "start" : 1604480286703,
-          "stop" : 1604480287412,
-          "duration" : 709
+          "start" : 1617096955977,
+          "stop" : 1617096956054,
+          "duration" : 77
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/edit/remark'", "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
+        "parameters" : [ "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "1.0", "10.0" ]
       }, {
-        "name" : "test_personnel[人员名称搜索0]",
-        "uid" : "698059f65b484332",
-        "parentUid" : "ad113ba03fd786fb5e86013fc625efb1",
+        "name" : "test_cslj[只输入密码]",
+        "uid" : "601df09acd073978",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096894759,
+          "stop" : 1617096894795,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'密码传入时，用户名必填'", "'XnkBvofJqApVNNox96st6nwHjupZu4lJc/aACN/OKT38bwvW2mAHWdCYTX9hHLJiVOjYng=='", "'192.168.0.175'", "27117.0", "'mongo'", "'test'", "''" ]
+      }, {
+        "name" : "test_bjly[表名不存在]",
+        "uid" : "c373f2f1d5ad84a3",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
         "status" : "failed",
         "time" : {
-          "start" : 1604480285591,
-          "stop" : 1604480286044,
-          "duration" : 453
+          "start" : 1617096987352,
+          "stop" : 1617096987559,
+          "duration" : 207
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "''", "''", "'get'", "''", "'Success'", "''" ]
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'不存在表名！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test031'", "''" ]
       }, {
-        "name" : "test_login",
-        "uid" : "4010825e17236c2",
-        "parentUid" : "ad113ba03fd786fb5e86013fc625efb1",
+        "name" : "test_cxly[h_code为空]",
+        "uid" : "b3b3a7b01a54b223",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
         "status" : "passed",
         "time" : {
-          "start" : 1604480284736,
-          "stop" : 1604480285585,
-          "duration" : 849
+          "start" : 1617096956091,
+          "stop" : 1617096956236,
+          "duration" : 145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'Success'", "1.0", "10.0" ]
+      }, {
+        "name" : "test_bjly[正常]",
+        "uid" : "df5bea7e38d3dac1",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096956411,
+          "stop" : 1617096956639,
+          "duration" : 228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_cxly[pageSize为空]",
+        "uid" : "7d861299ffaff5da",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096956059,
+          "stop" : 1617096956070,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'5f8a593372024fc2b7aa900918b18f3a'", "'pageSize必须'", "1.0", "''" ]
+      }, {
+        "name" : "test_bjly[修改企业]",
+        "uid" : "d594e5fda7822a42",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096986849,
+          "stop" : 1617096986979,
+          "duration" : 130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'d71a216267ee44ec8112b6d0ef78ed69'", "'企业路由:所属企业和路由目标不可修改！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_cxly[不存在的h_code]",
+        "uid" : "febc46c84386d986",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096956241,
+          "stop" : 1617096956273,
+          "duration" : 32
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "11.0", "'Success'", "1.0", "10.0" ]
+      }, {
+        "name" : "test_zhgz_del[正常]",
+        "uid" : "98f9c8eb1d70ebc3",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096988986,
+          "stop" : 1617096989109,
+          "duration" : 123
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'a7dAceBXjKZOEfiFpx'", "'Success'" ]
+      }, {
+        "name" : "test_cslj[不带账户密码，错误的h_code]",
+        "uid" : "9ab6a28ff9661367",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096955650,
+          "stop" : 1617096955701,
+          "duration" : 51
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3b'", "'查询无企业信息或企业已被禁用'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_bjly_1",
+        "uid" : "23ceb5d96a0fd0bc",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096988119,
+          "stop" : 1617096988153,
+          "duration" : 34
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_personnel[人员名称搜索1]",
-        "uid" : "1d5feec6676270d2",
-        "parentUid" : "ad113ba03fd786fb5e86013fc625efb1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1604480287427,
-          "stop" : 1604480288487,
-          "duration" : 1060
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      } ],
-      "uid" : "ad113ba03fd786fb5e86013fc625efb1"
-    }, {
-      "name" : "25748-MainThread",
-      "children" : [ {
         "name" : "test_login",
-        "uid" : "ae6fea88e0fd6c18",
-        "parentUid" : "6ead41d1b0c0a12a2db5654da3dc9636",
+        "uid" : "4419f10e489d8e9b",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
         "status" : "passed",
         "time" : {
-          "start" : 1603681575708,
-          "stop" : 1603681576315,
-          "duration" : 607
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_personnel[人员名称搜索]",
-        "uid" : "76eac617fa99383e",
-        "parentUid" : "6ead41d1b0c0a12a2db5654da3dc9636",
-        "status" : "broken",
-        "time" : {
-          "start" : 1603681576321,
-          "stop" : 1603681576685,
+          "start" : 1617096893575,
+          "stop" : 1617096893939,
           "duration" : 364
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
-      } ],
-      "uid" : "6ead41d1b0c0a12a2db5654da3dc9636"
-    }, {
-      "name" : "17580-MainThread",
-      "children" : [ {
-        "name" : "test_personnel[修改备注]",
-        "uid" : "f22e32946255cea1",
-        "parentUid" : "75628fbafa27367741ff48a61c7214ac",
-        "status" : "passed",
-        "time" : {
-          "start" : 1604480798909,
-          "stop" : 1604480799693,
-          "duration" : 784
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/edit/remark'", "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
-      }, {
-        "name" : "test_personnel[人员名称搜索0]",
-        "uid" : "ed75918a3967b437",
-        "parentUid" : "75628fbafa27367741ff48a61c7214ac",
-        "status" : "passed",
-        "time" : {
-          "start" : 1604480797747,
-          "stop" : 1604480798267,
-          "duration" : 520
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_login",
-        "uid" : "6f2f6996fd9a2e44",
-        "parentUid" : "75628fbafa27367741ff48a61c7214ac",
-        "status" : "passed",
-        "time" : {
-          "start" : 1604480796952,
-          "stop" : 1604480797743,
-          "duration" : 791
-        },
-        "flaky" : false,
-        "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_personnel[上传文件]",
-        "uid" : "97a4bbf23f69f2e0",
-        "parentUid" : "75628fbafa27367741ff48a61c7214ac",
-        "status" : "passed",
-        "time" : {
-          "start" : 1604480800744,
-          "stop" : 1604480802402,
-          "duration" : 1658
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload'", "'deviceId:7429,remark:自动化备注,type:0'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_personnel[人员名称搜索1]",
-        "uid" : "5cdd55e43abb75e6",
-        "parentUid" : "75628fbafa27367741ff48a61c7214ac",
-        "status" : "passed",
-        "time" : {
-          "start" : 1604480799705,
-          "stop" : 1604480800734,
-          "duration" : 1029
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      }, {
-        "name" : "test_personnel[上传文件前的校验]",
-        "uid" : "17cfa9439ecbc41a",
-        "parentUid" : "75628fbafa27367741ff48a61c7214ac",
-        "status" : "passed",
-        "time" : {
-          "start" : 1604480798280,
-          "stop" : 1604480798894,
-          "duration" : 614
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"]}'", "''", "'post'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      } ],
-      "uid" : "75628fbafa27367741ff48a61c7214ac"
-    }, {
-      "name" : "36096-MainThread",
-      "children" : [ {
-        "name" : "test_personnel[修改备注]",
-        "uid" : "57818d4bd99f68d",
-        "parentUid" : "30cad9a88be8384248be598464e40b59",
+        "name" : "test_cslj[不带账户密码，错误的数据库表名]",
+        "uid" : "8af5c048aacbf2ce",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
         "status" : "failed",
         "time" : {
-          "start" : 1603680663210,
-          "stop" : 1603680663563,
-          "duration" : 353
+          "start" : 1617096955797,
+          "stop" : 1617096955877,
+          "duration" : 80
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/edit/remark'", "'{}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'不存在表名！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test022'", "''" ]
       }, {
-        "name" : "test_personnel[人员名称搜索1]",
-        "uid" : "9d7d6184c77ae777",
-        "parentUid" : "30cad9a88be8384248be598464e40b59",
+        "name" : "test_bjly_iotdel[正常]",
+        "uid" : "a9d8df9a1e11362b",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
         "status" : "passed",
         "time" : {
-          "start" : 1603680663615,
-          "stop" : 1603680664056,
-          "duration" : 441
+          "start" : 1617096988205,
+          "stop" : 1617096988282,
+          "duration" : 77
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
       }, {
-        "name" : "test_personnel[人员名称搜索0]",
-        "uid" : "1d12e18aa3dba9d6",
-        "parentUid" : "30cad9a88be8384248be598464e40b59",
+        "name" : "test_del_ly[数据id为空格]",
+        "uid" : "46db5b552dcabdad",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
         "status" : "passed",
         "time" : {
-          "start" : 1603680662418,
-          "stop" : 1603680662796,
-          "duration" : 378
+          "start" : 1617096988536,
+          "stop" : 1617096988574,
+          "duration" : 38
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
+        "parameters" : [ "''", "'删除失败'" ]
       }, {
-        "name" : "test_personnel[上传文件前的校验]",
-        "uid" : "4a3d5ab723e94312",
-        "parentUid" : "30cad9a88be8384248be598464e40b59",
+        "name" : "test_data_ly",
+        "uid" : "d57f124e9e83db57",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
         "status" : "passed",
         "time" : {
-          "start" : 1603680662805,
-          "stop" : 1603680663201,
-          "duration" : 396
+          "start" : 1617096956314,
+          "stop" : 1617096956407,
+          "duration" : 93
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"]}'", "''", "'post'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
+        "parameters" : [ ]
+      }, {
+        "name" : "test_bjly[数据库类型不存在]",
+        "uid" : "37d9eaeac6a6fa40",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096986990,
+          "stop" : 1617096987103,
+          "duration" : 113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'路由目标目前只能连接- mongo！'", "''", "'192.168.0.175'", "27117.0", "'mongo1'", "'test03'", "''" ]
+      }, {
+        "name" : "test_cslj[h_code为空]",
+        "uid" : "72e403f48d1b38fe",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096894657,
+          "stop" : 1617096894682,
+          "duration" : 25
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "''", "'hierarchyCode必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_ckly[路由id不存在]",
+        "uid" : "c6ddb1718440f4a9",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096988177,
+          "stop" : 1617096988185,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'参数类型错误！'", "9999.0" ]
+      }, {
+        "name" : "test_cxly[pageNum为空]",
+        "uid" : "4aeac0857890d07",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096956076,
+          "stop" : 1617096956086,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'5f8a593372024fc2b7aa900918b18f3a'", "'pageNum必须'", "''", "10.0" ]
+      }, {
+        "name" : "test_cslj[不带账户密码，错误的端口]",
+        "uid" : "7ba92b504f2bce72",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096925561,
+          "stop" : 1617096955641,
+          "duration" : 30080
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'不需用户认证的测试连接失败！'", "''", "'192.168.0.175'", "271171.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_cslj[只输入账户名]",
+        "uid" : "e0293a1c84916d9f",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096894803,
+          "stop" : 1617096894845,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'用户名传入时，密码必填'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test'", "'pass'" ]
+      }, {
+        "name" : "test_cxly[大页码和条数]",
+        "uid" : "dec14072c62d68e6",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096956278,
+          "stop" : 1617096956309,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "999.0", "999.0" ]
+      }, {
+        "name" : "test_cslj[不带账户密码]",
+        "uid" : "e7ed497f7ba3417e",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096893972,
+          "stop" : 1617096894060,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_cslj[带用户名和密码，错误的密码]",
+        "uid" : "292c70fcd11ea6fe",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096925471,
+          "stop" : 1617096925553,
+          "duration" : 82
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'对node传入的密码解密失败'", "'1XnkBvofJqApVNNox96st6nwHjupZu4lJc/aACN/OKT38bwvW2mAHWdCYTX9hHLJiVOjYng=='", "'192.168.0.175'", "27117.0", "'mongo'", "'test'", "'pass'" ]
+      }, {
+        "name" : "test_bjly[表名为空]",
+        "uid" : "7328d9a777126736",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096988027,
+          "stop" : 1617096988112,
+          "duration" : 85
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'表名{tableName}必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "''", "''" ]
+      }, {
+        "name" : "test_del_ly[路由id格式错误]",
+        "uid" : "2d3f21fcd26cf7f2",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096988428,
+          "stop" : 1617096988491,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "-999.0", "'删除失败【企业路由数据不存在】'" ]
+      }, {
+        "name" : "test_bjly[数据库不存在]",
+        "uid" : "babc60519cdb4364",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617096987110,
+          "stop" : 1617096987336,
+          "duration" : 226
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot1'", "'5f8a593372024fc2b7aa900918b18f3a'", "'不存在库名！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_cslj[数据库库名为空]",
+        "uid" : "1bd1953a7ff2ccc6",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096894725,
+          "stop" : 1617096894734,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'5f8a593372024fc2b7aa900918b18f3a'", "'databaseName必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_cslj[数据库表名为空]",
+        "uid" : "240ee7d3d9b668b4",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096894742,
+          "stop" : 1617096894752,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'tableName必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "''", "''" ]
+      }, {
+        "name" : "test_bjly[端口为空]",
+        "uid" : "4a91f30c7ddce7b6",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096987574,
+          "stop" : 1617096987675,
+          "duration" : 101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'routePort必填'", "''", "'192.168.0.175'", "''", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_cslj[输入账户密码]",
+        "uid" : "f47c32ab474e97f5",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096894068,
+          "stop" : 1617096894649,
+          "duration" : 581
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "'XnkBvofJqApVNNox96st6nwHjupZu4lJc/aACN/OKT38bwvW2mAHWdCYTX9hHLJiVOjYng=='", "'192.168.0.175'", "27117.0", "'mongo'", "'test'", "'pass'" ]
+      }, {
+        "name" : "test_zhgz_glcx[正常]",
+        "uid" : "655809f3dfcb9b57",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096988727,
+          "stop" : 1617096988855,
+          "duration" : 128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1054.0", "'a7dAceBXjKZOEfiFpx'", "'Success'", "'relate'" ]
+      }, {
+        "name" : "test_zhgz_xj[正常]",
+        "uid" : "92c1d685f73e55b0",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096988578,
+          "stop" : 1617096988716,
+          "duration" : 138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'a7dAceBXjKZOEfiFpx'", "'Python'", "'Success'", "'测试数据'", "'test_ws自动化流程'", "1.0", "'test_python'", "'import json\ndataJson = json.loads(payload['data'])\ndataJson['Test_code'] = 101\nresult = {'dataType' : 'Object', 'data' : dataJson}\npayload['result']=json.dumps(result)'", "0.0", "'{}'", "0.0" ]
+      }, {
+        "name" : "test_bjly[h_code为空]",
+        "uid" : "4750787e08678d9e",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096987683,
+          "stop" : 1617096987774,
+          "duration" : 91
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "''", "'hierarchyCode必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_sjjy",
+        "uid" : "7d186decf6e84ff0",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096893941,
+          "stop" : 1617096893969,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_bjly[ip为空]",
+        "uid" : "f54f9f997a39edf9",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096987783,
+          "stop" : 1617096987915,
+          "duration" : 132
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'路由ip{routeAddress}必填，不能为空！'", "''", "''", "27117.0", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_zhgz_xg[正常]",
+        "uid" : "d5a5c2dc0529d099",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096988860,
+          "stop" : 1617096988982,
+          "duration" : 122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'a7dAceBXjKZOEfiFpx'", "'Success'", "'测试数据'", "'test_ws自动化流程-修改'" ]
+      }, {
+        "name" : "test_cslj[数据库地址为空]",
+        "uid" : "e3933a2425eb0c1f",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096894708,
+          "stop" : 1617096894717,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'routeAddress必填，不能为空！'", "''", "''", "27117.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_cslj[不带账户密码，错误的数据库库名]",
+        "uid" : "2e30645e68eef3b3",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617096955709,
+          "stop" : 1617096955781,
+          "duration" : 72
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot1'", "'5f8a593372024fc2b7aa900918b18f3a'", "'不存在库名！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_ckly[数据id为空格]",
+        "uid" : "b6a7df25e94be251",
+        "parentUid" : "a034ceeb28faa4263605ff5c43279d62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617096988192,
+          "stop" : 1617096988201,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'企业路由主键id不能为空'", "''" ]
+      } ],
+      "uid" : "a034ceeb28faa4263605ff5c43279d62"
+    }, {
+      "name" : "28012-MainThread",
+      "children" : [ {
+        "name" : "test_del_ly[路由id不存在]",
+        "uid" : "1bea0006faf622a4",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097708195,
+          "stop" : 1617097708232,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "999.0", "'删除失败【企业路由数据不存在】'" ]
+      }, {
+        "name" : "test_ckly[路由id不存在]",
+        "uid" : "a69651030d17c3ba",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097707925,
+          "stop" : 1617097707934,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'参数类型错误！'", "9999.0" ]
+      }, {
+        "name" : "test_xjly[正常]",
+        "uid" : "2e4504e2909ac76b",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097675660,
+          "stop" : 1617097675751,
+          "duration" : 91
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_cslj[数据库类型为空]",
+        "uid" : "efaea44186c92d98",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097614498,
+          "stop" : 1617097614507,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'routeTarget必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "''", "'test02'", "''" ]
+      }, {
+        "name" : "test_bjly[数据库类型不存在]",
+        "uid" : "2cef179bcafba468",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097706821,
+          "stop" : 1617097706912,
+          "duration" : 91
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'路由目标目前只能连接- mongo！'", "''", "'192.168.0.175'", "27117.0", "'mongo1'", "'test03'", "''" ]
+      }, {
+        "name" : "test_cslj[不带账户密码，错误的h_code]",
+        "uid" : "3a809077db02efcc",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097675424,
+          "stop" : 1617097675477,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3b'", "'查询无企业信息或企业已被禁用'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_zhgz_xj[正常]",
+        "uid" : "258367319efbe217",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097708275,
+          "stop" : 1617097708416,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'a7dAceBXjKZOEfiFpx'", "'Python'", "'Success'", "'测试数据'", "'test_ws自动化流程'", "1.0", "'test_python'", "'import json\ndataJson = json.loads(payload['data'])\ndataJson['Test_code'] = 101\nresult = {'dataType' : 'Object', 'data' : dataJson}\npayload['result']=json.dumps(result)'", "0.0", "'{}'", "0.0" ]
+      }, {
+        "name" : "test_cslj[只输入账户名]",
+        "uid" : "fc31902cd4649298",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097614609,
+          "stop" : 1617097614640,
+          "duration" : 31
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'用户名传入时，密码必填'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test'", "'pass'" ]
+      }, {
+        "name" : "test_del_ly[路由id格式错误]",
+        "uid" : "61a42edcc6989c2f",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097708156,
+          "stop" : 1617097708191,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "-999.0", "'删除失败【企业路由数据不存在】'" ]
+      }, {
+        "name" : "test_del_ly[数据id为空格]",
+        "uid" : "5d17855b56d7c6a7",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097708236,
+          "stop" : 1617097708271,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'删除失败'" ]
+      }, {
+        "name" : "test_cslj[不带账户密码，错误的数据库表名]",
+        "uid" : "5b7fd70112831485",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097675575,
+          "stop" : 1617097675652,
+          "duration" : 77
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test022'", "''" ]
+      }, {
+        "name" : "test_cslj[不带账户密码，错误的端口]",
+        "uid" : "12b7a325893cac37",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097645337,
+          "stop" : 1617097675416,
+          "duration" : 30079
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'不需用户认证的测试连接失败！'", "''", "'192.168.0.175'", "271171.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_bjly[端口号错误]",
+        "uid" : "f63989f7bbc83105",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097676441,
+          "stop" : 1617097706674,
+          "duration" : 30233
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'不需用户认证的测试连接失败！'", "''", "'192.168.0.175'", "999.0", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_cxly[正常]",
+        "uid" : "c0cc44e709a9d4a3",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097675759,
+          "stop" : 1617097675842,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "1.0", "10.0" ]
+      }, {
+        "name" : "test_del_ly1",
+        "uid" : "303d88558ec0e85f",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097708031,
+          "stop" : 1617097708154,
+          "duration" : 123
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_cslj[数据库地址为空]",
+        "uid" : "1a574016ccee656b",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097614515,
+          "stop" : 1617097614524,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'routeAddress必填，不能为空！'", "''", "''", "27117.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_cxly[h_code为空]",
+        "uid" : "15ff17b7a5e9ef6e",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097675880,
+          "stop" : 1617097676022,
+          "duration" : 142
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'Success'", "1.0", "10.0" ]
+      }, {
+        "name" : "test_bjly[正常]",
+        "uid" : "5fbf4292dc67cd4a",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097676196,
+          "stop" : 1617097676430,
+          "duration" : 234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_bjly[端口为空]",
+        "uid" : "5fdabe34e656fd9c",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097707362,
+          "stop" : 1617097707469,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'routePort必填'", "''", "'192.168.0.175'", "''", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_cslj[数据库表名为空]",
+        "uid" : "dc47d8790d1f4068",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097614549,
+          "stop" : 1617097614558,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'tableName必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "''", "''" ]
+      }, {
+        "name" : "test_ckly[路由id格式错误]",
+        "uid" : "606d14b9bd8b344c",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097707912,
+          "stop" : 1617097707921,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'参数类型错误！'", "-99.0" ]
+      }, {
+        "name" : "test_bjly[表名不存在]",
+        "uid" : "fc39af80696fef5c",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097707150,
+          "stop" : 1617097707352,
+          "duration" : 202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test031'", "''" ]
+      }, {
+        "name" : "test_bjly_iotdel[正常]",
+        "uid" : "c8e410cdfeb6d476",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097707950,
+          "stop" : 1617097708022,
+          "duration" : 72
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_cslj[带用户名和密码，错误的密码]",
+        "uid" : "c8eaaac28fb04c7a",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097645225,
+          "stop" : 1617097645329,
+          "duration" : 104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'对node传入的密码解密失败'", "'1XnkBvofJqApVNNox96st6nwHjupZu4lJc/aACN/OKT38bwvW2mAHWdCYTX9hHLJiVOjYng=='", "'192.168.0.175'", "27117.0", "'mongo'", "'test'", "'pass'" ]
+      }, {
+        "name" : "test_bjly[ip为空]",
+        "uid" : "d6a766dcd0d56e29",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097707576,
+          "stop" : 1617097707661,
+          "duration" : 85
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'路由ip{routeAddress}必填，不能为空！'", "''", "''", "27117.0", "'mongo'", "'test03'", "''" ]
       }, {
         "name" : "test_login",
-        "uid" : "f9d854935e8278c0",
-        "parentUid" : "30cad9a88be8384248be598464e40b59",
+        "uid" : "480a7e43bea7d64b",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
         "status" : "passed",
         "time" : {
-          "start" : 1603680661644,
-          "stop" : 1603680662412,
-          "duration" : 768
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_personnel[上传文件]",
-        "uid" : "2d70fb574781e55c",
-        "parentUid" : "30cad9a88be8384248be598464e40b59",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680664067,
-          "stop" : 1603680665141,
-          "duration" : 1074
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload'", "'deviceId:7429,remark:自动化备注'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
-      } ],
-      "uid" : "30cad9a88be8384248be598464e40b59"
-    }, {
-      "name" : "20664-MainThread",
-      "children" : [ {
-        "name" : "test_personnel[人员名称搜索]",
-        "uid" : "ff55beb875a561e3",
-        "parentUid" : "02659a371cf718c060e14f4d217b35c1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603681666987,
-          "stop" : 1603681667391,
-          "duration" : 404
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_login",
-        "uid" : "ad713209e10873f4",
-        "parentUid" : "02659a371cf718c060e14f4d217b35c1",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603681666309,
-          "stop" : 1603681666983,
-          "duration" : 674
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "02659a371cf718c060e14f4d217b35c1"
-    }, {
-      "name" : "14552-MainThread",
-      "children" : [ {
-        "name" : "test_with_story_2_and_feature_2",
-        "uid" : "4661ad8559fb1f7b",
-        "parentUid" : "521239c875c28478fbb73bdf2445f579",
-        "status" : "passed",
-        "time" : {
-          "start" : 1600679220983,
-          "stop" : 1600679220983,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_with_story_2",
-        "uid" : "48e6c60443d63580",
-        "parentUid" : "521239c875c28478fbb73bdf2445f579",
-        "status" : "passed",
-        "time" : {
-          "start" : 1600679220981,
-          "stop" : 1600679220981,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_with_story_1",
-        "uid" : "8a9d2b6bbadb4e21",
-        "parentUid" : "521239c875c28478fbb73bdf2445f579",
-        "status" : "passed",
-        "time" : {
-          "start" : 1600679220979,
-          "stop" : 1600679220979,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_without_any_annotations_that_wont_be_executed",
-        "uid" : "90608531f95f2a81",
-        "parentUid" : "521239c875c28478fbb73bdf2445f579",
-        "status" : "passed",
-        "time" : {
-          "start" : 1600679220974,
-          "stop" : 1600679220974,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_with_epic_1",
-        "uid" : "e494b59c0f707cd5",
-        "parentUid" : "521239c875c28478fbb73bdf2445f579",
-        "status" : "passed",
-        "time" : {
-          "start" : 1600679220976,
-          "stop" : 1600679220976,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "521239c875c28478fbb73bdf2445f579"
-    }, {
-      "name" : "39464-MainThread",
-      "children" : [ {
-        "name" : "test_without_any_annotations_that_wont_be_executed",
-        "uid" : "d34878be9b048709",
-        "parentUid" : "8c9bfd2fd7d9d29d88980a13ebf62308",
-        "status" : "passed",
-        "time" : {
-          "start" : 1600679042096,
-          "stop" : 1600679042096,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_with_story_1",
-        "uid" : "4a9205a002ca66b5",
-        "parentUid" : "8c9bfd2fd7d9d29d88980a13ebf62308",
-        "status" : "passed",
-        "time" : {
-          "start" : 1600679042101,
-          "stop" : 1600679042101,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_with_story_2",
-        "uid" : "378eed4c9fc5299c",
-        "parentUid" : "8c9bfd2fd7d9d29d88980a13ebf62308",
-        "status" : "passed",
-        "time" : {
-          "start" : 1600679042104,
-          "stop" : 1600679042105,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_with_story_2_and_feature_2",
-        "uid" : "ce8d06456b0f6a3e",
-        "parentUid" : "8c9bfd2fd7d9d29d88980a13ebf62308",
-        "status" : "passed",
-        "time" : {
-          "start" : 1600679042109,
-          "stop" : 1600679042109,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_with_epic_1",
-        "uid" : "a48401fada0e994",
-        "parentUid" : "8c9bfd2fd7d9d29d88980a13ebf62308",
-        "status" : "passed",
-        "time" : {
-          "start" : 1600679042098,
-          "stop" : 1600679042099,
-          "duration" : 1
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "8c9bfd2fd7d9d29d88980a13ebf62308"
-    }, {
-      "name" : "20344-MainThread",
-      "children" : [ {
-        "name" : "test_personnel[上传文件前的校验]",
-        "uid" : "cb5f12209f27f701",
-        "parentUid" : "334019a916afd97e8d89f855cae8c3ea",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680390332,
-          "stop" : 1603680390726,
+          "start" : 1617097613400,
+          "stop" : 1617097613794,
           "duration" : 394
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"]}'", "''", "'post'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
+        "parameters" : [ ]
       }, {
-        "name" : "test_personnel[修改备注]",
-        "uid" : "f5c4db412afe6a3f",
-        "parentUid" : "334019a916afd97e8d89f855cae8c3ea",
+        "name" : "test_bjly_1",
+        "uid" : "9f5a0076cf897712",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
         "status" : "passed",
         "time" : {
-          "start" : 1603680390738,
-          "stop" : 1603680391284,
-          "duration" : 546
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/edit/remark'", "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
-      }, {
-        "name" : "test_personnel[人员名称搜索0]",
-        "uid" : "84c2b8f483d43b4",
-        "parentUid" : "334019a916afd97e8d89f855cae8c3ea",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680389936,
-          "stop" : 1603680390319,
-          "duration" : 383
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_personnel[上传文件]",
-        "uid" : "514c401fcb43b1f6",
-        "parentUid" : "334019a916afd97e8d89f855cae8c3ea",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680391718,
-          "stop" : 1603680392832,
-          "duration" : 1114
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload'", "'deviceId:7429,remark:自动化备注'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_login",
-        "uid" : "3828dabbb6d0f8de",
-        "parentUid" : "334019a916afd97e8d89f855cae8c3ea",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680389205,
-          "stop" : 1603680389929,
-          "duration" : 724
+          "start" : 1617097707876,
+          "stop" : 1617097707909,
+          "duration" : 33
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_personnel[人员名称搜索1]",
-        "uid" : "1d24943952bc263a",
-        "parentUid" : "334019a916afd97e8d89f855cae8c3ea",
+        "name" : "test_ckly[数据id为空格]",
+        "uid" : "61c4a7d787a728d2",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
         "status" : "passed",
         "time" : {
-          "start" : 1603680391293,
-          "stop" : 1603680391708,
-          "duration" : 415
+          "start" : 1617097707937,
+          "stop" : 1617097707946,
+          "duration" : 9
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵1&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
+        "parameters" : [ "'企业路由主键id不能为空'", "''" ]
+      }, {
+        "name" : "test_cslj[数据库库名为空]",
+        "uid" : "6a880d5c13baeb3d",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097614532,
+          "stop" : 1617097614541,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'5f8a593372024fc2b7aa900918b18f3a'", "'databaseName必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_bjly[库名为空]",
+        "uid" : "e4edc3f016f61632",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097707670,
+          "stop" : 1617097707760,
+          "duration" : 90
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'5f8a593372024fc2b7aa900918b18f3a'", "'库名{databaseName}必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_cslj[带用户名和密码，错误的端口]",
+        "uid" : "52ae889f5748dbf",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097614648,
+          "stop" : 1617097645217,
+          "duration" : 30569
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'用户认证的测试连接失败,请检查端口、ip！'", "'XnkBvofJqApVNNox96st6nwHjupZu4lJc/aACN/OKT38bwvW2mAHWdCYTX9hHLJiVOjYng=='", "'192.168.0.175'", "99999.0", "'mongo'", "'test'", "'pass'" ]
+      }, {
+        "name" : "test_cslj[输入账户密码]",
+        "uid" : "95ba65ad254dcc5a",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097613934,
+          "stop" : 1617097614472,
+          "duration" : 538
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "'XnkBvofJqApVNNox96st6nwHjupZu4lJc/aACN/OKT38bwvW2mAHWdCYTX9hHLJiVOjYng=='", "'192.168.0.175'", "27117.0", "'mongo'", "'test'", "'pass'" ]
+      }, {
+        "name" : "test_cxly[不存在的h_code]",
+        "uid" : "610e0ca1943e1cde",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097676030,
+          "stop" : 1617097676067,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "11.0", "'Success'", "1.0", "10.0" ]
+      }, {
+        "name" : "test_bjly[数据库不存在]",
+        "uid" : "c9eb751c041e9d71",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097706921,
+          "stop" : 1617097707140,
+          "duration" : 219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot1'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_data_ly",
+        "uid" : "622fefd315ff8981",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097676113,
+          "stop" : 1617097676193,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_zhgz_del[正常]",
+        "uid" : "efd4822e0d927e91",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097708682,
+          "stop" : 1617097708810,
+          "duration" : 128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'a7dAceBXjKZOEfiFpx'", "'Success'" ]
+      }, {
+        "name" : "test_cslj[h_code为空]",
+        "uid" : "a18a90930fee58a1",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097614480,
+          "stop" : 1617097614490,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "''", "'hierarchyCode必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_bjly[表名为空]",
+        "uid" : "341c6962d6952cfd",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097707768,
+          "stop" : 1617097707866,
+          "duration" : 98
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'表名{tableName}必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "''", "''" ]
+      }, {
+        "name" : "test_sjjy",
+        "uid" : "86684e4f9dcd868d",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097613796,
+          "stop" : 1617097613838,
+          "duration" : 42
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_cslj[只输入密码]",
+        "uid" : "b5d584809aee6eed",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097614566,
+          "stop" : 1617097614601,
+          "duration" : 35
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'密码传入时，用户名必填'", "'XnkBvofJqApVNNox96st6nwHjupZu4lJc/aACN/OKT38bwvW2mAHWdCYTX9hHLJiVOjYng=='", "'192.168.0.175'", "27117.0", "'mongo'", "'test'", "''" ]
+      }, {
+        "name" : "test_cxly[pageSize为空]",
+        "uid" : "6690450afc0b1899",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097675847,
+          "stop" : 1617097675856,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'5f8a593372024fc2b7aa900918b18f3a'", "'pageSize必须'", "1.0", "''" ]
+      }, {
+        "name" : "test_bjly[修改企业]",
+        "uid" : "4664927d945d4509",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097706682,
+          "stop" : 1617097706809,
+          "duration" : 127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'d71a216267ee44ec8112b6d0ef78ed69'", "'企业路由:所属企业和路由目标不可修改！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_cxly[大页码和条数]",
+        "uid" : "7f1fb7a70764a85a",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097676074,
+          "stop" : 1617097676108,
+          "duration" : 34
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "999.0", "999.0" ]
+      }, {
+        "name" : "test_zhgz_glcx[正常]",
+        "uid" : "5cc1c626b5c30831",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097708426,
+          "stop" : 1617097708552,
+          "duration" : 126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1054.0", "'a7dAceBXjKZOEfiFpx'", "'Success'", "'relate'" ]
+      }, {
+        "name" : "test_cslj[不带账户密码]",
+        "uid" : "6f49b7b3f31cac38",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097613841,
+          "stop" : 1617097613926,
+          "duration" : 85
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_cslj[不带账户密码，错误的数据库库名]",
+        "uid" : "3c93d3de6c84c501",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097675489,
+          "stop" : 1617097675566,
+          "duration" : 77
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot1'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_bjly[h_code为空]",
+        "uid" : "c9e37ac92c078cfb",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097707478,
+          "stop" : 1617097707566,
+          "duration" : 88
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "''", "'hierarchyCode必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_zhgz_xg[正常]",
+        "uid" : "8744ea26fac00386",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097708557,
+          "stop" : 1617097708677,
+          "duration" : 120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'a7dAceBXjKZOEfiFpx'", "'Success'", "'测试数据'", "'test_ws自动化流程-修改'" ]
+      }, {
+        "name" : "test_cxly[pageNum为空]",
+        "uid" : "721b6dc91633ddd5",
+        "parentUid" : "4228d1f317ca9f7f4b66d6c46e65f86e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097675861,
+          "stop" : 1617097675873,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'5f8a593372024fc2b7aa900918b18f3a'", "'pageNum必须'", "''", "10.0" ]
       } ],
-      "uid" : "334019a916afd97e8d89f855cae8c3ea"
+      "uid" : "4228d1f317ca9f7f4b66d6c46e65f86e"
     }, {
-      "name" : "30448-MainThread",
+      "name" : "33636-MainThread",
       "children" : [ {
-        "name" : "test_personnel[修改备注]",
-        "uid" : "729768a41a400f7a",
-        "parentUid" : "016e1a3e9bace0ef5a84ba405adc54eb",
+        "name" : "test_cslj[数据库地址为空]",
+        "uid" : "687181286d3066e3",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1603680555730,
-          "stop" : 1603680556278,
-          "duration" : 548
+          "start" : 1617097407907,
+          "stop" : 1617097407916,
+          "duration" : 9
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/edit/remark'", "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'routeAddress必填，不能为空！'", "''", "''", "27117.0", "'mongo'", "'test02'", "''" ]
       }, {
-        "name" : "test_login",
-        "uid" : "e9ada7773ba05c1e",
-        "parentUid" : "016e1a3e9bace0ef5a84ba405adc54eb",
+        "name" : "test_cslj[数据库类型为空]",
+        "uid" : "3ea6bf4d8700fc2",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1603680554108,
-          "stop" : 1603680554898,
-          "duration" : 790
+          "start" : 1617097407887,
+          "stop" : 1617097407897,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'routeTarget必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "''", "'test02'", "''" ]
+      }, {
+        "name" : "test_zhgz_glcx[正常]",
+        "uid" : "389806ac7dd78729",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097502666,
+          "stop" : 1617097502797,
+          "duration" : 131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1054.0", "'a7dAceBXjKZOEfiFpx'", "'Success'", "'relate'" ]
+      }, {
+        "name" : "test_del_ly1",
+        "uid" : "85d4fb7b05f34a31",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097501501,
+          "stop" : 1617097501618,
+          "duration" : 117
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_personnel[上传文件]",
-        "uid" : "ae597bed3c69d906",
-        "parentUid" : "016e1a3e9bace0ef5a84ba405adc54eb",
+        "name" : "test_bjly[库名为空]",
+        "uid" : "b992ff04064f7",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1603680556737,
-          "stop" : 1603680559038,
-          "duration" : 2301
+          "start" : 1617097501174,
+          "stop" : 1617097501249,
+          "duration" : 75
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload'", "'deviceId:7429,remark:自动化备注'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
+        "parameters" : [ "''", "'5f8a593372024fc2b7aa900918b18f3a'", "'库名{databaseName}必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
       }, {
-        "name" : "test_personnel[上传文件前的校验]",
-        "uid" : "afd517d9ba0cd8ea",
-        "parentUid" : "016e1a3e9bace0ef5a84ba405adc54eb",
+        "name" : "test_cslj[只输入账户名]",
+        "uid" : "2e5a7f9178cbadcf",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1603680555326,
-          "stop" : 1603680555720,
-          "duration" : 394
+          "start" : 1617097408008,
+          "stop" : 1617097408039,
+          "duration" : 31
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"]}'", "''", "'post'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
+        "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'用户名传入时，密码必填'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test'", "'pass'" ]
       }, {
-        "name" : "test_personnel[人员名称搜索0]",
-        "uid" : "ed5a89960648fcc6",
-        "parentUid" : "016e1a3e9bace0ef5a84ba405adc54eb",
+        "name" : "test_zhgz_xg[正常]",
+        "uid" : "7b808537f197837a",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1603680554903,
-          "stop" : 1603680555318,
-          "duration" : 415
+          "start" : 1617097502802,
+          "stop" : 1617097502976,
+          "duration" : 174
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
+        "parameters" : [ "'a7dAceBXjKZOEfiFpx'", "'Success'", "'测试数据'", "'test_ws自动化流程-修改'" ]
       }, {
-        "name" : "test_personnel[人员名称搜索1]",
-        "uid" : "3d7b24498947d82f",
-        "parentUid" : "016e1a3e9bace0ef5a84ba405adc54eb",
+        "name" : "test_ckly[路由id不存在]",
+        "uid" : "3128d04446c6964d",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1603680556303,
-          "stop" : 1603680556728,
-          "duration" : 425
+          "start" : 1617097501393,
+          "stop" : 1617097501401,
+          "duration" : 8
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'=王富贵&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      } ],
-      "uid" : "016e1a3e9bace0ef5a84ba405adc54eb"
-    }, {
-      "name" : "56176-MainThread",
-      "children" : [ {
-        "name" : "test_personnel[人员名称搜索0]",
-        "uid" : "616b8e6f6059226c",
-        "parentUid" : "62675eb17006d702065d414d842eb77b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1602555257117,
-          "stop" : 1602555259548,
-          "duration" : 2431
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
+        "parameters" : [ "'参数类型错误！'", "9999.0" ]
       }, {
-        "name" : "test_personnel[上传文件前的校验]",
-        "uid" : "143cbefb906fb9d6",
-        "parentUid" : "62675eb17006d702065d414d842eb77b",
+        "name" : "test_cxly[大页码和条数]",
+        "uid" : "df634f392b45194d",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1602555259568,
-          "stop" : 1602555260139,
-          "duration" : 571
+          "start" : 1617097469519,
+          "stop" : 1617097469553,
+          "duration" : 34
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"]}'", "''", "'post'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
+        "parameters" : [ "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "999.0", "999.0" ]
       }, {
-        "name" : "test_personnel[人员名称搜索1]",
-        "uid" : "999e667252dc8bd8",
-        "parentUid" : "62675eb17006d702065d414d842eb77b",
+        "name" : "test_cslj[不带账户密码，错误的h_code]",
+        "uid" : "18f264165afbe5e5",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1602555262121,
-          "stop" : 1602555262755,
-          "duration" : 634
+          "start" : 1617097468802,
+          "stop" : 1617097468852,
+          "duration" : 50
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3b'", "'查询无企业信息或企业已被禁用'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
       }, {
-        "name" : "test_personnel[上传文件]",
-        "uid" : "a794bdada8af4dae",
-        "parentUid" : "62675eb17006d702065d414d842eb77b",
-        "status" : "failed",
-        "time" : {
-          "start" : 1602555262775,
-          "stop" : 1602555265168,
-          "duration" : 2393
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload'", "'deviceId:7429,remark:自动化备注'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_personnel[修改备注]",
-        "uid" : "51f43d705c22097c",
-        "parentUid" : "62675eb17006d702065d414d842eb77b",
+        "name" : "test_cxly[pageNum为空]",
+        "uid" : "4a51a4a6769af2f0",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1602555260157,
-          "stop" : 1602555262097,
-          "duration" : 1940
+          "start" : 1617097469314,
+          "stop" : 1617097469324,
+          "duration" : 10
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/edit/remark'", "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
+        "parameters" : [ "'5f8a593372024fc2b7aa900918b18f3a'", "'pageNum必须'", "''", "10.0" ]
       }, {
         "name" : "test_login",
-        "uid" : "aba4ae2c863c1323",
-        "parentUid" : "62675eb17006d702065d414d842eb77b",
+        "uid" : "713bf4152da800e8",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1602555256112,
-          "stop" : 1602555257110,
-          "duration" : 998
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "62675eb17006d702065d414d842eb77b"
-    }, {
-      "name" : "34968-MainThread",
-      "children" : [ {
-        "name" : "test_personnel[上传文件前的校验]",
-        "uid" : "de9a7fe41a0001d6",
-        "parentUid" : "80347017b507578e169c31cad9857308",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680021569,
-          "stop" : 1603680021966,
-          "duration" : 397
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"]}'", "''", "'post'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      }, {
-        "name" : "test_personnel[人员名称搜索1]",
-        "uid" : "8f7af82fdd938150",
-        "parentUid" : "80347017b507578e169c31cad9857308",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680022490,
-          "stop" : 1603680022912,
-          "duration" : 422
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      }, {
-        "name" : "test_login",
-        "uid" : "f1928d094e35ff94",
-        "parentUid" : "80347017b507578e169c31cad9857308",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680020176,
-          "stop" : 1603680021123,
-          "duration" : 947
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_personnel[上传文件]",
-        "uid" : "782a1d39fce8fda",
-        "parentUid" : "80347017b507578e169c31cad9857308",
-        "status" : "failed",
-        "time" : {
-          "start" : 1603680022920,
-          "stop" : 1603680023867,
-          "duration" : 947
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload'", "'deviceId:74429,remark:自动化备注'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_personnel[修改备注]",
-        "uid" : "18be38bbe66bfa0f",
-        "parentUid" : "80347017b507578e169c31cad9857308",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680021978,
-          "stop" : 1603680022482,
-          "duration" : 504
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/edit/remark'", "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
-      }, {
-        "name" : "test_personnel[人员名称搜索0]",
-        "uid" : "83cf5ca90003f01f",
-        "parentUid" : "80347017b507578e169c31cad9857308",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680021127,
-          "stop" : 1603680021556,
-          "duration" : 429
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
-      } ],
-      "uid" : "80347017b507578e169c31cad9857308"
-    }, {
-      "name" : "48844-MainThread",
-      "children" : [ {
-        "name" : "test_personnel[修改备注]",
-        "uid" : "24a165a5d8ea10a2",
-        "parentUid" : "71d91d68ec281afee765940443c139f2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1600756947758,
-          "stop" : 1600756948285,
-          "duration" : 527
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/edit/remark'", "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
-      }, {
-        "name" : "test_personnel[人员名称搜索1]",
-        "uid" : "c57d525920e0a1df",
-        "parentUid" : "71d91d68ec281afee765940443c139f2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1600756948299,
-          "stop" : 1600756948863,
-          "duration" : 564
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      }, {
-        "name" : "test_personnel[上传文件前的校验]",
-        "uid" : "5ddd48cd22731922",
-        "parentUid" : "71d91d68ec281afee765940443c139f2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1600756947329,
-          "stop" : 1600756947742,
-          "duration" : 413
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"]}'", "''", "'post'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      }, {
-        "name" : "test_personnel[人员名称搜索0]",
-        "uid" : "549a8b15f8e807f6",
-        "parentUid" : "71d91d68ec281afee765940443c139f2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1600756946801,
-          "stop" : 1600756947315,
-          "duration" : 514
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_login",
-        "uid" : "a1d089124a66dcb6",
-        "parentUid" : "71d91d68ec281afee765940443c139f2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1600756945888,
-          "stop" : 1600756946794,
-          "duration" : 906
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_personnel[上传文件]",
-        "uid" : "ed82e896e20f9277",
-        "parentUid" : "71d91d68ec281afee765940443c139f2",
-        "status" : "passed",
-        "time" : {
-          "start" : 1600756948875,
-          "stop" : 1600756950211,
-          "duration" : 1336
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload'", "'deviceId:7429,remark:自动化备注'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
-      } ],
-      "uid" : "71d91d68ec281afee765940443c139f2"
-    }, {
-      "name" : "29140-MainThread",
-      "children" : [ {
-        "name" : "test_login",
-        "uid" : "dc3b14e5a230d05c",
-        "parentUid" : "945a0b73dc60e9acf85f4e5e057b0718",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680600170,
-          "stop" : 1603680601112,
-          "duration" : 942
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_personnel[人员名称搜索1]",
-        "uid" : "3c42cd75fa270fcc",
-        "parentUid" : "945a0b73dc60e9acf85f4e5e057b0718",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680602686,
-          "stop" : 1603680603173,
-          "duration" : 487
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      }, {
-        "name" : "test_personnel[人员名称搜索0]",
-        "uid" : "b9092726df54fbf5",
-        "parentUid" : "945a0b73dc60e9acf85f4e5e057b0718",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680601118,
-          "stop" : 1603680601549,
-          "duration" : 431
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_personnel[修改备注]",
-        "uid" : "d424c79ce53cb338",
-        "parentUid" : "945a0b73dc60e9acf85f4e5e057b0718",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680601973,
-          "stop" : 1603680602666,
-          "duration" : 693
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/edit/remark'", "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
-      }, {
-        "name" : "test_personnel[上传文件前的校验]",
-        "uid" : "5670ab598d199248",
-        "parentUid" : "945a0b73dc60e9acf85f4e5e057b0718",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680601557,
-          "stop" : 1603680601953,
-          "duration" : 396
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_10.txt\"]}'", "''", "'post'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      }, {
-        "name" : "test_personnel[上传文件]",
-        "uid" : "283046648d4c30b0",
-        "parentUid" : "945a0b73dc60e9acf85f4e5e057b0718",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680603181,
-          "stop" : 1603680604385,
-          "duration" : 1204
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload'", "'deviceId:7429,remark:自动化备注'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
-      } ],
-      "uid" : "945a0b73dc60e9acf85f4e5e057b0718"
-    }, {
-      "name" : "36272-MainThread",
-      "children" : [ {
-        "name" : "test_personnel[人员名称搜索1]",
-        "uid" : "cb9c54523ac5b3f2",
-        "parentUid" : "d77e8ad52fe91dab2e06cd79a851dd58",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680798689,
-          "stop" : 1603680799084,
-          "duration" : 395
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      }, {
-        "name" : "test_personnel[修改备注]",
-        "uid" : "e7b77bfac7f2471f",
-        "parentUid" : "d77e8ad52fe91dab2e06cd79a851dd58",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680798165,
-          "stop" : 1603680798668,
-          "duration" : 503
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/edit/remark'", "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
-      }, {
-        "name" : "test_personnel[人员名称搜索0]",
-        "uid" : "6ecc330328a053df",
-        "parentUid" : "d77e8ad52fe91dab2e06cd79a851dd58",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680797322,
-          "stop" : 1603680797742,
-          "duration" : 420
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_personnel[上传文件]",
-        "uid" : "d515dff714f6deeb",
-        "parentUid" : "d77e8ad52fe91dab2e06cd79a851dd58",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680799093,
-          "stop" : 1603680800583,
-          "duration" : 1490
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload'", "'deviceId:7429,remark:自动化备注'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_login",
-        "uid" : "25735eb946d021a3",
-        "parentUid" : "d77e8ad52fe91dab2e06cd79a851dd58",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680796712,
-          "stop" : 1603680797319,
-          "duration" : 607
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_personnel[上传文件前的校验]",
-        "uid" : "8d41181bb02b5eaf",
-        "parentUid" : "d77e8ad52fe91dab2e06cd79a851dd58",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680797753,
-          "stop" : 1603680798148,
-          "duration" : 395
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"]}'", "''", "'post'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      } ],
-      "uid" : "d77e8ad52fe91dab2e06cd79a851dd58"
-    }, {
-      "name" : "36476-MainThread",
-      "children" : [ {
-        "name" : "test_personnel[上传文件前的校验]",
-        "uid" : "f26d0f84942793e6",
-        "parentUid" : "3f71ab6217e09184b7b36424df9802be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680156219,
-          "stop" : 1603680158521,
-          "duration" : 2302
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"]}'", "''", "'post'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      }, {
-        "name" : "test_personnel[修改备注]",
-        "uid" : "74c0c6e828123a7a",
-        "parentUid" : "3f71ab6217e09184b7b36424df9802be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680158534,
-          "stop" : 1603680159027,
-          "duration" : 493
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/edit/remark'", "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
-      }, {
-        "name" : "test_personnel[上传文件]",
-        "uid" : "325d3266e3443758",
-        "parentUid" : "3f71ab6217e09184b7b36424df9802be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680159464,
-          "stop" : 1603680160720,
-          "duration" : 1256
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload'", "'deviceId:7429,remark:自动化备注'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_personnel[人员名称搜索1]",
-        "uid" : "536e56a3d68ffb1c",
-        "parentUid" : "3f71ab6217e09184b7b36424df9802be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680159048,
-          "stop" : 1603680159453,
-          "duration" : 405
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      }, {
-        "name" : "test_personnel[人员名称搜索0]",
-        "uid" : "d3916a3898effbd3",
-        "parentUid" : "3f71ab6217e09184b7b36424df9802be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680155703,
-          "stop" : 1603680156209,
-          "duration" : 506
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_login",
-        "uid" : "1ec7f09161da3365",
-        "parentUid" : "3f71ab6217e09184b7b36424df9802be",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680154974,
-          "stop" : 1603680155699,
-          "duration" : 725
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "3f71ab6217e09184b7b36424df9802be"
-    }, {
-      "name" : "45940-MainThread",
-      "children" : [ {
-        "name" : "test_personnel[人员名称搜索0]",
-        "uid" : "cc544cc16a312491",
-        "parentUid" : "25bafd1d19499306bc64b2d88259213c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1602557895547,
-          "stop" : 1602557896634,
-          "duration" : 1087
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_personnel[修改备注]",
-        "uid" : "df7c3b1343711c5",
-        "parentUid" : "25bafd1d19499306bc64b2d88259213c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1602557898853,
-          "stop" : 1602557901866,
-          "duration" : 3013
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/edit/remark'", "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
-      }, {
-        "name" : "test_login",
-        "uid" : "ed5d26f57f598f80",
-        "parentUid" : "25bafd1d19499306bc64b2d88259213c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1602557894192,
-          "stop" : 1602557895541,
-          "duration" : 1349
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_personnel[上传文件]",
-        "uid" : "69d1ebee3ac51702",
-        "parentUid" : "25bafd1d19499306bc64b2d88259213c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1602557904825,
-          "stop" : 1602557906379,
-          "duration" : 1554
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload'", "'deviceId:7429,remark:自动化备注'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_personnel[人员名称搜索1]",
-        "uid" : "a2831b3898f409b3",
-        "parentUid" : "25bafd1d19499306bc64b2d88259213c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1602557901884,
-          "stop" : 1602557904805,
-          "duration" : 2921
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      }, {
-        "name" : "test_personnel[上传文件前的校验]",
-        "uid" : "c8d59b81e2b67dcd",
-        "parentUid" : "25bafd1d19499306bc64b2d88259213c",
-        "status" : "passed",
-        "time" : {
-          "start" : 1602557896651,
-          "stop" : 1602557898835,
-          "duration" : 2184
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"]}'", "''", "'post'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      } ],
-      "uid" : "25bafd1d19499306bc64b2d88259213c"
-    }, {
-      "name" : "18772-MainThread",
-      "children" : [ {
-        "name" : "test_personnel[人员名称搜索]",
-        "uid" : "4271b49b94f85838",
-        "parentUid" : "5b470d2d961f60c39402ede01f2b7bbd",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603681043530,
-          "stop" : 1603681043937,
-          "duration" : 407
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_login",
-        "uid" : "796339308b36af35",
-        "parentUid" : "5b470d2d961f60c39402ede01f2b7bbd",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603681042632,
-          "stop" : 1603681043527,
-          "duration" : 895
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "5b470d2d961f60c39402ede01f2b7bbd"
-    }, {
-      "name" : "31708-MainThread",
-      "children" : [ {
-        "name" : "test_personnel[人员名称搜索]",
-        "uid" : "5761fac12094a797",
-        "parentUid" : "29905c16105df5b4856368c29ade66bb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603681537948,
-          "stop" : 1603681538472,
-          "duration" : 524
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_login",
-        "uid" : "9d3bcbcfb982787e",
-        "parentUid" : "29905c16105df5b4856368c29ade66bb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603681537229,
-          "stop" : 1603681537941,
-          "duration" : 712
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "29905c16105df5b4856368c29ade66bb"
-    }, {
-      "name" : "36612-MainThread",
-      "children" : [ {
-        "name" : "test_personnel[修改备注]",
-        "uid" : "8964ce58089b990",
-        "parentUid" : "915229a3bba06399d1819773e9100bda",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680179951,
-          "stop" : 1603680180461,
-          "duration" : 510
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/edit/remark'", "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
-      }, {
-        "name" : "test_login",
-        "uid" : "324129b0e40d8b34",
-        "parentUid" : "915229a3bba06399d1819773e9100bda",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680178495,
-          "stop" : 1603680179170,
-          "duration" : 675
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_personnel[上传文件]",
-        "uid" : "e65d535ba09c52b3",
-        "parentUid" : "915229a3bba06399d1819773e9100bda",
-        "status" : "failed",
-        "time" : {
-          "start" : 1603680180945,
-          "stop" : 1603680182119,
-          "duration" : 1174
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload'", "'deviceId:74291,remark:自动化备注'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_personnel[人员名称搜索1]",
-        "uid" : "14f088af2979f5a6",
-        "parentUid" : "915229a3bba06399d1819773e9100bda",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680180486,
-          "stop" : 1603680180931,
-          "duration" : 445
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      }, {
-        "name" : "test_personnel[人员名称搜索0]",
-        "uid" : "e90b33bbb09e1a14",
-        "parentUid" : "915229a3bba06399d1819773e9100bda",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680179174,
-          "stop" : 1603680179545,
-          "duration" : 371
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=74291'", "''", "'get'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_personnel[上传文件前的校验]",
-        "uid" : "ee2db9c4c7190c09",
-        "parentUid" : "915229a3bba06399d1819773e9100bda",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680179555,
-          "stop" : 1603680179942,
+          "start" : 1617097406776,
+          "stop" : 1617097407163,
           "duration" : 387
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"]}'", "''", "'post'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      } ],
-      "uid" : "915229a3bba06399d1819773e9100bda"
-    }, {
-      "name" : "24904-MainThread",
-      "children" : [ {
-        "name" : "test_login",
-        "uid" : "d24303b0eb8aec62",
-        "parentUid" : "9a22a9b8eaf041530127e7b6bf0f90a4",
+        "parameters" : [ ]
+      }, {
+        "name" : "test_cxly[不存在的h_code]",
+        "uid" : "f3f6a792056d0d02",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1603681296553,
-          "stop" : 1603681297192,
-          "duration" : 639
+          "start" : 1617097469480,
+          "stop" : 1617097469514,
+          "duration" : 34
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "11.0", "'Success'", "1.0", "10.0" ]
+      }, {
+        "name" : "test_data_ly",
+        "uid" : "62158e11c044238",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097469558,
+          "stop" : 1617097469656,
+          "duration" : 98
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_personnel[人员名称搜索]",
-        "uid" : "956fa354abe1c664",
-        "parentUid" : "9a22a9b8eaf041530127e7b6bf0f90a4",
+        "name" : "test_del_ly[数据id为空格]",
+        "uid" : "6d2f7986fe449361",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1603681297196,
-          "stop" : 1603681297606,
-          "duration" : 410
+          "start" : 1617097501695,
+          "stop" : 1617097501729,
+          "duration" : 34
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
-      } ],
-      "uid" : "9a22a9b8eaf041530127e7b6bf0f90a4"
-    }, {
-      "name" : "5072-MainThread",
-      "children" : [ {
-        "name" : "test_personnel[修改备注]",
-        "uid" : "f92d0c6e038fdb46",
-        "parentUid" : "d3ec49c603a4a6dcadb54bac6ca2b392",
-        "status" : "passed",
-        "time" : {
-          "start" : 1604977307626,
-          "stop" : 1604977308131,
-          "duration" : 505
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/edit/remark'", "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
+        "parameters" : [ "''", "'删除失败'" ]
       }, {
-        "name" : "test_personnel[上传文件前的校验]",
-        "uid" : "fe804bbdea789560",
-        "parentUid" : "d3ec49c603a4a6dcadb54bac6ca2b392",
+        "name" : "test_del_ly[路由id不存在]",
+        "uid" : "203182127dbe20ff",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1604977307223,
-          "stop" : 1604977307618,
-          "duration" : 395
+          "start" : 1617097501658,
+          "stop" : 1617097501691,
+          "duration" : 33
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"]}'", "''", "'post'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
+        "parameters" : [ "999.0", "'删除失败【企业路由数据不存在】'" ]
       }, {
-        "name" : "test_personnel[人员名称搜索1]",
-        "uid" : "bcec6fe12d852078",
-        "parentUid" : "d3ec49c603a4a6dcadb54bac6ca2b392",
+        "name" : "test_bjly_1",
+        "uid" : "4137d430ee1caabd",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1604977308139,
-          "stop" : 1604977308524,
-          "duration" : 385
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      }, {
-        "name" : "test_personnel[上传文件]",
-        "uid" : "afb044cb75a33ccc",
-        "parentUid" : "d3ec49c603a4a6dcadb54bac6ca2b392",
-        "status" : "passed",
-        "time" : {
-          "start" : 1604977308532,
-          "stop" : 1604977309378,
-          "duration" : 846
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload'", "'deviceId:7429,remark:自动化备注,type:0'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_login",
-        "uid" : "b8ec70900dbd04b1",
-        "parentUid" : "d3ec49c603a4a6dcadb54bac6ca2b392",
-        "status" : "passed",
-        "time" : {
-          "start" : 1604977306151,
-          "stop" : 1604977306766,
-          "duration" : 615
+          "start" : 1617097501350,
+          "stop" : 1617097501379,
+          "duration" : 29
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_personnel[人员名称搜索0]",
-        "uid" : "9cd49e39370507d8",
-        "parentUid" : "d3ec49c603a4a6dcadb54bac6ca2b392",
+        "name" : "test_del_ly[路由id格式错误]",
+        "uid" : "be30066323ae87a9",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1604977306769,
-          "stop" : 1604977307214,
-          "duration" : 445
+          "start" : 1617097501621,
+          "stop" : 1617097501654,
+          "duration" : 33
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
-      } ],
-      "uid" : "d3ec49c603a4a6dcadb54bac6ca2b392"
-    }, {
-      "name" : "11812-MainThread",
-      "children" : [ {
-        "name" : "test_personnel[上传文件]",
-        "uid" : "8c14ad739197299",
-        "parentUid" : "909f025fbd5f39399a64997e21154938",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680490313,
-          "stop" : 1603680492238,
-          "duration" : 1925
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload'", "'deviceId:7429,remark:自动化备注'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
+        "parameters" : [ "-999.0", "'删除失败【企业路由数据不存在】'" ]
       }, {
-        "name" : "test_login",
-        "uid" : "d2195c06a2d303bc",
-        "parentUid" : "909f025fbd5f39399a64997e21154938",
+        "name" : "test_bjly[数据库类型不存在]",
+        "uid" : "a4bc9bafbd8fa50b",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1603680487744,
-          "stop" : 1603680488570,
-          "duration" : 826
+          "start" : 1617097500274,
+          "stop" : 1617097500359,
+          "duration" : 85
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ ]
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'路由目标目前只能连接- mongo！'", "''", "'192.168.0.175'", "27117.0", "'mongo1'", "'test03'", "''" ]
       }, {
-        "name" : "test_personnel[人员名称搜索0]",
-        "uid" : "51323688a6aa84b8",
-        "parentUid" : "909f025fbd5f39399a64997e21154938",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680488573,
-          "stop" : 1603680488957,
-          "duration" : 384
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_personnel[修改备注]",
-        "uid" : "5ff2a51626bcb391",
-        "parentUid" : "909f025fbd5f39399a64997e21154938",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680489371,
-          "stop" : 1603680489894,
-          "duration" : 523
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/edit/remark'", "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
-      }, {
-        "name" : "test_personnel[上传文件前的校验]",
-        "uid" : "8fe1d67e6aff703d",
-        "parentUid" : "909f025fbd5f39399a64997e21154938",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680488966,
-          "stop" : 1603680489355,
-          "duration" : 389
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"]}'", "''", "'post'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      }, {
-        "name" : "test_personnel[人员名称搜索1]",
-        "uid" : "c5e08f23eb42cd13",
-        "parentUid" : "909f025fbd5f39399a64997e21154938",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603680489907,
-          "stop" : 1603680490304,
-          "duration" : 397
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name1=王富贵&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      } ],
-      "uid" : "909f025fbd5f39399a64997e21154938"
-    }, {
-      "name" : "40360-MainThread",
-      "children" : [ {
-        "name" : "test",
-        "uid" : "7568447507be86c4",
-        "parentUid" : "9c391750fb526da5827ab82080dd1b80",
-        "status" : "passed",
-        "time" : {
-          "start" : 1600678872484,
-          "stop" : 1600678872484,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "9c391750fb526da5827ab82080dd1b80"
-    }, {
-      "name" : "18788-MainThread",
-      "children" : [ {
-        "name" : "test_personnel[人员名称搜索]",
-        "uid" : "383da4f05f282bac",
-        "parentUid" : "01ea80711dfbdde879491a6d2e49cd4d",
+        "name" : "test_bjly[数据库不存在]",
+        "uid" : "2b9e7ee7af65c269",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "failed",
         "time" : {
-          "start" : 1603682237054,
-          "stop" : 1603682237424,
-          "duration" : 370
+          "start" : 1617097500368,
+          "stop" : 1617097500585,
+          "duration" : 217
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "''", "''", "'get'", "''", "'Success'", "''" ]
+        "parameters" : [ "'ziyun-iot1'", "'5f8a593372024fc2b7aa900918b18f3a'", "'不存在库名！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
       }, {
-        "name" : "test_login",
-        "uid" : "8694e707ddd9c036",
-        "parentUid" : "01ea80711dfbdde879491a6d2e49cd4d",
+        "name" : "test_bjly[端口为空]",
+        "uid" : "9764f119f3263ed9",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1603682236419,
-          "stop" : 1603682237051,
-          "duration" : 632
+          "start" : 1617097500844,
+          "stop" : 1617097500954,
+          "duration" : 110
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "01ea80711dfbdde879491a6d2e49cd4d"
-    }, {
-      "name" : "26200-MainThread",
-      "children" : [ {
-        "name" : "test_login",
-        "uid" : "82899def062e1265",
-        "parentUid" : "c99c9c4939000a65f322eef5f42c098f",
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'routePort必填'", "''", "'192.168.0.175'", "''", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_ckly[数据id为空格]",
+        "uid" : "97b7f95497af30a5",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1603249421935,
-          "stop" : 1603249423291,
-          "duration" : 1356
+          "start" : 1617097501405,
+          "stop" : 1617097501414,
+          "duration" : 9
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ ]
+        "parameters" : [ "'企业路由主键id不能为空'", "''" ]
       }, {
-        "name" : "test_personnel[人员名称搜索0]",
-        "uid" : "be15155278d02db7",
-        "parentUid" : "c99c9c4939000a65f322eef5f42c098f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603249423294,
-          "stop" : 1603249423894,
-          "duration" : 600
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_personnel[修改备注]",
-        "uid" : "258a2b056f1ce3ed",
-        "parentUid" : "c99c9c4939000a65f322eef5f42c098f",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603249424597,
-          "stop" : 1603249425529,
-          "duration" : 932
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/edit/remark'", "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
-      }, {
-        "name" : "test_personnel[上传文件前的校验]",
-        "uid" : "b546d836b1c6cdb1",
-        "parentUid" : "c99c9c4939000a65f322eef5f42c098f",
+        "name" : "test_cslj[不带账户密码，错误的数据库表名]",
+        "uid" : "956ddd4ff865cfd9",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "failed",
         "time" : {
-          "start" : 1603249423904,
-          "stop" : 1603249424544,
-          "duration" : 640
+          "start" : 1617097468992,
+          "stop" : 1617097469083,
+          "duration" : 91
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"]}'", "''", "'post'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'不存在表名！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test022'", "''" ]
       }, {
-        "name" : "test_personnel[人员名称搜索1]",
-        "uid" : "50f1e4ca34346269",
-        "parentUid" : "c99c9c4939000a65f322eef5f42c098f",
+        "name" : "test_zhgz_del[正常]",
+        "uid" : "55aefc6796a02f02",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1603249425541,
-          "stop" : 1603249426179,
-          "duration" : 638
+          "start" : 1617097502981,
+          "stop" : 1617097503107,
+          "duration" : 126
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
+        "parameters" : [ "'a7dAceBXjKZOEfiFpx'", "'Success'" ]
       }, {
-        "name" : "test_personnel[上传文件]",
-        "uid" : "1282dd69a0d38aec",
-        "parentUid" : "c99c9c4939000a65f322eef5f42c098f",
+        "name" : "test_ckly[路由id格式错误]",
+        "uid" : "b72a7953b69f56d4",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1603249426190,
-          "stop" : 1603249427454,
-          "duration" : 1264
+          "start" : 1617097501382,
+          "stop" : 1617097501390,
+          "duration" : 8
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload'", "'deviceId:7429,remark:自动化备注'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
-      } ],
-      "uid" : "c99c9c4939000a65f322eef5f42c098f"
-    }, {
-      "name" : "54016-MainThread",
-      "children" : [ {
-        "name" : "test_login",
-        "uid" : "bf00f0568a3590be",
-        "parentUid" : "e2aa6dae5e8707ea42964c63fdc47a1b",
+        "parameters" : [ "'参数类型错误！'", "-99.0" ]
+      }, {
+        "name" : "test_cslj[带用户名和密码，错误的端口]",
+        "uid" : "d834adf11c83118f",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1602557591733,
-          "stop" : 1602557592605,
-          "duration" : 872
+          "start" : 1617097408049,
+          "stop" : 1617097438620,
+          "duration" : 30571
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'用户认证的测试连接失败,请检查端口、ip！'", "'XnkBvofJqApVNNox96st6nwHjupZu4lJc/aACN/OKT38bwvW2mAHWdCYTX9hHLJiVOjYng=='", "'192.168.0.175'", "99999.0", "'mongo'", "'test'", "'pass'" ]
+      }, {
+        "name" : "test_cxly[h_code为空]",
+        "uid" : "e7663b0c63795f11",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097469329,
+          "stop" : 1617097469474,
+          "duration" : 145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'Success'", "1.0", "10.0" ]
+      }, {
+        "name" : "test_cslj[不带账户密码]",
+        "uid" : "3138615d14a3faa4",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097407194,
+          "stop" : 1617097407281,
+          "duration" : 87
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_sjjy",
+        "uid" : "a53ae72e63be13fb",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097407166,
+          "stop" : 1617097407191,
+          "duration" : 25
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_scwj",
-        "uid" : "a6e1f2f28613e13a",
-        "parentUid" : "e2aa6dae5e8707ea42964c63fdc47a1b",
+        "name" : "test_bjly[h_code为空]",
+        "uid" : "6dc6a385006b079e",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
         "status" : "passed",
         "time" : {
-          "start" : 1602557592610,
-          "stop" : 1602557595138,
-          "duration" : 2528
+          "start" : 1617097500962,
+          "stop" : 1617097501067,
+          "duration" : 105
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ ]
+        "parameters" : [ "'ziyun-iot'", "''", "'hierarchyCode必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_bjly[表名不存在]",
+        "uid" : "9c0b08c7a21422f4",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617097500608,
+          "stop" : 1617097500829,
+          "duration" : 221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'不存在表名！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test031'", "''" ]
+      }, {
+        "name" : "test_cslj[数据库表名为空]",
+        "uid" : "96d0eda84569ed79",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097407942,
+          "stop" : 1617097407950,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'tableName必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "''", "''" ]
+      }, {
+        "name" : "test_bjly[表名为空]",
+        "uid" : "ca64787091630095",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097501258,
+          "stop" : 1617097501342,
+          "duration" : 84
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'表名{tableName}必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "''", "''" ]
+      }, {
+        "name" : "test_cslj[输入账户密码]",
+        "uid" : "e0dcc498fa61bf3a",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097407289,
+          "stop" : 1617097407861,
+          "duration" : 572
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "'XnkBvofJqApVNNox96st6nwHjupZu4lJc/aACN/OKT38bwvW2mAHWdCYTX9hHLJiVOjYng=='", "'192.168.0.175'", "27117.0", "'mongo'", "'test'", "'pass'" ]
+      }, {
+        "name" : "test_bjly[ip为空]",
+        "uid" : "f105f504ce9812da",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097501075,
+          "stop" : 1617097501162,
+          "duration" : 87
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'路由ip{routeAddress}必填，不能为空！'", "''", "''", "27117.0", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_zhgz_xj[正常]",
+        "uid" : "31adc1656feba2a7",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097501733,
+          "stop" : 1617097502657,
+          "duration" : 924
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'a7dAceBXjKZOEfiFpx'", "'Python'", "'Success'", "'测试数据'", "'test_ws自动化流程'", "1.0", "'test_python'", "'import json\ndataJson = json.loads(payload['data'])\ndataJson['Test_code'] = 101\nresult = {'dataType' : 'Object', 'data' : dataJson}\npayload['result']=json.dumps(result)'", "0.0", "'{}'", "0.0" ]
+      }, {
+        "name" : "test_bjly[端口号错误]",
+        "uid" : "3cd5860df7db40bd",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097469910,
+          "stop" : 1617097500142,
+          "duration" : 30232
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'不需用户认证的测试连接失败！'", "''", "'192.168.0.175'", "999.0", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_cslj[h_code为空]",
+        "uid" : "7bd5f1e236ce5a41",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097407868,
+          "stop" : 1617097407879,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "''", "'hierarchyCode必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_bjly[修改企业]",
+        "uid" : "992adc10caf1b527",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097500150,
+          "stop" : 1617097500265,
+          "duration" : 115
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'d71a216267ee44ec8112b6d0ef78ed69'", "'企业路由:所属企业和路由目标不可修改！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_cslj[数据库库名为空]",
+        "uid" : "9fac19e997d77519",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097407924,
+          "stop" : 1617097407933,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'5f8a593372024fc2b7aa900918b18f3a'", "'databaseName必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_cxly[pageSize为空]",
+        "uid" : "46521e5310abf0e9",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097469295,
+          "stop" : 1617097469307,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'5f8a593372024fc2b7aa900918b18f3a'", "'pageSize必须'", "1.0", "''" ]
+      }, {
+        "name" : "test_cxly[正常]",
+        "uid" : "e0832d05e90c606b",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097469204,
+          "stop" : 1617097469290,
+          "duration" : 86
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "1.0", "10.0" ]
+      }, {
+        "name" : "test_cslj[不带账户密码，错误的数据库库名]",
+        "uid" : "cdc3a8728f1608b5",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1617097468859,
+          "stop" : 1617097468945,
+          "duration" : 86
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot1'", "'5f8a593372024fc2b7aa900918b18f3a'", "'不存在库名！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_xjly[正常]",
+        "uid" : "82123c3b32789700",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097469099,
+          "stop" : 1617097469197,
+          "duration" : 98
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_bjly_iotdel[正常]",
+        "uid" : "3719fe6892206c3d",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097501418,
+          "stop" : 1617097501493,
+          "duration" : 75
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_cslj[不带账户密码，错误的端口]",
+        "uid" : "89a0f6920699dd4e",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097438714,
+          "stop" : 1617097468794,
+          "duration" : 30080
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'不需用户认证的测试连接失败！'", "''", "'192.168.0.175'", "271171.0", "'mongo'", "'test02'", "''" ]
+      }, {
+        "name" : "test_cslj[带用户名和密码，错误的密码]",
+        "uid" : "3353df99c4606709",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097438628,
+          "stop" : 1617097438704,
+          "duration" : 76
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'对node传入的密码解密失败'", "'1XnkBvofJqApVNNox96st6nwHjupZu4lJc/aACN/OKT38bwvW2mAHWdCYTX9hHLJiVOjYng=='", "'192.168.0.175'", "27117.0", "'mongo'", "'test'", "'pass'" ]
+      }, {
+        "name" : "test_bjly[正常]",
+        "uid" : "ebdde18b8c28b7d",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097469659,
+          "stop" : 1617097469899,
+          "duration" : 240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
+      }, {
+        "name" : "test_cslj[只输入密码]",
+        "uid" : "7d085bdc1d6b9c8",
+        "parentUid" : "e08ccabd853ceda2e4f2b3255d776e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617097407959,
+          "stop" : 1617097407998,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'密码传入时，用户名必填'", "'XnkBvofJqApVNNox96st6nwHjupZu4lJc/aACN/OKT38bwvW2mAHWdCYTX9hHLJiVOjYng=='", "'192.168.0.175'", "27117.0", "'mongo'", "'test'", "''" ]
       } ],
-      "uid" : "e2aa6dae5e8707ea42964c63fdc47a1b"
-    }, {
-      "name" : "18304-MainThread",
-      "children" : [ {
-        "name" : "test_personnel[人员名称搜索0]",
-        "uid" : "fdfec041be442971",
-        "parentUid" : "e663ec222806156338d46ffc22d24482",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603249521751,
-          "stop" : 1603249522132,
-          "duration" : 381
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_personnel[人员名称搜索1]",
-        "uid" : "db5b9da23385e096",
-        "parentUid" : "e663ec222806156338d46ffc22d24482",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603249523384,
-          "stop" : 1603249524251,
-          "duration" : 867
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&'", "''", "'get'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      }, {
-        "name" : "test_personnel[上传文件]",
-        "uid" : "20a41bffed7878bf",
-        "parentUid" : "e663ec222806156338d46ffc22d24482",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603249524260,
-          "stop" : 1603249525682,
-          "duration" : 1422
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload'", "'deviceId:7429,remark:自动化备注'", "'./document/XMZ_0.txt'", "'post'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_login",
-        "uid" : "fb04c1f2d433df23",
-        "parentUid" : "e663ec222806156338d46ffc22d24482",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603249521030,
-          "stop" : 1603249521747,
-          "duration" : 717
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_personnel[上传文件前的校验]",
-        "uid" : "9887d59827b2aa73",
-        "parentUid" : "e663ec222806156338d46ffc22d24482",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603249522144,
-          "stop" : 1603249522656,
-          "duration" : 512
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/upload/check'", "'{\"fileListName\":[\"XMZ_0.txt\"]}'", "''", "'post'", "'deviceId'", "'Success'", "'ziyun-dnc,SELECT device_id FROM file order by update_time DESC LIMIT 1;'" ]
-      }, {
-        "name" : "test_personnel[修改备注]",
-        "uid" : "60b0614f9e3483ca",
-        "parentUid" : "e663ec222806156338d46ffc22d24482",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603249522665,
-          "stop" : 1603249523375,
-          "duration" : 710
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/edit/remark'", "'{ \"remark\": \"回归用例编辑备注\",\"type\":0}'", "''", "'put'", "'versionId'", "'Success'", "'ziyun-dnc,select id from version where version.file_id in(\nSELECT file.id from file  JOIN(\nSELECT * from recycle WHERE file_id not in( SELECT file_id from recycle where is_delete = 0) GROUP BY file_id)a on a.file_id=file.id and file.is_delete = 0) LIMIT 1'" ]
-      } ],
-      "uid" : "e663ec222806156338d46ffc22d24482"
-    }, {
-      "name" : "32188-MainThread",
-      "children" : [ {
-        "name" : "test_personnel[人员名称搜索]",
-        "uid" : "95f1a4927b8250be",
-        "parentUid" : "a217fd45019b35cf230e93c73b49b0db",
-        "status" : "broken",
-        "time" : {
-          "start" : 1603681498297,
-          "stop" : 1603681498665,
-          "duration" : 368
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "'/dnc/file/blurry/user'", "'name=王富贵&deviceId=7429'", "''", "'get'", "''", "'Success'", "''" ]
-      }, {
-        "name" : "test_login",
-        "uid" : "439641fd1e59432e",
-        "parentUid" : "a217fd45019b35cf230e93c73b49b0db",
-        "status" : "passed",
-        "time" : {
-          "start" : 1603681497613,
-          "stop" : 1603681498289,
-          "duration" : 676
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a217fd45019b35cf230e93c73b49b0db"
+      "uid" : "e08ccabd853ceda2e4f2b3255d776e1f"
     } ],
     "uid" : "ed012d070c6508d67a00937b81153038"
   } ]

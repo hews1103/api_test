@@ -15,7 +15,7 @@ def read_excel_sheet(file, sheet_name):
     # 获取表格内从第二行到最后一行的数据
     for i in range(1, sheet_data.nrows):
         # l.append(sheet1.row_values(i))
-        d = []
+        d = tuple()
         for j in range(sheet_data.ncols):
             d = sheet_data.row_values(i)
         li.append(d)

@@ -1,37 +1,15 @@
 {
-  "total" : 3,
+  "total" : 1,
   "items" : [ {
-    "uid" : "e11bc6392381ef1d825bd019b9e8cfa7",
-    "name" : "test_demo",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 6,
-      "unknown" : 0,
-      "total" : 7
-    }
-  }, {
-    "uid" : "de46fad25c45e3aed0cdcb876f3386f5",
-    "name" : "test_linshi",
+    "uid" : "74ed920ab6220f41883fa7951f78dcf2",
+    "name" : "test_iots",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 49,
       "unknown" : 0,
-      "total" : 6
-    }
-  }, {
-    "uid" : "295204e9ea0218477e4a30df0150fa11",
-    "name" : "test_DNC",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
+      "total" : 49
     }
   } ]
 }

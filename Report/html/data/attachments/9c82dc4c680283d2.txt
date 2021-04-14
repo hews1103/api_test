@@ -1,3 +1,0 @@
-DEBUG    urllib3.connectionpool:connectionpool.py:959 Starting new HTTPS connection (1): txqa.ziyun-cloud.com:443
-DEBUG    urllib3.connectionpool:connectionpool.py:437 https://txqa.ziyun-cloud.com:443 "GET /dnc/file/blurry/user?name=%E7%8E%8B%E5%AF%8C%E8%B4%B5&deviceId=7429 HTTP/1.1" 200 93
-INFO     root:Log.py:65 [INFO 2020-10-26 11:04:58]----请求用时: 0.365453 秒

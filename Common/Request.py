@@ -39,9 +39,9 @@ class Request:
         :return:
         """
 
-        if not url.startswith('https://'):
-            url = '%s%s' % ('https://', url)
-            print(url)
+        # if not url.startswith('https://'):
+        #     # url = '%s%s' % ('https://', url)
+        #     print(url)
         try:
 
             response = requests.get(url=url, params=params, headers=headers, cookies=cookies)
@@ -69,9 +69,9 @@ class Request:
         :param header:
         :return:
         """
-        if not url.startswith('https://'):
-            url = '%s%s' % ('https://', url)
-            print(url)
+        # if not url.startswith('https://'):
+        #     url = '%s%s' % ('https://', url)
+        #     print(url)
         try:
             response = requests.post(url=url, data=data, params=params, headers=headers, json=json, cookies=cookies
                                      )
@@ -105,7 +105,7 @@ class Request:
         :return:
         """
         if not url.startswith('http://'):
-            url = '%s%s' % ('http://', url)
+            # url = '%s%s' % ('http://', url)
             print(url)
         response = requests.post(url=url, files=files, headers=headers, cookies=cookies)
         # time_consuming为响应时间，单位为毫秒
@@ -123,9 +123,9 @@ class Request:
         :param header:
         :return:
         """
-        if not url.startswith('https://'):
-            url = '%s%s' % ('https://', url)
-            print(url)
+        # if not url.startswith('https://'):
+        #     # url = '%s%s' % ('https://', url)
+        #     print(url)
 
         try:
             if data is None:
@@ -157,9 +157,9 @@ class Request:
         :param header:
         :return:
         """
-        if not url.startswith('https://'):
-            url = '%s%s' % ('https://', url)
-            print(url)
+        # if not url.startswith('https://'):
+        #     # url = '%s%s' % ('https://', url)
+        #     print(url)
 
         try:
             if data is None:

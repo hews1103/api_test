@@ -1,150 +1,490 @@
 [ {
-  "uid" : "48e6c60443d63580",
-  "name" : "test_with_story_2",
+  "uid" : "c0cc44e709a9d4a3",
+  "name" : "test_cxly[正常]",
   "time" : {
-    "start" : 1600679220981,
-    "stop" : 1600679220981,
-    "duration" : 0
+    "start" : 1617097675759,
+    "stop" : 1617097675842,
+    "duration" : 83
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9cd49e39370507d8",
-  "name" : "test_personnel[人员名称搜索0]",
+  "uid" : "5fdabe34e656fd9c",
+  "name" : "test_bjly[端口为空]",
   "time" : {
-    "start" : 1604977306769,
-    "stop" : 1604977307214,
-    "duration" : 445
+    "start" : 1617097707362,
+    "stop" : 1617097707469,
+    "duration" : 107
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a6e1f2f28613e13a",
-  "name" : "test_scwj",
+  "uid" : "2cef179bcafba468",
+  "name" : "test_bjly[数据库类型不存在]",
   "time" : {
-    "start" : 1602557592610,
-    "stop" : 1602557595138,
-    "duration" : 2528
+    "start" : 1617097706821,
+    "stop" : 1617097706912,
+    "duration" : 91
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "b8ec70900dbd04b1",
+  "uid" : "61c4a7d787a728d2",
+  "name" : "test_ckly[数据id为空格]",
+  "time" : {
+    "start" : 1617097707937,
+    "stop" : 1617097707946,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "721b6dc91633ddd5",
+  "name" : "test_cxly[pageNum为空]",
+  "time" : {
+    "start" : 1617097675861,
+    "stop" : 1617097675873,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8eaaac28fb04c7a",
+  "name" : "test_cslj[带用户名和密码，错误的密码]",
+  "time" : {
+    "start" : 1617097645225,
+    "stop" : 1617097645329,
+    "duration" : 104
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b5d584809aee6eed",
+  "name" : "test_cslj[只输入密码]",
+  "time" : {
+    "start" : 1617097614566,
+    "stop" : 1617097614601,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8e410cdfeb6d476",
+  "name" : "test_bjly_iotdel[正常]",
+  "time" : {
+    "start" : 1617097707950,
+    "stop" : 1617097708022,
+    "duration" : 72
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc39af80696fef5c",
+  "name" : "test_bjly[表名不存在]",
+  "time" : {
+    "start" : 1617097707150,
+    "stop" : 1617097707352,
+    "duration" : 202
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a880d5c13baeb3d",
+  "name" : "test_cslj[数据库库名为空]",
+  "time" : {
+    "start" : 1617097614532,
+    "stop" : 1617097614541,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9eb751c041e9d71",
+  "name" : "test_bjly[数据库不存在]",
+  "time" : {
+    "start" : 1617097706921,
+    "stop" : 1617097707140,
+    "duration" : 219
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4664927d945d4509",
+  "name" : "test_bjly[修改企业]",
+  "time" : {
+    "start" : 1617097706682,
+    "stop" : 1617097706809,
+    "duration" : 127
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "622fefd315ff8981",
+  "name" : "test_data_ly",
+  "time" : {
+    "start" : 1617097676113,
+    "stop" : 1617097676193,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "303d88558ec0e85f",
+  "name" : "test_del_ly1",
+  "time" : {
+    "start" : 1617097708031,
+    "stop" : 1617097708154,
+    "duration" : 123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efaea44186c92d98",
+  "name" : "test_cslj[数据库类型为空]",
+  "time" : {
+    "start" : 1617097614498,
+    "stop" : 1617097614507,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61a42edcc6989c2f",
+  "name" : "test_del_ly[路由id格式错误]",
+  "time" : {
+    "start" : 1617097708156,
+    "stop" : 1617097708191,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f49b7b3f31cac38",
+  "name" : "test_cslj[不带账户密码]",
+  "time" : {
+    "start" : 1617097613841,
+    "stop" : 1617097613926,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d6a766dcd0d56e29",
+  "name" : "test_bjly[ip为空]",
+  "time" : {
+    "start" : 1617097707576,
+    "stop" : 1617097707661,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12b7a325893cac37",
+  "name" : "test_cslj[不带账户密码，错误的端口]",
+  "time" : {
+    "start" : 1617097645337,
+    "stop" : 1617097675416,
+    "duration" : 30079
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a18a90930fee58a1",
+  "name" : "test_cslj[h_code为空]",
+  "time" : {
+    "start" : 1617097614480,
+    "stop" : 1617097614490,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9e37ac92c078cfb",
+  "name" : "test_bjly[h_code为空]",
+  "time" : {
+    "start" : 1617097707478,
+    "stop" : 1617097707566,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a574016ccee656b",
+  "name" : "test_cslj[数据库地址为空]",
+  "time" : {
+    "start" : 1617097614515,
+    "stop" : 1617097614524,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc47d8790d1f4068",
+  "name" : "test_cslj[数据库表名为空]",
+  "time" : {
+    "start" : 1617097614549,
+    "stop" : 1617097614558,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c93d3de6c84c501",
+  "name" : "test_cslj[不带账户密码，错误的数据库库名]",
+  "time" : {
+    "start" : 1617097675489,
+    "stop" : 1617097675566,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f5a0076cf897712",
+  "name" : "test_bjly_1",
+  "time" : {
+    "start" : 1617097707876,
+    "stop" : 1617097707909,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f63989f7bbc83105",
+  "name" : "test_bjly[端口号错误]",
+  "time" : {
+    "start" : 1617097676441,
+    "stop" : 1617097706674,
+    "duration" : 30233
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "606d14b9bd8b344c",
+  "name" : "test_ckly[路由id格式错误]",
+  "time" : {
+    "start" : 1617097707912,
+    "stop" : 1617097707921,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "341c6962d6952cfd",
+  "name" : "test_bjly[表名为空]",
+  "time" : {
+    "start" : 1617097707768,
+    "stop" : 1617097707866,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d17855b56d7c6a7",
+  "name" : "test_del_ly[数据id为空格]",
+  "time" : {
+    "start" : 1617097708236,
+    "stop" : 1617097708271,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95ba65ad254dcc5a",
+  "name" : "test_cslj[输入账户密码]",
+  "time" : {
+    "start" : 1617097613934,
+    "stop" : 1617097614472,
+    "duration" : 538
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc31902cd4649298",
+  "name" : "test_cslj[只输入账户名]",
+  "time" : {
+    "start" : 1617097614609,
+    "stop" : 1617097614640,
+    "duration" : 31
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4edc3f016f61632",
+  "name" : "test_bjly[库名为空]",
+  "time" : {
+    "start" : 1617097707670,
+    "stop" : 1617097707760,
+    "duration" : 90
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "258367319efbe217",
+  "name" : "test_zhgz_xj[正常]",
+  "time" : {
+    "start" : 1617097708275,
+    "stop" : 1617097708416,
+    "duration" : 141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52ae889f5748dbf",
+  "name" : "test_cslj[带用户名和密码，错误的端口]",
+  "time" : {
+    "start" : 1617097614648,
+    "stop" : 1617097645217,
+    "duration" : 30569
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f1fb7a70764a85a",
+  "name" : "test_cxly[大页码和条数]",
+  "time" : {
+    "start" : 1617097676074,
+    "stop" : 1617097676108,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8744ea26fac00386",
+  "name" : "test_zhgz_xg[正常]",
+  "time" : {
+    "start" : 1617097708557,
+    "stop" : 1617097708677,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fbf4292dc67cd4a",
+  "name" : "test_bjly[正常]",
+  "time" : {
+    "start" : 1617097676196,
+    "stop" : 1617097676430,
+    "duration" : 234
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a69651030d17c3ba",
+  "name" : "test_ckly[路由id不存在]",
+  "time" : {
+    "start" : 1617097707925,
+    "stop" : 1617097707934,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efd4822e0d927e91",
+  "name" : "test_zhgz_del[正常]",
+  "time" : {
+    "start" : 1617097708682,
+    "stop" : 1617097708810,
+    "duration" : 128
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15ff17b7a5e9ef6e",
+  "name" : "test_cxly[h_code为空]",
+  "time" : {
+    "start" : 1617097675880,
+    "stop" : 1617097676022,
+    "duration" : 142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6690450afc0b1899",
+  "name" : "test_cxly[pageSize为空]",
+  "time" : {
+    "start" : 1617097675847,
+    "stop" : 1617097675856,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1bea0006faf622a4",
+  "name" : "test_del_ly[路由id不存在]",
+  "time" : {
+    "start" : 1617097708195,
+    "stop" : 1617097708232,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "480a7e43bea7d64b",
   "name" : "test_login",
   "time" : {
-    "start" : 1604977306151,
-    "stop" : 1604977306766,
-    "duration" : 615
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "fe804bbdea789560",
-  "name" : "test_personnel[上传文件前的校验]",
-  "time" : {
-    "start" : 1604977307223,
-    "stop" : 1604977307618,
-    "duration" : 395
+    "start" : 1617097613400,
+    "stop" : 1617097613794,
+    "duration" : 394
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "383da4f05f282bac",
-  "name" : "test_personnel[人员名称搜索]",
+  "uid" : "86684e4f9dcd868d",
+  "name" : "test_sjjy",
   "time" : {
-    "start" : 1603682237054,
-    "stop" : 1603682237424,
-    "duration" : 370
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "8a9d2b6bbadb4e21",
-  "name" : "test_with_story_1",
-  "time" : {
-    "start" : 1600679220979,
-    "stop" : 1600679220979,
-    "duration" : 0
+    "start" : 1617097613796,
+    "stop" : 1617097613838,
+    "duration" : 42
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "90608531f95f2a81",
-  "name" : "test_without_any_annotations_that_wont_be_executed",
+  "uid" : "3a809077db02efcc",
+  "name" : "test_cslj[不带账户密码，错误的h_code]",
   "time" : {
-    "start" : 1600679220974,
-    "stop" : 1600679220974,
-    "duration" : 0
+    "start" : 1617097675424,
+    "stop" : 1617097675477,
+    "duration" : 53
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e494b59c0f707cd5",
-  "name" : "test_with_epic_1",
+  "uid" : "5b7fd70112831485",
+  "name" : "test_cslj[不带账户密码，错误的数据库表名]",
   "time" : {
-    "start" : 1600679220976,
-    "stop" : 1600679220976,
-    "duration" : 0
+    "start" : 1617097675575,
+    "stop" : 1617097675652,
+    "duration" : 77
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "afb044cb75a33ccc",
-  "name" : "test_personnel[上传文件]",
+  "uid" : "610e0ca1943e1cde",
+  "name" : "test_cxly[不存在的h_code]",
   "time" : {
-    "start" : 1604977308532,
-    "stop" : 1604977309378,
-    "duration" : 846
+    "start" : 1617097676030,
+    "stop" : 1617097676067,
+    "duration" : 37
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bcec6fe12d852078",
-  "name" : "test_personnel[人员名称搜索1]",
+  "uid" : "5cc1c626b5c30831",
+  "name" : "test_zhgz_glcx[正常]",
   "time" : {
-    "start" : 1604977308139,
-    "stop" : 1604977308524,
-    "duration" : 385
+    "start" : 1617097708426,
+    "stop" : 1617097708552,
+    "duration" : 126
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4661ad8559fb1f7b",
-  "name" : "test_with_story_2_and_feature_2",
+  "uid" : "2e4504e2909ac76b",
+  "name" : "test_xjly[正常]",
   "time" : {
-    "start" : 1600679220983,
-    "stop" : 1600679220983,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bf00f0568a3590be",
-  "name" : "test_login",
-  "time" : {
-    "start" : 1602557591733,
-    "stop" : 1602557592605,
-    "duration" : 872
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f92d0c6e038fdb46",
-  "name" : "test_personnel[修改备注]",
-  "time" : {
-    "start" : 1604977307626,
-    "stop" : 1604977308131,
-    "duration" : 505
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7568447507be86c4",
-  "name" : "test",
-  "time" : {
-    "start" : 1600678872484,
-    "stop" : 1600678872484,
-    "duration" : 0
+    "start" : 1617097675660,
+    "stop" : 1617097675751,
+    "duration" : 91
   },
   "status" : "passed",
   "severity" : "normal"
