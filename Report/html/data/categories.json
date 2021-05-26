@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "ValueError: invalid literal for int() with base 10: ''",
+      "children" : [ {
+        "name" : "test_zhgz_glcx[collectorVersionIdList为空]",
+        "uid" : "a58302b1c6d10997",
+        "parentUid" : "b52d132af57373bf7983d639a9504a27",
+        "status" : "broken",
+        "time" : {
+          "start" : 1618913046228,
+          "stop" : 1618913046228,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'a7dAceBXjKZOEfiFpx'", "'采集程序列表不能为空'", "'relate'" ]
+      } ],
+      "uid" : "b52d132af57373bf7983d639a9504a27"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

@@ -5,9 +5,9 @@
     "name" : "Tmore接口-iots",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 14,
       "unknown" : 0,
       "total" : 15
     }

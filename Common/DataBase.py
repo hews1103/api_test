@@ -1,6 +1,8 @@
 import pymysql.cursors
 import sys
 
+MYSQL = '192.168.0.124'
+
 def mysql_select_attr(db, sql, attribute):
     '''
     通过sql中的某个字段取值
@@ -42,7 +44,7 @@ def mysql_select(db, sql):
     '''
     try:
         # 连接mysql数据库
-        connection = pymysql.connect(host='MYSQL', port=3306, user='root', password='Pass1234', db=db,  # 'ziyun-dnc',
+        connection = pymysql.connect(host='192.168.0.124', port=3306, user='root', password='Pass1234', db=db,  # 'ziyun-dnc',
                                      cursorclass=pymysql.cursors.DictCursor)
         # 通过cursor创建游标,进行每一步操作
         cursor = connection.cursor()
@@ -63,3 +65,5 @@ def mysql_select(db, sql):
     except Exception as e:
         print("ERROR!!!\n执行sql失败，将自动关闭数据库连接。\t错误信息为：{}".format(e))
         sys.exit()
+
+mysql_select('ziyun-iot','SELECT id FROM `t_org_route` WHERE org_hierarchy_code = "5f8a593372024fc2b7aa900918b18f3a";')

@@ -5,11 +5,11 @@
     "name" : "test_iots",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 49,
+      "passed" : 54,
       "unknown" : 0,
-      "total" : 49
+      "total" : 55
     }
   } ]
 }

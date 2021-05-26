@@ -2,94 +2,112 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "获取token",
-    "children" : [ {
-      "name" : "登录接口",
-      "children" : [ {
-        "name" : "test_login",
-        "uid" : "480a7e43bea7d64b",
-        "parentUid" : "c292234a20213d607c8bbfe4b6ce0d6b",
-        "status" : "passed",
-        "time" : {
-          "start" : 1617097613400,
-          "stop" : 1617097613794,
-          "duration" : 394
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "c292234a20213d607c8bbfe4b6ce0d6b"
-    } ],
-    "uid" : "e604559b912efe07226e738e962a5635"
-  }, {
     "name" : "Tmore接口-iots",
     "children" : [ {
-      "name" : "测试前的数据准备",
+      "name" : "转换规则-关联程序",
       "children" : [ {
-        "name" : "test_sjjy",
-        "uid" : "86684e4f9dcd868d",
-        "parentUid" : "e9979936c590c6fa9eb2486e1f62a95e",
-        "status" : "passed",
+        "name" : "test_zhgz_glcx[collectorVersionIdList为空]",
+        "uid" : "a58302b1c6d10997",
+        "parentUid" : "1fd897a14dd2f8144384b646eb7c6f98",
+        "status" : "broken",
         "time" : {
-          "start" : 1617097613796,
-          "stop" : 1617097613838,
-          "duration" : 42
+          "start" : 1618913046228,
+          "stop" : 1618913046228,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ ]
+        "parameters" : [ "''", "'a7dAceBXjKZOEfiFpx'", "'采集程序列表不能为空'", "'relate'" ]
+      }, {
+        "name" : "test_zhgz_glcx[正常]",
+        "uid" : "12e6e8e3daeca9a7",
+        "parentUid" : "1fd897a14dd2f8144384b646eb7c6f98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618913684739,
+          "stop" : 1618913684856,
+          "duration" : 117
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1054.0", "'a7dAceBXjKZOEfiFpx'", "'Success'", "'relate'" ]
+      }, {
+        "name" : "test_zhgz_glcx[idmAppId为空]",
+        "uid" : "418887628a6b5c2a",
+        "parentUid" : "1fd897a14dd2f8144384b646eb7c6f98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618913684861,
+          "stop" : 1618913684867,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1054.0", "''", "'数据来源必填'", "'relate'" ]
+      }, {
+        "name" : "test_zhgz_glcx[relateType为空]",
+        "uid" : "a50f7cbdc4154b95",
+        "parentUid" : "1fd897a14dd2f8144384b646eb7c6f98",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618913684873,
+          "stop" : 1618913684877,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1054.0", "'a7dAceBXjKZOEfiFpx'", "'relateType值非法'", "''" ]
       } ],
-      "uid" : "e9979936c590c6fa9eb2486e1f62a95e"
+      "uid" : "1fd897a14dd2f8144384b646eb7c6f98"
     }, {
       "name" : "企业路由-测试连接",
       "children" : [ {
         "name" : "test_cslj[不带账户密码]",
-        "uid" : "6f49b7b3f31cac38",
+        "uid" : "f513b374a84b49f8",
         "parentUid" : "5ebe8d680dc78f7d595f8ec36dd97fd5",
         "status" : "passed",
         "time" : {
-          "start" : 1617097613841,
-          "stop" : 1617097613926,
-          "duration" : 85
+          "start" : 1618913588706,
+          "stop" : 1618913588787,
+          "duration" : 81
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
       }, {
         "name" : "test_cslj[输入账户密码]",
-        "uid" : "95ba65ad254dcc5a",
+        "uid" : "26ce7c0e7ffb6b2a",
         "parentUid" : "5ebe8d680dc78f7d595f8ec36dd97fd5",
         "status" : "passed",
         "time" : {
-          "start" : 1617097613934,
-          "stop" : 1617097614472,
-          "duration" : 538
+          "start" : 1618913588797,
+          "stop" : 1618913589449,
+          "duration" : 652
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "'XnkBvofJqApVNNox96st6nwHjupZu4lJc/aACN/OKT38bwvW2mAHWdCYTX9hHLJiVOjYng=='", "'192.168.0.175'", "27117.0", "'mongo'", "'test'", "'pass'" ]
       }, {
         "name" : "test_cslj[h_code为空]",
-        "uid" : "a18a90930fee58a1",
+        "uid" : "d5dd8b2c2f6717e8",
         "parentUid" : "5ebe8d680dc78f7d595f8ec36dd97fd5",
         "status" : "passed",
         "time" : {
-          "start" : 1617097614480,
-          "stop" : 1617097614490,
-          "duration" : 10
+          "start" : 1618913589463,
+          "stop" : 1618913589472,
+          "duration" : 9
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'ziyun-iot'", "''", "'hierarchyCode必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
       }, {
         "name" : "test_cslj[数据库类型为空]",
-        "uid" : "efaea44186c92d98",
+        "uid" : "9e5a2ecfc3fb55e3",
         "parentUid" : "5ebe8d680dc78f7d595f8ec36dd97fd5",
         "status" : "passed",
         "time" : {
-          "start" : 1617097614498,
-          "stop" : 1617097614507,
+          "start" : 1618913589481,
+          "stop" : 1618913589490,
           "duration" : 9
         },
         "flaky" : false,
@@ -97,12 +115,12 @@
         "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'routeTarget必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "''", "'test02'", "''" ]
       }, {
         "name" : "test_cslj[数据库地址为空]",
-        "uid" : "1a574016ccee656b",
+        "uid" : "ab561e7fb8c235fe",
         "parentUid" : "5ebe8d680dc78f7d595f8ec36dd97fd5",
         "status" : "passed",
         "time" : {
-          "start" : 1617097614515,
-          "stop" : 1617097614524,
+          "start" : 1618913589499,
+          "stop" : 1618913589508,
           "duration" : 9
         },
         "flaky" : false,
@@ -110,12 +128,12 @@
         "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'routeAddress必填，不能为空！'", "''", "''", "27117.0", "'mongo'", "'test02'", "''" ]
       }, {
         "name" : "test_cslj[数据库库名为空]",
-        "uid" : "6a880d5c13baeb3d",
+        "uid" : "fe3254fced8103a2",
         "parentUid" : "5ebe8d680dc78f7d595f8ec36dd97fd5",
         "status" : "passed",
         "time" : {
-          "start" : 1617097614532,
-          "stop" : 1617097614541,
+          "start" : 1618913589517,
+          "stop" : 1618913589526,
           "duration" : 9
         },
         "flaky" : false,
@@ -123,12 +141,12 @@
         "parameters" : [ "''", "'5f8a593372024fc2b7aa900918b18f3a'", "'databaseName必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
       }, {
         "name" : "test_cslj[数据库表名为空]",
-        "uid" : "dc47d8790d1f4068",
+        "uid" : "6e4e11a1683548de",
         "parentUid" : "5ebe8d680dc78f7d595f8ec36dd97fd5",
         "status" : "passed",
         "time" : {
-          "start" : 1617097614549,
-          "stop" : 1617097614558,
+          "start" : 1618913589535,
+          "stop" : 1618913589544,
           "duration" : 9
         },
         "flaky" : false,
@@ -136,104 +154,104 @@
         "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'tableName必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "''", "''" ]
       }, {
         "name" : "test_cslj[只输入密码]",
-        "uid" : "b5d584809aee6eed",
+        "uid" : "1d56764d063b61a",
         "parentUid" : "5ebe8d680dc78f7d595f8ec36dd97fd5",
         "status" : "passed",
         "time" : {
-          "start" : 1617097614566,
-          "stop" : 1617097614601,
-          "duration" : 35
+          "start" : 1618913589553,
+          "stop" : 1618913589622,
+          "duration" : 69
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'密码传入时，用户名必填'", "'XnkBvofJqApVNNox96st6nwHjupZu4lJc/aACN/OKT38bwvW2mAHWdCYTX9hHLJiVOjYng=='", "'192.168.0.175'", "27117.0", "'mongo'", "'test'", "''" ]
       }, {
         "name" : "test_cslj[只输入账户名]",
-        "uid" : "fc31902cd4649298",
+        "uid" : "7ebee44de384cfc7",
         "parentUid" : "5ebe8d680dc78f7d595f8ec36dd97fd5",
         "status" : "passed",
         "time" : {
-          "start" : 1617097614609,
-          "stop" : 1617097614640,
-          "duration" : 31
+          "start" : 1618913589630,
+          "stop" : 1618913589697,
+          "duration" : 67
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'用户名传入时，密码必填'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test'", "'pass'" ]
       }, {
         "name" : "test_cslj[带用户名和密码，错误的端口]",
-        "uid" : "52ae889f5748dbf",
+        "uid" : "31e59041ddeb2477",
         "parentUid" : "5ebe8d680dc78f7d595f8ec36dd97fd5",
         "status" : "passed",
         "time" : {
-          "start" : 1617097614648,
-          "stop" : 1617097645217,
-          "duration" : 30569
+          "start" : 1618913589705,
+          "stop" : 1618913620310,
+          "duration" : 30605
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'用户认证的测试连接失败,请检查端口、ip！'", "'XnkBvofJqApVNNox96st6nwHjupZu4lJc/aACN/OKT38bwvW2mAHWdCYTX9hHLJiVOjYng=='", "'192.168.0.175'", "99999.0", "'mongo'", "'test'", "'pass'" ]
       }, {
         "name" : "test_cslj[带用户名和密码，错误的密码]",
-        "uid" : "c8eaaac28fb04c7a",
+        "uid" : "90194ad76789ab68",
         "parentUid" : "5ebe8d680dc78f7d595f8ec36dd97fd5",
         "status" : "passed",
         "time" : {
-          "start" : 1617097645225,
-          "stop" : 1617097645329,
-          "duration" : 104
+          "start" : 1618913620321,
+          "stop" : 1618913620456,
+          "duration" : 135
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'liqian'", "'5f8a593372024fc2b7aa900918b18f3a'", "'对node传入的密码解密失败'", "'1XnkBvofJqApVNNox96st6nwHjupZu4lJc/aACN/OKT38bwvW2mAHWdCYTX9hHLJiVOjYng=='", "'192.168.0.175'", "27117.0", "'mongo'", "'test'", "'pass'" ]
       }, {
         "name" : "test_cslj[不带账户密码，错误的端口]",
-        "uid" : "12b7a325893cac37",
+        "uid" : "78a958f62de28e35",
         "parentUid" : "5ebe8d680dc78f7d595f8ec36dd97fd5",
         "status" : "passed",
         "time" : {
-          "start" : 1617097645337,
-          "stop" : 1617097675416,
-          "duration" : 30079
+          "start" : 1618913620465,
+          "stop" : 1618913650584,
+          "duration" : 30119
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'不需用户认证的测试连接失败！'", "''", "'192.168.0.175'", "271171.0", "'mongo'", "'test02'", "''" ]
       }, {
         "name" : "test_cslj[不带账户密码，错误的h_code]",
-        "uid" : "3a809077db02efcc",
+        "uid" : "49c747a26c7feed5",
         "parentUid" : "5ebe8d680dc78f7d595f8ec36dd97fd5",
         "status" : "passed",
         "time" : {
-          "start" : 1617097675424,
-          "stop" : 1617097675477,
-          "duration" : 53
+          "start" : 1618913650595,
+          "stop" : 1618913650678,
+          "duration" : 83
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3b'", "'查询无企业信息或企业已被禁用'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
       }, {
         "name" : "test_cslj[不带账户密码，错误的数据库库名]",
-        "uid" : "3c93d3de6c84c501",
+        "uid" : "c31c5a4c2a216cff",
         "parentUid" : "5ebe8d680dc78f7d595f8ec36dd97fd5",
         "status" : "passed",
         "time" : {
-          "start" : 1617097675489,
-          "stop" : 1617097675566,
-          "duration" : 77
+          "start" : 1618913650687,
+          "stop" : 1618913650804,
+          "duration" : 117
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'ziyun-iot1'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
+        "parameters" : [ "'ziyun-iot1'", "'5f8a593372024fc2b7aa900918b18f3a'", "'不存在库名'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test02'", "''" ]
       }, {
         "name" : "test_cslj[不带账户密码，错误的数据库表名]",
-        "uid" : "5b7fd70112831485",
+        "uid" : "b6d4c95c715dfeba",
         "parentUid" : "5ebe8d680dc78f7d595f8ec36dd97fd5",
         "status" : "passed",
         "time" : {
-          "start" : 1617097675575,
-          "stop" : 1617097675652,
-          "duration" : 77
+          "start" : 1618913650812,
+          "stop" : 1618913650930,
+          "duration" : 118
         },
         "flaky" : false,
         "newFailed" : false,
@@ -244,13 +262,13 @@
       "name" : "企业路由-新建",
       "children" : [ {
         "name" : "test_xjly[正常]",
-        "uid" : "2e4504e2909ac76b",
+        "uid" : "3d37cb5c0d86e821",
         "parentUid" : "df3164c7a6503e4fc5ad6dcfe6cfd5a8",
         "status" : "passed",
         "time" : {
-          "start" : 1617097675660,
-          "stop" : 1617097675751,
-          "duration" : 91
+          "start" : 1618913650938,
+          "stop" : 1618913651071,
+          "duration" : 133
         },
         "flaky" : false,
         "newFailed" : false,
@@ -261,78 +279,78 @@
       "name" : "企业路由-查询",
       "children" : [ {
         "name" : "test_cxly[正常]",
-        "uid" : "c0cc44e709a9d4a3",
+        "uid" : "96b9cca230c2e207",
         "parentUid" : "d2931c5a11756df6f99c12a15eee130a",
         "status" : "passed",
         "time" : {
-          "start" : 1617097675759,
-          "stop" : 1617097675842,
-          "duration" : 83
+          "start" : 1618913651079,
+          "stop" : 1618913651196,
+          "duration" : 117
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "1.0", "10.0" ]
       }, {
         "name" : "test_cxly[pageSize为空]",
-        "uid" : "6690450afc0b1899",
+        "uid" : "5b21d8b36399bb79",
         "parentUid" : "d2931c5a11756df6f99c12a15eee130a",
         "status" : "passed",
         "time" : {
-          "start" : 1617097675847,
-          "stop" : 1617097675856,
-          "duration" : 9
+          "start" : 1618913651201,
+          "stop" : 1618913651211,
+          "duration" : 10
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'5f8a593372024fc2b7aa900918b18f3a'", "'pageSize必须'", "1.0", "''" ]
       }, {
         "name" : "test_cxly[pageNum为空]",
-        "uid" : "721b6dc91633ddd5",
+        "uid" : "2106bc291eb055d6",
         "parentUid" : "d2931c5a11756df6f99c12a15eee130a",
         "status" : "passed",
         "time" : {
-          "start" : 1617097675861,
-          "stop" : 1617097675873,
-          "duration" : 12
+          "start" : 1618913651216,
+          "stop" : 1618913651224,
+          "duration" : 8
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'5f8a593372024fc2b7aa900918b18f3a'", "'pageNum必须'", "''", "10.0" ]
       }, {
         "name" : "test_cxly[h_code为空]",
-        "uid" : "15ff17b7a5e9ef6e",
+        "uid" : "94453febb90712d7",
         "parentUid" : "d2931c5a11756df6f99c12a15eee130a",
         "status" : "passed",
         "time" : {
-          "start" : 1617097675880,
-          "stop" : 1617097676022,
-          "duration" : 142
+          "start" : 1618913651230,
+          "stop" : 1618913651373,
+          "duration" : 143
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "''", "'Success'", "1.0", "10.0" ]
+        "parameters" : [ "''", "'无权限操作本层级以及子层级信息'", "1.0", "10.0" ]
       }, {
         "name" : "test_cxly[不存在的h_code]",
-        "uid" : "610e0ca1943e1cde",
+        "uid" : "403bb74cc926e65c",
         "parentUid" : "d2931c5a11756df6f99c12a15eee130a",
         "status" : "passed",
         "time" : {
-          "start" : 1617097676030,
-          "stop" : 1617097676067,
-          "duration" : 37
+          "start" : 1618913651378,
+          "stop" : 1618913651446,
+          "duration" : 68
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "11.0", "'Success'", "1.0", "10.0" ]
       }, {
         "name" : "test_cxly[大页码和条数]",
-        "uid" : "7f1fb7a70764a85a",
+        "uid" : "82e5f555ed594cd5",
         "parentUid" : "d2931c5a11756df6f99c12a15eee130a",
         "status" : "passed",
         "time" : {
-          "start" : 1617097676074,
-          "stop" : 1617097676108,
-          "duration" : 34
+          "start" : 1618913651451,
+          "stop" : 1618913651519,
+          "duration" : 68
         },
         "flaky" : false,
         "newFailed" : false,
@@ -343,13 +361,13 @@
       "name" : "企业路由-查询-获取路由id",
       "children" : [ {
         "name" : "test_data_ly",
-        "uid" : "622fefd315ff8981",
+        "uid" : "11f016ca1c2a05ac",
         "parentUid" : "6f3a07db8ae3f3001293ed4f6d54f062",
         "status" : "passed",
         "time" : {
-          "start" : 1617097676113,
-          "stop" : 1617097676193,
-          "duration" : 80
+          "start" : 1618913651525,
+          "stop" : 1618913651640,
+          "duration" : 115
         },
         "flaky" : false,
         "newFailed" : false,
@@ -360,143 +378,143 @@
       "name" : "企业路由-编辑",
       "children" : [ {
         "name" : "test_bjly[正常]",
-        "uid" : "5fbf4292dc67cd4a",
+        "uid" : "5ebed88456e702b8",
         "parentUid" : "1ec5154fa26bc394b310d892be72cf01",
         "status" : "passed",
         "time" : {
-          "start" : 1617097676196,
-          "stop" : 1617097676430,
-          "duration" : 234
+          "start" : 1618913651644,
+          "stop" : 1618913651932,
+          "duration" : 288
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
       }, {
         "name" : "test_bjly[端口号错误]",
-        "uid" : "f63989f7bbc83105",
+        "uid" : "76d9f655cff9fdf2",
         "parentUid" : "1ec5154fa26bc394b310d892be72cf01",
         "status" : "passed",
         "time" : {
-          "start" : 1617097676441,
-          "stop" : 1617097706674,
-          "duration" : 30233
+          "start" : 1618913651941,
+          "stop" : 1618913682205,
+          "duration" : 30264
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'不需用户认证的测试连接失败！'", "''", "'192.168.0.175'", "999.0", "'mongo'", "'test03'", "''" ]
       }, {
         "name" : "test_bjly[修改企业]",
-        "uid" : "4664927d945d4509",
+        "uid" : "674e56865fb840fe",
         "parentUid" : "1ec5154fa26bc394b310d892be72cf01",
         "status" : "passed",
         "time" : {
-          "start" : 1617097706682,
-          "stop" : 1617097706809,
-          "duration" : 127
+          "start" : 1618913682215,
+          "stop" : 1618913682404,
+          "duration" : 189
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'ziyun-iot'", "'d71a216267ee44ec8112b6d0ef78ed69'", "'企业路由:所属企业和路由目标不可修改！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
       }, {
         "name" : "test_bjly[数据库类型不存在]",
-        "uid" : "2cef179bcafba468",
+        "uid" : "7d151d231f8c588f",
         "parentUid" : "1ec5154fa26bc394b310d892be72cf01",
         "status" : "passed",
         "time" : {
-          "start" : 1617097706821,
-          "stop" : 1617097706912,
-          "duration" : 91
+          "start" : 1618913682418,
+          "stop" : 1618913682543,
+          "duration" : 125
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'路由目标目前只能连接- mongo！'", "''", "'192.168.0.175'", "27117.0", "'mongo1'", "'test03'", "''" ]
       }, {
         "name" : "test_bjly[数据库不存在]",
-        "uid" : "c9eb751c041e9d71",
+        "uid" : "21c0ace554dcbf64",
         "parentUid" : "1ec5154fa26bc394b310d892be72cf01",
         "status" : "passed",
         "time" : {
-          "start" : 1617097706921,
-          "stop" : 1617097707140,
-          "duration" : 219
+          "start" : 1618913682553,
+          "stop" : 1618913682829,
+          "duration" : 276
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "'ziyun-iot1'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
+        "parameters" : [ "'ziyun-iot1'", "'5f8a593372024fc2b7aa900918b18f3a'", "'不存在库名'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
       }, {
         "name" : "test_bjly[表名不存在]",
-        "uid" : "fc39af80696fef5c",
+        "uid" : "e24726ab8866dd39",
         "parentUid" : "1ec5154fa26bc394b310d892be72cf01",
         "status" : "passed",
         "time" : {
-          "start" : 1617097707150,
-          "stop" : 1617097707352,
-          "duration" : 202
+          "start" : 1618913682839,
+          "stop" : 1618913683141,
+          "duration" : 302
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'Success'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test031'", "''" ]
       }, {
         "name" : "test_bjly[端口为空]",
-        "uid" : "5fdabe34e656fd9c",
+        "uid" : "51540878166d9d8f",
         "parentUid" : "1ec5154fa26bc394b310d892be72cf01",
         "status" : "passed",
         "time" : {
-          "start" : 1617097707362,
-          "stop" : 1617097707469,
-          "duration" : 107
+          "start" : 1618913683150,
+          "stop" : 1618913683337,
+          "duration" : 187
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'routePort必填'", "''", "'192.168.0.175'", "''", "'mongo'", "'test03'", "''" ]
       }, {
         "name" : "test_bjly[h_code为空]",
-        "uid" : "c9e37ac92c078cfb",
+        "uid" : "e868454f6eff707d",
         "parentUid" : "1ec5154fa26bc394b310d892be72cf01",
         "status" : "passed",
         "time" : {
-          "start" : 1617097707478,
-          "stop" : 1617097707566,
-          "duration" : 88
+          "start" : 1618913683348,
+          "stop" : 1618913683471,
+          "duration" : 123
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'ziyun-iot'", "''", "'hierarchyCode必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
       }, {
         "name" : "test_bjly[ip为空]",
-        "uid" : "d6a766dcd0d56e29",
+        "uid" : "f7cf647814e8f505",
         "parentUid" : "1ec5154fa26bc394b310d892be72cf01",
         "status" : "passed",
         "time" : {
-          "start" : 1617097707576,
-          "stop" : 1617097707661,
-          "duration" : 85
+          "start" : 1618913683480,
+          "stop" : 1618913683600,
+          "duration" : 120
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'ziyun-iot'", "'5f8a593372024fc2b7aa900918b18f3a'", "'路由ip{routeAddress}必填，不能为空！'", "''", "''", "27117.0", "'mongo'", "'test03'", "''" ]
       }, {
         "name" : "test_bjly[库名为空]",
-        "uid" : "e4edc3f016f61632",
+        "uid" : "5f115d50bae118da",
         "parentUid" : "1ec5154fa26bc394b310d892be72cf01",
         "status" : "passed",
         "time" : {
-          "start" : 1617097707670,
-          "stop" : 1617097707760,
-          "duration" : 90
+          "start" : 1618913683609,
+          "stop" : 1618913683742,
+          "duration" : 133
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "''", "'5f8a593372024fc2b7aa900918b18f3a'", "'库名{databaseName}必填，不能为空！'", "''", "'192.168.0.175'", "27117.0", "'mongo'", "'test03'", "''" ]
       }, {
         "name" : "test_bjly[表名为空]",
-        "uid" : "341c6962d6952cfd",
+        "uid" : "fc92f8ff983a82bf",
         "parentUid" : "1ec5154fa26bc394b310d892be72cf01",
         "status" : "passed",
         "time" : {
-          "start" : 1617097707768,
-          "stop" : 1617097707866,
-          "duration" : 98
+          "start" : 1618913683758,
+          "stop" : 1618913683881,
+          "duration" : 123
         },
         "flaky" : false,
         "newFailed" : false,
@@ -507,13 +525,13 @@
       "name" : "企业路由-编辑-不存在的路由",
       "children" : [ {
         "name" : "test_bjly_1",
-        "uid" : "9f5a0076cf897712",
+        "uid" : "14d590a5d421eadf",
         "parentUid" : "0aff47aa26689b214b99c540d0f5e1a5",
         "status" : "passed",
         "time" : {
-          "start" : 1617097707876,
-          "stop" : 1617097707909,
-          "duration" : 33
+          "start" : 1618913683890,
+          "stop" : 1618913683957,
+          "duration" : 67
         },
         "flaky" : false,
         "newFailed" : false,
@@ -524,38 +542,38 @@
       "name" : "企业路由-查看",
       "children" : [ {
         "name" : "test_ckly[路由id格式错误]",
-        "uid" : "606d14b9bd8b344c",
+        "uid" : "2655f40fdda72100",
         "parentUid" : "be4ddcfa576ee83eef991b1ea2260a12",
         "status" : "passed",
         "time" : {
-          "start" : 1617097707912,
-          "stop" : 1617097707921,
-          "duration" : 9
+          "start" : 1618913683960,
+          "stop" : 1618913683967,
+          "duration" : 7
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'参数类型错误！'", "-99.0" ]
       }, {
         "name" : "test_ckly[路由id不存在]",
-        "uid" : "a69651030d17c3ba",
+        "uid" : "2745d44ce489403",
         "parentUid" : "be4ddcfa576ee83eef991b1ea2260a12",
         "status" : "passed",
         "time" : {
-          "start" : 1617097707925,
-          "stop" : 1617097707934,
-          "duration" : 9
+          "start" : 1618913683971,
+          "stop" : 1618913683979,
+          "duration" : 8
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'参数类型错误！'", "9999.0" ]
       }, {
         "name" : "test_ckly[数据id为空格]",
-        "uid" : "61c4a7d787a728d2",
+        "uid" : "b911c7235b8d50af",
         "parentUid" : "be4ddcfa576ee83eef991b1ea2260a12",
         "status" : "passed",
         "time" : {
-          "start" : 1617097707937,
-          "stop" : 1617097707946,
+          "start" : 1618913683982,
+          "stop" : 1618913683991,
           "duration" : 9
         },
         "flaky" : false,
@@ -567,13 +585,13 @@
       "name" : "企业路由-编辑-iot库已删除的",
       "children" : [ {
         "name" : "test_bjly_iotdel[正常]",
-        "uid" : "c8e410cdfeb6d476",
+        "uid" : "80d2f61d7a0da871",
         "parentUid" : "2627f40bb9679edc4d4af19c39a435b9",
         "status" : "passed",
         "time" : {
-          "start" : 1617097707950,
-          "stop" : 1617097708022,
-          "duration" : 72
+          "start" : 1618913683995,
+          "stop" : 1618913684109,
+          "duration" : 114
         },
         "flaky" : false,
         "newFailed" : false,
@@ -584,13 +602,13 @@
       "name" : "企业路由-删除-正常",
       "children" : [ {
         "name" : "test_del_ly1",
-        "uid" : "303d88558ec0e85f",
+        "uid" : "b89e075b4595d972",
         "parentUid" : "bb5dcfc0daf9624ecc5d1b4129d3d934",
         "status" : "passed",
         "time" : {
-          "start" : 1617097708031,
-          "stop" : 1617097708154,
-          "duration" : 123
+          "start" : 1618913684117,
+          "stop" : 1618913684310,
+          "duration" : 193
         },
         "flaky" : false,
         "newFailed" : false,
@@ -601,39 +619,39 @@
       "name" : "企业路由-删除",
       "children" : [ {
         "name" : "test_del_ly[路由id格式错误]",
-        "uid" : "61a42edcc6989c2f",
+        "uid" : "fb32d1f9d27c59ac",
         "parentUid" : "7916ccc6f3eb3d025da3acc2a29ec3bf",
         "status" : "passed",
         "time" : {
-          "start" : 1617097708156,
-          "stop" : 1617097708191,
-          "duration" : 35
+          "start" : 1618913684313,
+          "stop" : 1618913684384,
+          "duration" : 71
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "-999.0", "'删除失败【企业路由数据不存在】'" ]
       }, {
         "name" : "test_del_ly[路由id不存在]",
-        "uid" : "1bea0006faf622a4",
+        "uid" : "b8de70082ce807f8",
         "parentUid" : "7916ccc6f3eb3d025da3acc2a29ec3bf",
         "status" : "passed",
         "time" : {
-          "start" : 1617097708195,
-          "stop" : 1617097708232,
-          "duration" : 37
+          "start" : 1618913684388,
+          "stop" : 1618913684466,
+          "duration" : 78
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "999.0", "'删除失败【企业路由数据不存在】'" ]
       }, {
         "name" : "test_del_ly[数据id为空格]",
-        "uid" : "5d17855b56d7c6a7",
+        "uid" : "f30a8accd1dbc197",
         "parentUid" : "7916ccc6f3eb3d025da3acc2a29ec3bf",
         "status" : "passed",
         "time" : {
-          "start" : 1617097708236,
-          "stop" : 1617097708271,
-          "duration" : 35
+          "start" : 1618913684470,
+          "stop" : 1618913684546,
+          "duration" : 76
         },
         "flaky" : false,
         "newFailed" : false,
@@ -644,13 +662,13 @@
       "name" : "转换规则-新建",
       "children" : [ {
         "name" : "test_zhgz_xj[正常]",
-        "uid" : "258367319efbe217",
+        "uid" : "f1b87a2e48953705",
         "parentUid" : "a365ea2138350f24a8a4526e7d33c92b",
         "status" : "passed",
         "time" : {
-          "start" : 1617097708275,
-          "stop" : 1617097708416,
-          "duration" : 141
+          "start" : 1618913684551,
+          "stop" : 1618913684728,
+          "duration" : 177
         },
         "flaky" : false,
         "newFailed" : false,
@@ -658,57 +676,117 @@
       } ],
       "uid" : "a365ea2138350f24a8a4526e7d33c92b"
     }, {
-      "name" : "转换规则-关联程序",
-      "children" : [ {
-        "name" : "test_zhgz_glcx[正常]",
-        "uid" : "5cc1c626b5c30831",
-        "parentUid" : "1fd897a14dd2f8144384b646eb7c6f98",
-        "status" : "passed",
-        "time" : {
-          "start" : 1617097708426,
-          "stop" : 1617097708552,
-          "duration" : 126
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "1054.0", "'a7dAceBXjKZOEfiFpx'", "'Success'", "'relate'" ]
-      } ],
-      "uid" : "1fd897a14dd2f8144384b646eb7c6f98"
-    }, {
       "name" : "转换规则-修改",
       "children" : [ {
         "name" : "test_zhgz_xg[正常]",
-        "uid" : "8744ea26fac00386",
+        "uid" : "f3351a3907ba3275",
         "parentUid" : "c9f094c3519d116d5e34e5ddea75fedc",
         "status" : "passed",
         "time" : {
-          "start" : 1617097708557,
-          "stop" : 1617097708677,
-          "duration" : 120
+          "start" : 1618913684883,
+          "stop" : 1618913684999,
+          "duration" : 116
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'a7dAceBXjKZOEfiFpx'", "'Success'", "'测试数据'", "'test_ws自动化流程-修改'" ]
+      }, {
+        "name" : "test_zhgz_xg[idmAppId为空]",
+        "uid" : "334bb871d58d8a54",
+        "parentUid" : "c9f094c3519d116d5e34e5ddea75fedc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618913685004,
+          "stop" : 1618913685011,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'idmAppId参数必填'", "'测试数据'", "'test_ws自动化流程-修改'" ]
+      }, {
+        "name" : "test_zhgz_xg[ruleName为空]",
+        "uid" : "bb482fc0dc475a32",
+        "parentUid" : "c9f094c3519d116d5e34e5ddea75fedc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618913685016,
+          "stop" : 1618913685021,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'a7dAceBXjKZOEfiFpx'", "'规则名称必填'", "'测试数据'", "''" ]
       } ],
       "uid" : "c9f094c3519d116d5e34e5ddea75fedc"
     }, {
       "name" : "转换规则-删除",
       "children" : [ {
         "name" : "test_zhgz_del[正常]",
-        "uid" : "efd4822e0d927e91",
+        "uid" : "3a37f47938a734ca",
         "parentUid" : "c9270541231af126a5505d672470b4a9",
         "status" : "passed",
         "time" : {
-          "start" : 1617097708682,
-          "stop" : 1617097708810,
-          "duration" : 128
+          "start" : 1618913685027,
+          "stop" : 1618913685147,
+          "duration" : 120
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "'a7dAceBXjKZOEfiFpx'", "'Success'" ]
+      }, {
+        "name" : "test_zhgz_del[idmAppId为空]",
+        "uid" : "907df55a4053881e",
+        "parentUid" : "c9270541231af126a5505d672470b4a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1618913685152,
+          "stop" : 1618913685161,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "'数据来源必填'" ]
       } ],
       "uid" : "c9270541231af126a5505d672470b4a9"
+    }, {
+      "name" : "测试前的数据准备",
+      "children" : [ {
+        "name" : "test_sjjy",
+        "uid" : "3b20dbed1af18f67",
+        "parentUid" : "e9979936c590c6fa9eb2486e1f62a95e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620725099047,
+          "stop" : 1620725099087,
+          "duration" : 40
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e9979936c590c6fa9eb2486e1f62a95e"
     } ],
     "uid" : "821114cfe6c562f9f9d5f592b96e2609"
+  }, {
+    "name" : "获取token",
+    "children" : [ {
+      "name" : "登录接口",
+      "children" : [ {
+        "name" : "test_login",
+        "uid" : "906286a3ec04289d",
+        "parentUid" : "c292234a20213d607c8bbfe4b6ce0d6b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1620725246050,
+          "stop" : 1620725247291,
+          "duration" : 1241
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c292234a20213d607c8bbfe4b6ce0d6b"
+    } ],
+    "uid" : "e604559b912efe07226e738e962a5635"
   } ]
 }

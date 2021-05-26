@@ -55,8 +55,7 @@ class Test_device_ml:
     @pytest.mark.ccc
     @allure.story("上传文件")
     def test_scwj(self):
-        select_data = DataBase.mysql_select(db='ziyun-iot', sql='SELECT * FROM `t_device` where device_id ="7429";',
-                                            attribute='cnc_brand')
+        select_data = DataBase.mysql_select(db='ziyun-iot', sql='SELECT cnc_brand FROM `t_device` where device_id ="7429";')
         a = 0
         while a < 2:
             if select_data == 'Fanuc':

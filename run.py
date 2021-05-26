@@ -33,5 +33,3 @@ if __name__ == '__main__':
         log.error('执行用例失败，请检查环境配置')
         raise
 
-
-

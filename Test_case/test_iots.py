@@ -47,8 +47,8 @@ class Test_info:
             assertions.assert_code(login_resp.status_code, 200)
             login_resp_json = login_resp.json()
             assertions.assert_in_text(login_resp_json['message'], 'Success')
-        except Exception as e:
-            print('【ERROR】:\t', e)
+        except :
+            print('获取token失败')
         else:
             # 提取token
             data_token = login_resp_json['data']['accessToken']
@@ -66,7 +66,7 @@ class Test_info:
 class Test_TM_iots:
     # gzId = 0
 
-    @pytest.mark.ccc
+    # @pytest.mark.ccc
     @allure.story("测试前的数据准备")
     def test_sjjy(self):
         after_qylu_id = DataBase.mysql_select('ziyun-iot',
@@ -267,7 +267,6 @@ class Test_TM_iots:
         rp_resp_json = rp_resp.json()
         assertions.assert_in_text(rp_resp_json['message'], msg)
 
-
     @pytest.mark.parametrize(
         "idmAppId,ruleName,ruleTypeId,ruleDesc,state,testState,language,scriptText,testData,scriptFunName,msg",
         read_list('转换规则-新建')[0], ids=read_list('转换规则-新建')[1])
@@ -294,7 +293,6 @@ class Test_TM_iots:
         global gzId
         gzId = int(data_gzId)
 
-
     @pytest.mark.parametrize(
         "idmAppId,relateType,collectorVersionIdList,msg",
         read_list('转换规则-关联程序')[0], ids=read_list('转换规则-关联程序')[1])
@@ -312,11 +310,10 @@ class Test_TM_iots:
         rp_resp_json = rp_resp.json()
         assertions.assert_in_text(rp_resp_json['message'], msg)
 
-
     @pytest.mark.parametrize(
-        "idmAppId,ruleName,ruleDesc,msg",read_list('转换规则-修改')[0], ids=read_list('转换规则-修改')[1])
+        "idmAppId,ruleName,ruleDesc,msg", read_list('转换规则-修改')[0], ids=read_list('转换规则-修改')[1])
     @allure.story("转换规则-修改")
-    def test_zhgz_xg(self,idmAppId,ruleName,ruleDesc,msg):
+    def test_zhgz_xg(self, idmAppId, ruleName, ruleDesc, msg):
         rp_resp = requests.patch(url + '/iots-admin/transform-rule',
                                  json={
                                      "id": gzId,
@@ -329,11 +326,10 @@ class Test_TM_iots:
         rp_resp_json = rp_resp.json()
         assertions.assert_in_text(rp_resp_json['message'], msg)
 
-
     @pytest.mark.parametrize(
         "idmAppId,msg", read_list('转换规则-删除')[0], ids=read_list('转换规则-删除')[1])
     @allure.story("转换规则-删除")
-    def test_zhgz_del(self,idmAppId,msg):
+    def test_zhgz_del(self, idmAppId, msg):
         rp_resp = request.delete_request(url=url + '/iots-admin/transform-rule',
                                          json={
                                              "idmAppId": idmAppId,
